@@ -9,7 +9,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -45,7 +45,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 50,
+      "value": 25,
       "secondaryValue": 50
     },
     "quotation": {
@@ -63,7 +63,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -81,7 +81,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 55,
+      "value": 28,
       "secondaryValue": 55
     },
     "quotation": {
@@ -135,7 +135,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -153,7 +153,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 7
     },
     "quotation": {
@@ -171,7 +171,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 30,
+      "value": 15,
       "secondaryValue": 30
     },
     "quotation": {
@@ -243,7 +243,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 26,
+      "value": 13,
       "secondaryValue": 26
     },
     "quotation": {
@@ -387,7 +387,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 52,
+      "value": 26,
       "secondaryValue": 52
     },
     "quotation": {
@@ -405,7 +405,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 36,
+      "value": 18,
       "secondaryValue": 36
     },
     "quotation": {
@@ -423,7 +423,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 68,
+      "value": 34,
       "secondaryValue": 68
     },
     "quotation": {
@@ -441,7 +441,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -459,7 +459,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 48,
+      "value": 24,
       "secondaryValue": 48
     },
     "quotation": {
@@ -477,7 +477,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -549,7 +549,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -567,7 +567,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 28,
+      "value": 14,
       "secondaryValue": 28
     },
     "quotation": {
@@ -621,7 +621,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -657,7 +657,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 26,
+      "value": 13,
       "secondaryValue": 26
     },
     "quotation": {
@@ -765,7 +765,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -837,7 +837,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -909,7 +909,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 32,
+      "value": 16,
       "secondaryValue": 32
     },
     "quotation": {
@@ -963,7 +963,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -1017,7 +1017,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 85,
+      "value": 43,
       "secondaryValue": 85
     },
     "quotation": {
@@ -1053,7 +1053,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -1071,7 +1071,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -1125,7 +1125,7 @@
       "Por"
     ],
     "fvm": {
-      "value": 70,
+      "value": 35,
       "secondaryValue": 70
     },
     "quotation": {
@@ -1162,7 +1162,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 12
     },
     "quotation": {
@@ -1180,7 +1180,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 47,
+      "value": 24,
       "secondaryValue": 47
     },
     "quotation": {
@@ -1198,7 +1198,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 6,
+      "value": 3,
       "secondaryValue": 6
     },
     "quotation": {
@@ -1217,7 +1217,7 @@
       "E"
     ],
     "fvm": {
-      "value": 6,
+      "value": 3,
       "secondaryValue": 6
     },
     "quotation": {
@@ -1253,7 +1253,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 2,
+      "value": 1,
       "secondaryValue": 2
     },
     "quotation": {
@@ -1272,7 +1272,7 @@
       "E"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -1291,7 +1291,7 @@
       "E"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -1309,7 +1309,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 18,
+      "value": 9,
       "secondaryValue": 18
     },
     "quotation": {
@@ -1328,7 +1328,7 @@
       "E"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -1346,7 +1346,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -1365,7 +1365,7 @@
       "E"
     ],
     "fvm": {
-      "value": 22,
+      "value": 11,
       "secondaryValue": 22
     },
     "quotation": {
@@ -1383,7 +1383,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 43,
+      "value": 22,
       "secondaryValue": 43
     },
     "quotation": {
@@ -1402,7 +1402,7 @@
       "E"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -1420,7 +1420,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -1439,7 +1439,7 @@
       "E"
     ],
     "fvm": {
-      "value": 17,
+      "value": 9,
       "secondaryValue": 17
     },
     "quotation": {
@@ -1458,7 +1458,7 @@
       "E"
     ],
     "fvm": {
-      "value": 18,
+      "value": 9,
       "secondaryValue": 18
     },
     "quotation": {
@@ -1478,7 +1478,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 13
     },
     "quotation": {
@@ -1496,7 +1496,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -1516,7 +1516,7 @@
       "E"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 6
     },
     "quotation": {
@@ -1536,7 +1536,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 14
     },
     "quotation": {
@@ -1554,7 +1554,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 36,
+      "value": 18,
       "secondaryValue": 36
     },
     "quotation": {
@@ -1573,7 +1573,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 17
     },
     "quotation": {
@@ -1591,7 +1591,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 60,
+      "value": 30,
       "secondaryValue": 60
     },
     "quotation": {
@@ -1611,7 +1611,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 12
     },
     "quotation": {
@@ -1629,7 +1629,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -1649,7 +1649,7 @@
       "E"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -1667,7 +1667,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -1685,7 +1685,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -1705,7 +1705,7 @@
       "E"
     ],
     "fvm": {
-      "value": 18,
+      "value": 9,
       "secondaryValue": 21
     },
     "quotation": {
@@ -1724,7 +1724,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -1743,7 +1743,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 9,
+      "value": 5,
       "secondaryValue": 11
     },
     "quotation": {
@@ -1762,7 +1762,7 @@
       "E"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -1782,7 +1782,7 @@
       "E"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 22
     },
     "quotation": {
@@ -1800,7 +1800,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -1820,7 +1820,7 @@
       "E"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 18
     },
     "quotation": {
@@ -1839,7 +1839,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 32,
+      "value": 16,
       "secondaryValue": 34
     },
     "quotation": {
@@ -1858,7 +1858,7 @@
       "E"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -1876,7 +1876,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -1894,7 +1894,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 14
     },
     "quotation": {
@@ -1912,7 +1912,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -1930,7 +1930,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -1969,7 +1969,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -1988,7 +1988,7 @@
       "E"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -2007,7 +2007,7 @@
       "E"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -2026,7 +2026,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 22
     },
     "quotation": {
@@ -2046,7 +2046,7 @@
       "E"
     ],
     "fvm": {
-      "value": 21,
+      "value": 11,
       "secondaryValue": 24
     },
     "quotation": {
@@ -2065,7 +2065,7 @@
       "E"
     ],
     "fvm": {
-      "value": 2,
+      "value": 1,
       "secondaryValue": 2
     },
     "quotation": {
@@ -2084,7 +2084,7 @@
       "E"
     ],
     "fvm": {
-      "value": 39,
+      "value": 20,
       "secondaryValue": 39
     },
     "quotation": {
@@ -2103,7 +2103,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -2121,7 +2121,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 26,
+      "value": 13,
       "secondaryValue": 26
     },
     "quotation": {
@@ -2140,7 +2140,7 @@
       "W"
     ],
     "fvm": {
-      "value": 240,
+      "value": 120,
       "secondaryValue": 240
     },
     "quotation": {
@@ -2159,7 +2159,7 @@
       "E"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -2177,7 +2177,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 16
     },
     "quotation": {
@@ -2196,7 +2196,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -2214,7 +2214,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -2234,7 +2234,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2271,7 +2271,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -2290,7 +2290,7 @@
       "E"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -2310,7 +2310,7 @@
       "E"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 13
     },
     "quotation": {
@@ -2329,7 +2329,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -2347,7 +2347,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2367,7 +2367,7 @@
       "E"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 7
     },
     "quotation": {
@@ -2385,7 +2385,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -2404,7 +2404,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2422,7 +2422,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2440,7 +2440,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -2458,7 +2458,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -2476,7 +2476,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 31,
+      "value": 16,
       "secondaryValue": 31
     },
     "quotation": {
@@ -2495,7 +2495,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 7
     },
     "quotation": {
@@ -2551,7 +2551,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2569,7 +2569,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -2588,7 +2588,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -2607,7 +2607,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 17
     },
     "quotation": {
@@ -2626,7 +2626,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2644,7 +2644,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 26,
+      "value": 13,
       "secondaryValue": 26
     },
     "quotation": {
@@ -2662,7 +2662,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -2681,7 +2681,7 @@
       "E"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -2700,7 +2700,7 @@
       "E"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -2718,7 +2718,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 19
     },
     "quotation": {
@@ -2736,7 +2736,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -2754,7 +2754,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -2774,7 +2774,7 @@
       "E"
     ],
     "fvm": {
-      "value": 18,
+      "value": 9,
       "secondaryValue": 21
     },
     "quotation": {
@@ -2793,7 +2793,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2812,7 +2812,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2830,7 +2830,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2849,7 +2849,7 @@
       "E"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -2868,7 +2868,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 47,
+      "value": 24,
       "secondaryValue": 49
     },
     "quotation": {
@@ -2887,7 +2887,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -2906,7 +2906,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 9
     },
     "quotation": {
@@ -2925,7 +2925,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 14
     },
     "quotation": {
@@ -2943,7 +2943,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -2961,7 +2961,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -2980,7 +2980,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 10
     },
     "quotation": {
@@ -2999,7 +2999,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -3018,7 +3018,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 10
     },
     "quotation": {
@@ -3036,7 +3036,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -3055,7 +3055,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 22
     },
     "quotation": {
@@ -3074,7 +3074,7 @@
       "E"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -3093,7 +3093,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 14
     },
     "quotation": {
@@ -3111,7 +3111,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -3129,7 +3129,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 17,
+      "value": 9,
       "secondaryValue": 17
     },
     "quotation": {
@@ -3147,7 +3147,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -3165,7 +3165,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 50,
+      "value": 25,
       "secondaryValue": 50
     },
     "quotation": {
@@ -3184,7 +3184,7 @@
       "E"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -3202,7 +3202,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 14
     },
     "quotation": {
@@ -3220,7 +3220,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -3238,7 +3238,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -3258,7 +3258,7 @@
       "E"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 23
     },
     "quotation": {
@@ -3297,7 +3297,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 12
     },
     "quotation": {
@@ -3315,7 +3315,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -3334,7 +3334,7 @@
       "E"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 23
     },
     "quotation": {
@@ -3353,7 +3353,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -3371,7 +3371,7 @@
       "E"
     ],
     "fvm": {
-      "value": 78,
+      "value": 39,
       "secondaryValue": 78
     },
     "quotation": {
@@ -3389,7 +3389,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -3407,7 +3407,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 6,
+      "value": 3,
       "secondaryValue": 6
     },
     "quotation": {
@@ -3425,7 +3425,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 42,
+      "value": 21,
       "secondaryValue": 42
     },
     "quotation": {
@@ -3444,7 +3444,7 @@
       "E"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -3462,7 +3462,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -3482,7 +3482,7 @@
       "E"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 17
     },
     "quotation": {
@@ -3501,7 +3501,7 @@
       "E"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -3519,7 +3519,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -3539,7 +3539,7 @@
       "E"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 15
     },
     "quotation": {
@@ -3575,7 +3575,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 41,
+      "value": 21,
       "secondaryValue": 41
     },
     "quotation": {
@@ -3593,7 +3593,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -3612,7 +3612,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -3630,7 +3630,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -3649,7 +3649,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -3687,7 +3687,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -3706,7 +3706,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 16
     },
     "quotation": {
@@ -3724,7 +3724,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 49,
+      "value": 25,
       "secondaryValue": 49
     },
     "quotation": {
@@ -3743,7 +3743,7 @@
       "E"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 14
     },
     "quotation": {
@@ -3762,7 +3762,7 @@
       "E"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 7
     },
     "quotation": {
@@ -3799,7 +3799,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -3817,7 +3817,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -3836,7 +3836,7 @@
       "E"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -3854,7 +3854,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 31,
+      "value": 16,
       "secondaryValue": 31
     },
     "quotation": {
@@ -3873,7 +3873,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 12
     },
     "quotation": {
@@ -3893,7 +3893,7 @@
       "E"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 16
     },
     "quotation": {
@@ -3912,7 +3912,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 17
     },
     "quotation": {
@@ -3930,7 +3930,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -3948,7 +3948,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 51,
+      "value": 26,
       "secondaryValue": 51
     },
     "quotation": {
@@ -3966,7 +3966,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -3986,7 +3986,7 @@
       "E"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -4005,7 +4005,7 @@
       "E"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -4023,7 +4023,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 28,
+      "value": 14,
       "secondaryValue": 28
     },
     "quotation": {
@@ -4041,7 +4041,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -4059,7 +4059,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -4078,7 +4078,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -4096,7 +4096,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 46,
+      "value": 23,
       "secondaryValue": 46
     },
     "quotation": {
@@ -4114,7 +4114,7 @@
       "E"
     ],
     "fvm": {
-      "value": 37,
+      "value": 19,
       "secondaryValue": 35
     },
     "quotation": {
@@ -4133,7 +4133,7 @@
       "E"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -4151,7 +4151,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -4170,7 +4170,7 @@
       "E"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -4188,7 +4188,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 19
     },
     "quotation": {
@@ -4207,7 +4207,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 7
     },
     "quotation": {
@@ -4226,7 +4226,7 @@
       "E"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -4245,7 +4245,7 @@
       "E"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -4265,7 +4265,7 @@
       "Ds"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 7
     },
     "quotation": {
@@ -4284,7 +4284,7 @@
       "E"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -4303,7 +4303,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 22
     },
     "quotation": {
@@ -4321,7 +4321,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -4339,7 +4339,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -4357,7 +4357,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 14
     },
     "quotation": {
@@ -4376,7 +4376,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 18
     },
     "quotation": {
@@ -4394,7 +4394,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -4413,7 +4413,7 @@
       "E"
     ],
     "fvm": {
-      "value": 22,
+      "value": 11,
       "secondaryValue": 22
     },
     "quotation": {
@@ -4432,7 +4432,7 @@
       "E"
     ],
     "fvm": {
-      "value": 21,
+      "value": 11,
       "secondaryValue": 21
     },
     "quotation": {
@@ -4451,7 +4451,7 @@
       "E"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -4470,7 +4470,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 30,
+      "value": 15,
       "secondaryValue": 33
     },
     "quotation": {
@@ -4489,7 +4489,7 @@
       "E"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -4508,7 +4508,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 14
     },
     "quotation": {
@@ -4526,7 +4526,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -4545,7 +4545,7 @@
       "E"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 19
     },
     "quotation": {
@@ -4564,7 +4564,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 12
     },
     "quotation": {
@@ -4582,7 +4582,7 @@
       "E"
     ],
     "fvm": {
-      "value": 87,
+      "value": 44,
       "secondaryValue": 87
     },
     "quotation": {
@@ -4601,7 +4601,7 @@
       "E"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -4620,7 +4620,7 @@
       "E"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 19
     },
     "quotation": {
@@ -4639,7 +4639,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 15
     },
     "quotation": {
@@ -4657,7 +4657,7 @@
       "Dc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -4676,7 +4676,7 @@
       "E"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 19
     },
     "quotation": {
@@ -4695,7 +4695,7 @@
       "A"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 4
     },
     "quotation": {
@@ -4714,7 +4714,7 @@
       "A"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 8
     },
     "quotation": {
@@ -4733,7 +4733,7 @@
       "C"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 16
     },
     "quotation": {
@@ -4752,7 +4752,7 @@
       "T"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 16
     },
     "quotation": {
@@ -4770,7 +4770,7 @@
       "C"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -4789,7 +4789,7 @@
       "T"
     ],
     "fvm": {
-      "value": 42,
+      "value": 21,
       "secondaryValue": 42
     },
     "quotation": {
@@ -4808,7 +4808,7 @@
       "A"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -4827,7 +4827,7 @@
       "C"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 13
     },
     "quotation": {
@@ -4846,7 +4846,7 @@
       "C"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 13
     },
     "quotation": {
@@ -4865,7 +4865,7 @@
       "T"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -4884,7 +4884,7 @@
       "T"
     ],
     "fvm": {
-      "value": 78,
+      "value": 39,
       "secondaryValue": 78
     },
     "quotation": {
@@ -4903,7 +4903,7 @@
       "T"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 14
     },
     "quotation": {
@@ -4921,7 +4921,7 @@
       "T"
     ],
     "fvm": {
-      "value": 28,
+      "value": 14,
       "secondaryValue": 25
     },
     "quotation": {
@@ -4939,7 +4939,7 @@
       "C"
     ],
     "fvm": {
-      "value": 81,
+      "value": 41,
       "secondaryValue": 81
     },
     "quotation": {
@@ -4958,7 +4958,7 @@
       "C"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -4976,7 +4976,7 @@
       "T"
     ],
     "fvm": {
-      "value": 105,
+      "value": 53,
       "secondaryValue": 104
     },
     "quotation": {
@@ -4995,7 +4995,7 @@
       "C"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -5014,7 +5014,7 @@
       "T"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -5032,7 +5032,7 @@
       "C"
     ],
     "fvm": {
-      "value": 34,
+      "value": 17,
       "secondaryValue": 34
     },
     "quotation": {
@@ -5051,7 +5051,7 @@
       "T"
     ],
     "fvm": {
-      "value": 27,
+      "value": 14,
       "secondaryValue": 27
     },
     "quotation": {
@@ -5070,7 +5070,7 @@
       "C"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -5088,7 +5088,7 @@
       "C"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -5107,7 +5107,7 @@
       "T"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -5126,7 +5126,7 @@
       "C"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 17
     },
     "quotation": {
@@ -5145,7 +5145,7 @@
       "W"
     ],
     "fvm": {
-      "value": 24,
+      "value": 12,
       "secondaryValue": 24
     },
     "quotation": {
@@ -5164,7 +5164,7 @@
       "C"
     ],
     "fvm": {
-      "value": 243,
+      "value": 122,
       "secondaryValue": 273
     },
     "quotation": {
@@ -5183,7 +5183,7 @@
       "C"
     ],
     "fvm": {
-      "value": 27,
+      "value": 14,
       "secondaryValue": 32
     },
     "quotation": {
@@ -5202,7 +5202,7 @@
       "A"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -5221,7 +5221,7 @@
       "A"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -5240,7 +5240,7 @@
       "T"
     ],
     "fvm": {
-      "value": 17,
+      "value": 9,
       "secondaryValue": 17
     },
     "quotation": {
@@ -5259,7 +5259,7 @@
       "T"
     ],
     "fvm": {
-      "value": 27,
+      "value": 14,
       "secondaryValue": 27
     },
     "quotation": {
@@ -5278,7 +5278,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 15
     },
     "quotation": {
@@ -5297,7 +5297,7 @@
       "T"
     ],
     "fvm": {
-      "value": 6,
+      "value": 3,
       "secondaryValue": 6
     },
     "quotation": {
@@ -5316,7 +5316,7 @@
       "W"
     ],
     "fvm": {
-      "value": 22,
+      "value": 11,
       "secondaryValue": 20
     },
     "quotation": {
@@ -5335,7 +5335,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 15
     },
     "quotation": {
@@ -5372,7 +5372,7 @@
       "T"
     ],
     "fvm": {
-      "value": 24,
+      "value": 12,
       "secondaryValue": 24
     },
     "quotation": {
@@ -5391,7 +5391,7 @@
       "W"
     ],
     "fvm": {
-      "value": 6,
+      "value": 3,
       "secondaryValue": 6
     },
     "quotation": {
@@ -5410,7 +5410,7 @@
       "C"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 5
     },
     "quotation": {
@@ -5428,7 +5428,7 @@
       "T"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 13
     },
     "quotation": {
@@ -5466,7 +5466,7 @@
       "A"
     ],
     "fvm": {
-      "value": 68,
+      "value": 34,
       "secondaryValue": 68
     },
     "quotation": {
@@ -5485,7 +5485,7 @@
       "C"
     ],
     "fvm": {
-      "value": 17,
+      "value": 9,
       "secondaryValue": 22
     },
     "quotation": {
@@ -5504,7 +5504,7 @@
       "C"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -5523,7 +5523,7 @@
       "C"
     ],
     "fvm": {
-      "value": 29,
+      "value": 15,
       "secondaryValue": 32
     },
     "quotation": {
@@ -5542,7 +5542,7 @@
       "T"
     ],
     "fvm": {
-      "value": 87,
+      "value": 44,
       "secondaryValue": 87
     },
     "quotation": {
@@ -5578,7 +5578,7 @@
       "T"
     ],
     "fvm": {
-      "value": 108,
+      "value": 54,
       "secondaryValue": 108
     },
     "quotation": {
@@ -5597,7 +5597,7 @@
       "C"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 13
     },
     "quotation": {
@@ -5616,7 +5616,7 @@
       "C"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -5635,7 +5635,7 @@
       "T"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -5654,7 +5654,7 @@
       "A"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 10
     },
     "quotation": {
@@ -5673,7 +5673,7 @@
       "C"
     ],
     "fvm": {
-      "value": 43,
+      "value": 22,
       "secondaryValue": 45
     },
     "quotation": {
@@ -5692,7 +5692,7 @@
       "A"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -5710,7 +5710,7 @@
       "C"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -5728,7 +5728,7 @@
       "C"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -5747,7 +5747,7 @@
       "C"
     ],
     "fvm": {
-      "value": 46,
+      "value": 23,
       "secondaryValue": 51
     },
     "quotation": {
@@ -5766,7 +5766,7 @@
       "T"
     ],
     "fvm": {
-      "value": 57,
+      "value": 29,
       "secondaryValue": 57
     },
     "quotation": {
@@ -5804,7 +5804,7 @@
       "C"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 12
     },
     "quotation": {
@@ -5822,7 +5822,7 @@
       "W"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 23
     },
     "quotation": {
@@ -5841,7 +5841,7 @@
       "C"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 19
     },
     "quotation": {
@@ -5860,7 +5860,7 @@
       "T"
     ],
     "fvm": {
-      "value": 22,
+      "value": 11,
       "secondaryValue": 22
     },
     "quotation": {
@@ -5879,7 +5879,7 @@
       "T"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -5897,7 +5897,7 @@
       "W"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 10
     },
     "quotation": {
@@ -5916,7 +5916,7 @@
       "C"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 25
     },
     "quotation": {
@@ -5935,7 +5935,7 @@
       "T"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 23
     },
     "quotation": {
@@ -5953,7 +5953,7 @@
       "W"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 7
     },
     "quotation": {
@@ -5972,7 +5972,7 @@
       "C"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 27
     },
     "quotation": {
@@ -5991,7 +5991,7 @@
       "A"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 6
     },
     "quotation": {
@@ -6009,7 +6009,7 @@
       "W"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -6028,7 +6028,7 @@
       "C"
     ],
     "fvm": {
-      "value": 18,
+      "value": 9,
       "secondaryValue": 23
     },
     "quotation": {
@@ -6046,7 +6046,7 @@
       "C"
     ],
     "fvm": {
-      "value": 2,
+      "value": 1,
       "secondaryValue": 2
     },
     "quotation": {
@@ -6084,7 +6084,7 @@
       "T"
     ],
     "fvm": {
-      "value": 17,
+      "value": 9,
       "secondaryValue": 17
     },
     "quotation": {
@@ -6122,7 +6122,7 @@
       "T"
     ],
     "fvm": {
-      "value": 75,
+      "value": 38,
       "secondaryValue": 75
     },
     "quotation": {
@@ -6141,7 +6141,7 @@
       "C"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 24
     },
     "quotation": {
@@ -6160,7 +6160,7 @@
       "C"
     ],
     "fvm": {
-      "value": 30,
+      "value": 15,
       "secondaryValue": 35
     },
     "quotation": {
@@ -6179,7 +6179,7 @@
       "C"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 9
     },
     "quotation": {
@@ -6198,7 +6198,7 @@
       "T"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -6217,7 +6217,7 @@
       "T"
     ],
     "fvm": {
-      "value": 6,
+      "value": 3,
       "secondaryValue": 6
     },
     "quotation": {
@@ -6236,7 +6236,7 @@
       "C"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -6255,7 +6255,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 15
     },
     "quotation": {
@@ -6274,7 +6274,7 @@
       "T"
     ],
     "fvm": {
-      "value": 50,
+      "value": 25,
       "secondaryValue": 50
     },
     "quotation": {
@@ -6293,7 +6293,7 @@
       "A"
     ],
     "fvm": {
-      "value": 45,
+      "value": 23,
       "secondaryValue": 45
     },
     "quotation": {
@@ -6312,7 +6312,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 15
     },
     "quotation": {
@@ -6331,7 +6331,7 @@
       "C"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 13
     },
     "quotation": {
@@ -6350,7 +6350,7 @@
       "A"
     ],
     "fvm": {
-      "value": 40,
+      "value": 20,
       "secondaryValue": 40
     },
     "quotation": {
@@ -6369,7 +6369,7 @@
       "T"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -6388,7 +6388,7 @@
       "T"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -6407,7 +6407,7 @@
       "A"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 22
     },
     "quotation": {
@@ -6426,7 +6426,7 @@
       "C"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 13
     },
     "quotation": {
@@ -6445,7 +6445,7 @@
       "C"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 10
     },
     "quotation": {
@@ -6464,7 +6464,7 @@
       "A"
     ],
     "fvm": {
-      "value": 22,
+      "value": 11,
       "secondaryValue": 22
     },
     "quotation": {
@@ -6483,7 +6483,7 @@
       "C"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -6501,7 +6501,7 @@
       "C"
     ],
     "fvm": {
-      "value": 47,
+      "value": 24,
       "secondaryValue": 47
     },
     "quotation": {
@@ -6520,7 +6520,7 @@
       "T"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -6539,7 +6539,7 @@
       "C"
     ],
     "fvm": {
-      "value": 2,
+      "value": 1,
       "secondaryValue": 2
     },
     "quotation": {
@@ -6558,7 +6558,7 @@
       "C"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 23
     },
     "quotation": {
@@ -6577,7 +6577,7 @@
       "C"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 17
     },
     "quotation": {
@@ -6595,7 +6595,7 @@
       "C"
     ],
     "fvm": {
-      "value": 47,
+      "value": 24,
       "secondaryValue": 47
     },
     "quotation": {
@@ -6613,7 +6613,7 @@
       "C"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -6631,7 +6631,7 @@
       "C"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -6650,7 +6650,7 @@
       "C"
     ],
     "fvm": {
-      "value": 42,
+      "value": 21,
       "secondaryValue": 45
     },
     "quotation": {
@@ -6669,7 +6669,7 @@
       "T"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -6687,7 +6687,7 @@
       "C"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -6743,7 +6743,7 @@
       "T"
     ],
     "fvm": {
-      "value": 21,
+      "value": 11,
       "secondaryValue": 20
     },
     "quotation": {
@@ -6762,7 +6762,7 @@
       "C"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -6800,7 +6800,7 @@
       "C"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 28
     },
     "quotation": {
@@ -6819,7 +6819,7 @@
       "C"
     ],
     "fvm": {
-      "value": 33,
+      "value": 17,
       "secondaryValue": 38
     },
     "quotation": {
@@ -6838,7 +6838,7 @@
       "T"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 16
     },
     "quotation": {
@@ -6857,7 +6857,7 @@
       "W"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 14
     },
     "quotation": {
@@ -6876,7 +6876,7 @@
       "C"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 9
     },
     "quotation": {
@@ -6894,7 +6894,7 @@
       "C"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 23
     },
     "quotation": {
@@ -6913,7 +6913,7 @@
       "C"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 10
     },
     "quotation": {
@@ -6932,7 +6932,7 @@
       "T"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -6951,7 +6951,7 @@
       "T"
     ],
     "fvm": {
-      "value": 50,
+      "value": 25,
       "secondaryValue": 50
     },
     "quotation": {
@@ -6970,7 +6970,7 @@
       "C"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 17
     },
     "quotation": {
@@ -6989,7 +6989,7 @@
       "A"
     ],
     "fvm": {
-      "value": 28,
+      "value": 14,
       "secondaryValue": 28
     },
     "quotation": {
@@ -7008,7 +7008,7 @@
       "T"
     ],
     "fvm": {
-      "value": 70,
+      "value": 35,
       "secondaryValue": 70
     },
     "quotation": {
@@ -7027,7 +7027,7 @@
       "T"
     ],
     "fvm": {
-      "value": 220,
+      "value": 110,
       "secondaryValue": 220
     },
     "quotation": {
@@ -7046,7 +7046,7 @@
       "T"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 13
     },
     "quotation": {
@@ -7065,7 +7065,7 @@
       "T"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -7084,7 +7084,7 @@
       "C"
     ],
     "fvm": {
-      "value": 30,
+      "value": 15,
       "secondaryValue": 35
     },
     "quotation": {
@@ -7103,7 +7103,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 15
     },
     "quotation": {
@@ -7121,7 +7121,7 @@
       "C"
     ],
     "fvm": {
-      "value": 9,
+      "value": 5,
       "secondaryValue": 9
     },
     "quotation": {
@@ -7140,7 +7140,7 @@
       "C"
     ],
     "fvm": {
-      "value": 45,
+      "value": 23,
       "secondaryValue": 50
     },
     "quotation": {
@@ -7159,7 +7159,7 @@
       "A"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 23
     },
     "quotation": {
@@ -7177,7 +7177,7 @@
       "T"
     ],
     "fvm": {
-      "value": 100,
+      "value": 50,
       "secondaryValue": 100
     },
     "quotation": {
@@ -7196,7 +7196,7 @@
       "W"
     ],
     "fvm": {
-      "value": 45,
+      "value": 23,
       "secondaryValue": 45
     },
     "quotation": {
@@ -7215,7 +7215,7 @@
       "C"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 17
     },
     "quotation": {
@@ -7233,7 +7233,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -7252,7 +7252,7 @@
       "W"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -7270,7 +7270,7 @@
       "C"
     ],
     "fvm": {
-      "value": 22,
+      "value": 11,
       "secondaryValue": 22
     },
     "quotation": {
@@ -7289,7 +7289,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 15
     },
     "quotation": {
@@ -7308,7 +7308,7 @@
       "C"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 21
     },
     "quotation": {
@@ -7327,7 +7327,7 @@
       "A"
     ],
     "fvm": {
-      "value": 28,
+      "value": 14,
       "secondaryValue": 28
     },
     "quotation": {
@@ -7345,7 +7345,7 @@
       "T"
     ],
     "fvm": {
-      "value": 17,
+      "value": 9,
       "secondaryValue": 15
     },
     "quotation": {
@@ -7364,7 +7364,7 @@
       "C"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 13
     },
     "quotation": {
@@ -7383,7 +7383,7 @@
       "T"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 14
     },
     "quotation": {
@@ -7402,7 +7402,7 @@
       "A"
     ],
     "fvm": {
-      "value": 177,
+      "value": 89,
       "secondaryValue": 177
     },
     "quotation": {
@@ -7421,7 +7421,7 @@
       "C"
     ],
     "fvm": {
-      "value": 18,
+      "value": 9,
       "secondaryValue": 23
     },
     "quotation": {
@@ -7440,7 +7440,7 @@
       "T"
     ],
     "fvm": {
-      "value": 22,
+      "value": 11,
       "secondaryValue": 22
     },
     "quotation": {
@@ -7459,7 +7459,7 @@
       "A"
     ],
     "fvm": {
-      "value": 245,
+      "value": 123,
       "secondaryValue": 245
     },
     "quotation": {
@@ -7478,7 +7478,7 @@
       "T"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -7497,7 +7497,7 @@
       "T"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 15
     },
     "quotation": {
@@ -7516,7 +7516,7 @@
       "C"
     ],
     "fvm": {
-      "value": 34,
+      "value": 17,
       "secondaryValue": 39
     },
     "quotation": {
@@ -7535,7 +7535,7 @@
       "C"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 20
     },
     "quotation": {
@@ -7553,7 +7553,7 @@
       "W"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 17
     },
     "quotation": {
@@ -7572,7 +7572,7 @@
       "C"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 17
     },
     "quotation": {
@@ -7590,7 +7590,7 @@
       "C"
     ],
     "fvm": {
-      "value": 19,
+      "value": 10,
       "secondaryValue": 19
     },
     "quotation": {
@@ -7609,7 +7609,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 15
     },
     "quotation": {
@@ -7627,7 +7627,7 @@
       "W"
     ],
     "fvm": {
-      "value": 37,
+      "value": 19,
       "secondaryValue": 37
     },
     "quotation": {
@@ -7646,7 +7646,7 @@
       "T"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -7665,7 +7665,7 @@
       "A"
     ],
     "fvm": {
-      "value": 150,
+      "value": 75,
       "secondaryValue": 150
     },
     "quotation": {
@@ -7684,7 +7684,7 @@
       "T"
     ],
     "fvm": {
-      "value": 145,
+      "value": 73,
       "secondaryValue": 145
     },
     "quotation": {
@@ -7703,7 +7703,7 @@
       "C"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 15
     },
     "quotation": {
@@ -7722,7 +7722,7 @@
       "A"
     ],
     "fvm": {
-      "value": 31,
+      "value": 16,
       "secondaryValue": 31
     },
     "quotation": {
@@ -7741,7 +7741,7 @@
       "C"
     ],
     "fvm": {
-      "value": 21,
+      "value": 11,
       "secondaryValue": 26
     },
     "quotation": {
@@ -7760,7 +7760,7 @@
       "C"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 19
     },
     "quotation": {
@@ -7779,7 +7779,7 @@
       "T"
     ],
     "fvm": {
-      "value": 40,
+      "value": 20,
       "secondaryValue": 42
     },
     "quotation": {
@@ -7798,7 +7798,7 @@
       "W"
     ],
     "fvm": {
-      "value": 35,
+      "value": 18,
       "secondaryValue": 35
     },
     "quotation": {
@@ -7817,7 +7817,7 @@
       "T"
     ],
     "fvm": {
-      "value": 44,
+      "value": 22,
       "secondaryValue": 44
     },
     "quotation": {
@@ -7836,7 +7836,7 @@
       "C"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 27
     },
     "quotation": {
@@ -7855,7 +7855,7 @@
       "T"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -7873,7 +7873,7 @@
       "C"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -7892,7 +7892,7 @@
       "C"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 20
     },
     "quotation": {
@@ -7911,7 +7911,7 @@
       "C"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 9
     },
     "quotation": {
@@ -7929,7 +7929,7 @@
       "C"
     ],
     "fvm": {
-      "value": 21,
+      "value": 11,
       "secondaryValue": 21
     },
     "quotation": {
@@ -7948,7 +7948,7 @@
       "C"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -7967,7 +7967,7 @@
       "T"
     ],
     "fvm": {
-      "value": 53,
+      "value": 27,
       "secondaryValue": 53
     },
     "quotation": {
@@ -7986,7 +7986,7 @@
       "T"
     ],
     "fvm": {
-      "value": 39,
+      "value": 20,
       "secondaryValue": 39
     },
     "quotation": {
@@ -8004,7 +8004,7 @@
       "C"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -8023,7 +8023,7 @@
       "M"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 17
     },
     "quotation": {
@@ -8042,7 +8042,7 @@
       "T"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -8060,7 +8060,7 @@
       "T"
     ],
     "fvm": {
-      "value": 16,
+      "value": 8,
       "secondaryValue": 14
     },
     "quotation": {
@@ -8078,7 +8078,7 @@
       "W"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -8097,7 +8097,7 @@
       "T"
     ],
     "fvm": {
-      "value": 35,
+      "value": 18,
       "secondaryValue": 35
     },
     "quotation": {
@@ -8115,7 +8115,7 @@
       "T"
     ],
     "fvm": {
-      "value": 73,
+      "value": 37,
       "secondaryValue": 73
     },
     "quotation": {
@@ -8134,7 +8134,7 @@
       "T"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 25
     },
     "quotation": {
@@ -8153,7 +8153,7 @@
       "C"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 20
     },
     "quotation": {
@@ -8172,7 +8172,7 @@
       "A"
     ],
     "fvm": {
-      "value": 87,
+      "value": 44,
       "secondaryValue": 84
     },
     "quotation": {
@@ -8190,7 +8190,7 @@
       "W"
     ],
     "fvm": {
-      "value": 18,
+      "value": 9,
       "secondaryValue": 15
     },
     "quotation": {
@@ -8208,7 +8208,7 @@
       "C"
     ],
     "fvm": {
-      "value": 41,
+      "value": 21,
       "secondaryValue": 41
     },
     "quotation": {
@@ -8227,7 +8227,7 @@
       "A"
     ],
     "fvm": {
-      "value": 80,
+      "value": 40,
       "secondaryValue": 80
     },
     "quotation": {
@@ -8246,7 +8246,7 @@
       "C"
     ],
     "fvm": {
-      "value": 4,
+      "value": 2,
       "secondaryValue": 4
     },
     "quotation": {
@@ -8264,7 +8264,7 @@
       "W"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 10
     },
     "quotation": {
@@ -8282,7 +8282,7 @@
       "W"
     ],
     "fvm": {
-      "value": 17,
+      "value": 9,
       "secondaryValue": 17
     },
     "quotation": {
@@ -8300,7 +8300,7 @@
       "C"
     ],
     "fvm": {
-      "value": 45,
+      "value": 23,
       "secondaryValue": 45
     },
     "quotation": {
@@ -8318,7 +8318,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 35,
+      "value": 18,
       "secondaryValue": 35
     },
     "quotation": {
@@ -8336,7 +8336,7 @@
       "A"
     ],
     "fvm": {
-      "value": 33,
+      "value": 17,
       "secondaryValue": 33
     },
     "quotation": {
@@ -8354,7 +8354,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -8372,7 +8372,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -8390,7 +8390,7 @@
       "A"
     ],
     "fvm": {
-      "value": 106,
+      "value": 53,
       "secondaryValue": 106
     },
     "quotation": {
@@ -8408,7 +8408,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 50,
+      "value": 25,
       "secondaryValue": 50
     },
     "quotation": {
@@ -8426,7 +8426,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -8444,7 +8444,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 31,
+      "value": 16,
       "secondaryValue": 28
     },
     "quotation": {
@@ -8463,7 +8463,7 @@
       "A"
     ],
     "fvm": {
-      "value": 27,
+      "value": 14,
       "secondaryValue": 30
     },
     "quotation": {
@@ -8481,7 +8481,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 15,
+      "value": 8,
       "secondaryValue": 12
     },
     "quotation": {
@@ -8499,7 +8499,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 9,
+      "value": 5,
       "secondaryValue": 7
     },
     "quotation": {
@@ -8517,7 +8517,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 32,
+      "value": 16,
       "secondaryValue": 32
     },
     "quotation": {
@@ -8535,7 +8535,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 17
     },
     "quotation": {
@@ -8553,7 +8553,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 70,
+      "value": 35,
       "secondaryValue": 70
     },
     "quotation": {
@@ -8571,7 +8571,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 52,
+      "value": 26,
       "secondaryValue": 49
     },
     "quotation": {
@@ -8589,7 +8589,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 20
     },
     "quotation": {
@@ -8607,7 +8607,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 108,
+      "value": 54,
       "secondaryValue": 108
     },
     "quotation": {
@@ -8625,7 +8625,7 @@
       "A"
     ],
     "fvm": {
-      "value": 95,
+      "value": 48,
       "secondaryValue": 95
     },
     "quotation": {
@@ -8662,7 +8662,7 @@
       "A"
     ],
     "fvm": {
-      "value": 50,
+      "value": 25,
       "secondaryValue": 50
     },
     "quotation": {
@@ -8680,7 +8680,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 185,
+      "value": 93,
       "secondaryValue": 185
     },
     "quotation": {
@@ -8698,7 +8698,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 51,
+      "value": 26,
       "secondaryValue": 48
     },
     "quotation": {
@@ -8716,7 +8716,7 @@
       "A"
     ],
     "fvm": {
-      "value": 100,
+      "value": 50,
       "secondaryValue": 100
     },
     "quotation": {
@@ -8734,7 +8734,7 @@
       "A"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -8752,7 +8752,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 10
     },
     "quotation": {
@@ -8770,7 +8770,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 105,
+      "value": 53,
       "secondaryValue": 105
     },
     "quotation": {
@@ -8788,7 +8788,7 @@
       "A"
     ],
     "fvm": {
-      "value": 40,
+      "value": 20,
       "secondaryValue": 40
     },
     "quotation": {
@@ -8807,7 +8807,7 @@
       "A"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 14
     },
     "quotation": {
@@ -8825,7 +8825,7 @@
       "A"
     ],
     "fvm": {
-      "value": 6,
+      "value": 3,
       "secondaryValue": 6
     },
     "quotation": {
@@ -8843,7 +8843,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 20
     },
     "quotation": {
@@ -8862,7 +8862,7 @@
       "A"
     ],
     "fvm": {
-      "value": 23,
+      "value": 12,
       "secondaryValue": 25
     },
     "quotation": {
@@ -8880,7 +8880,7 @@
       "A"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 7
     },
     "quotation": {
@@ -8899,7 +8899,7 @@
       "A"
     ],
     "fvm": {
-      "value": 25,
+      "value": 13,
       "secondaryValue": 27
     },
     "quotation": {
@@ -8917,7 +8917,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 7,
+      "value": 4,
       "secondaryValue": 6
     },
     "quotation": {
@@ -8935,7 +8935,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -8953,7 +8953,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 260,
+      "value": 130,
       "secondaryValue": 260
     },
     "quotation": {
@@ -8971,7 +8971,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 183,
+      "value": 92,
       "secondaryValue": 183
     },
     "quotation": {
@@ -8989,7 +8989,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 36,
+      "value": 18,
       "secondaryValue": 33
     },
     "quotation": {
@@ -9007,7 +9007,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 165,
+      "value": 83,
       "secondaryValue": 165
     },
     "quotation": {
@@ -9025,7 +9025,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 98,
+      "value": 49,
       "secondaryValue": 98
     },
     "quotation": {
@@ -9043,7 +9043,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 9,
+      "value": 5,
       "secondaryValue": 7
     },
     "quotation": {
@@ -9062,7 +9062,7 @@
       "A"
     ],
     "fvm": {
-      "value": 24,
+      "value": 12,
       "secondaryValue": 24
     },
     "quotation": {
@@ -9080,7 +9080,7 @@
       "A"
     ],
     "fvm": {
-      "value": 14,
+      "value": 7,
       "secondaryValue": 14
     },
     "quotation": {
@@ -9116,7 +9116,7 @@
       "A"
     ],
     "fvm": {
-      "value": 83,
+      "value": 42,
       "secondaryValue": 83
     },
     "quotation": {
@@ -9153,7 +9153,7 @@
       "A"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 11
     },
     "quotation": {
@@ -9171,7 +9171,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 10
     },
     "quotation": {
@@ -9190,7 +9190,7 @@
       "A"
     ],
     "fvm": {
-      "value": 21,
+      "value": 11,
       "secondaryValue": 21
     },
     "quotation": {
@@ -9208,7 +9208,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 450,
+      "value": 225,
       "secondaryValue": 450
     },
     "quotation": {
@@ -9226,7 +9226,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 361,
+      "value": 181,
       "secondaryValue": 361
     },
     "quotation": {
@@ -9244,7 +9244,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 10
     },
     "quotation": {
@@ -9262,7 +9262,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -9280,7 +9280,7 @@
       "A"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -9299,7 +9299,7 @@
       "A"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 12
     },
     "quotation": {
@@ -9318,7 +9318,7 @@
       "A"
     ],
     "fvm": {
-      "value": 20,
+      "value": 10,
       "secondaryValue": 20
     },
     "quotation": {
@@ -9336,7 +9336,7 @@
       "A"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -9354,7 +9354,7 @@
       "A"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -9372,7 +9372,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 10,
+      "value": 5,
       "secondaryValue": 10
     },
     "quotation": {
@@ -9390,7 +9390,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 28,
+      "value": 14,
       "secondaryValue": 25
     },
     "quotation": {
@@ -9408,7 +9408,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 40,
+      "value": 20,
       "secondaryValue": 37
     },
     "quotation": {
@@ -9426,7 +9426,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 29,
+      "value": 15,
       "secondaryValue": 26
     },
     "quotation": {
@@ -9444,7 +9444,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 53,
+      "value": 27,
       "secondaryValue": 50
     },
     "quotation": {
@@ -9462,7 +9462,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 27,
+      "value": 14,
       "secondaryValue": 24
     },
     "quotation": {
@@ -9480,7 +9480,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 237,
+      "value": 119,
       "secondaryValue": 237
     },
     "quotation": {
@@ -9498,7 +9498,7 @@
       "A"
     ],
     "fvm": {
-      "value": 73,
+      "value": 37,
       "secondaryValue": 70
     },
     "quotation": {
@@ -9516,7 +9516,7 @@
       "A"
     ],
     "fvm": {
-      "value": 3,
+      "value": 2,
       "secondaryValue": 3
     },
     "quotation": {
@@ -9534,7 +9534,7 @@
       "A"
     ],
     "fvm": {
-      "value": 5,
+      "value": 3,
       "secondaryValue": 5
     },
     "quotation": {
@@ -9552,7 +9552,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 37,
+      "value": 19,
       "secondaryValue": 34
     },
     "quotation": {
@@ -9570,7 +9570,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 10
     },
     "quotation": {
@@ -9589,7 +9589,7 @@
       "A"
     ],
     "fvm": {
-      "value": 61,
+      "value": 31,
       "secondaryValue": 61
     },
     "quotation": {
@@ -9607,7 +9607,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 110,
+      "value": 55,
       "secondaryValue": 110
     },
     "quotation": {
@@ -9625,7 +9625,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 80,
+      "value": 40,
       "secondaryValue": 77
     },
     "quotation": {
@@ -9643,7 +9643,7 @@
       "A"
     ],
     "fvm": {
-      "value": 48,
+      "value": 24,
       "secondaryValue": 48
     },
     "quotation": {
@@ -9661,7 +9661,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 11,
+      "value": 6,
       "secondaryValue": 10
     },
     "quotation": {
@@ -9679,7 +9679,7 @@
       "A"
     ],
     "fvm": {
-      "value": 8,
+      "value": 4,
       "secondaryValue": 8
     },
     "quotation": {
@@ -9697,7 +9697,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 249,
+      "value": 125,
       "secondaryValue": 249
     },
     "quotation": {
@@ -9715,7 +9715,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 37,
+      "value": 19,
       "secondaryValue": 34
     },
     "quotation": {
@@ -9733,7 +9733,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 2,
+      "value": 1,
       "secondaryValue": 2
     },
     "quotation": {
@@ -9751,7 +9751,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 40,
+      "value": 20,
       "secondaryValue": 37
     },
     "quotation": {
@@ -9769,7 +9769,7 @@
       "A"
     ],
     "fvm": {
-      "value": 13,
+      "value": 7,
       "secondaryValue": 13
     },
     "quotation": {
@@ -9787,7 +9787,7 @@
       "A"
     ],
     "fvm": {
-      "value": 160,
+      "value": 80,
       "secondaryValue": 160
     },
     "quotation": {
@@ -9805,7 +9805,7 @@
       "A"
     ],
     "fvm": {
-      "value": 27,
+      "value": 14,
       "secondaryValue": 27
     },
     "quotation": {
@@ -9823,7 +9823,7 @@
       "A"
     ],
     "fvm": {
-      "value": 100,
+      "value": 50,
       "secondaryValue": 100
     },
     "quotation": {
@@ -9841,7 +9841,7 @@
       "Pc"
     ],
     "fvm": {
-      "value": 12,
+      "value": 6,
       "secondaryValue": 10
     },
     "quotation": {
@@ -9859,7 +9859,7 @@
       "A"
     ],
     "fvm": {
-      "value": 18,
+      "value": 9,
       "secondaryValue": 18
     },
     "quotation": {
