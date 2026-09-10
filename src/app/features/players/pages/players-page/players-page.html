@@ -21,12 +21,12 @@
         class="hidden rounded border border-slate-200 px-2 py-1 text-xs font-semibold tracking-wide text-slate-600 sm:block dark:border-slate-700 dark:text-slate-300"
         >STAGIONE 2026/27</span
       >
-      <label for="theme-select" class="sr-only">Tema</label>
-      <!--       <select
+      <!--       <label for="theme-select" class="sr-only">Tema</label>
+      <select
         id="theme-select"
         #themeSelect
         [value]="theme.preference()"
-        (change)="theme.setPreference(themeSelect.value)"
+        (change)="changeTheme(themeSelect.value)"
         class="min-h-11 max-w-30 rounded-lg border border-slate-200 bg-white px-2 text-xs font-medium sm:text-sm dark:border-slate-700 dark:bg-slate-900"
       >
         <option value="system">Automatico</option>

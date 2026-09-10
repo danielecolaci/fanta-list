@@ -1,7 +1,7 @@
 <table class="w-full border-separate border-spacing-0 text-left text-sm">
   <caption class="sr-only">
-    Listone Fantacalcio 2026/27. Premi un nome per i dettagli, oppure Nome, FVM e Quotazione per
-    ordinare.
+    Listone Fantacalcio 2026/27. Premi un nome per i dettagli, oppure le intestazioni delle colonne
+    ordinabili per cambiare ordinamento.
   </caption>
   <thead class="sticky top-(--table-top) z-10">
     <tr
@@ -18,22 +18,60 @@
           (click)="changeSort('name')"
         >
           Nome
-          <span aria-hidden="true">{{
-            directions().name === 'ascending' ? '↑' : directions().name === 'descending' ? '↓' : '↕'
-          }}</span>
+          <span aria-hidden="true">
+            @if (directions().name === 'ascending') {
+              &uarr;
+            } @else if (directions().name === 'descending') {
+              &darr;
+            } @else {
+              &varr;
+            }
+          </span>
         </button>
       </th>
       <th
         scope="col"
-        class="border-y border-slate-200 bg-slate-100/95 px-3 py-2 dark:border-slate-700 dark:bg-slate-900"
+        class="border-y border-slate-200 bg-slate-100/95 px-3 dark:border-slate-700 dark:bg-slate-900"
+        [attr.aria-sort]="directions().role"
       >
-        Ruolo
+        <button
+          type="button"
+          class="flex min-h-11 items-center gap-2 py-2 focus-visible:outline-2 focus-visible:outline-emerald-600"
+          (click)="changeSort('role')"
+        >
+          Ruolo
+          <span aria-hidden="true">
+            @if (directions().role === 'ascending') {
+              &uarr;
+            } @else if (directions().role === 'descending') {
+              &darr;
+            } @else {
+              &varr;
+            }
+          </span>
+        </button>
       </th>
       <th
         scope="col"
-        class="border-y border-slate-200 bg-slate-100/95 px-3 py-2 dark:border-slate-700 dark:bg-slate-900"
+        class="border-y border-slate-200 bg-slate-100/95 px-3 dark:border-slate-700 dark:bg-slate-900"
+        [attr.aria-sort]="directions().team"
       >
-        Squadra
+        <button
+          type="button"
+          class="flex min-h-11 items-center gap-2 py-2 focus-visible:outline-2 focus-visible:outline-emerald-600"
+          (click)="changeSort('team')"
+        >
+          Squadra
+          <span aria-hidden="true">
+            @if (directions().team === 'ascending') {
+              &uarr;
+            } @else if (directions().team === 'descending') {
+              &darr;
+            } @else {
+              &varr;
+            }
+          </span>
+        </button>
       </th>
       <th
         scope="col"
@@ -52,9 +90,15 @@
           (click)="changeSort('fvm')"
         >
           FVM
-          <span aria-hidden="true">{{
-            directions().fvm === 'ascending' ? '↑' : directions().fvm === 'descending' ? '↓' : '↕'
-          }}</span>
+          <span aria-hidden="true">
+            @if (directions().fvm === 'ascending') {
+              &uarr;
+            } @else if (directions().fvm === 'descending') {
+              &darr;
+            } @else {
+              &varr;
+            }
+          </span>
         </button>
       </th>
       <th
@@ -69,20 +113,38 @@
           (click)="changeSort('quotation')"
         >
           Quot.
-          <span aria-hidden="true">{{
-            directions().quotation === 'ascending'
-              ? '↑'
-              : directions().quotation === 'descending'
-                ? '↓'
-                : '↕'
-          }}</span>
+          <span aria-hidden="true">
+            @if (directions().quotation === 'ascending') {
+              &uarr;
+            } @else if (directions().quotation === 'descending') {
+              &darr;
+            } @else {
+              &varr;
+            }
+          </span>
         </button>
       </th>
       <th
         scope="col"
-        class="rounded-tr-xl border-y border-slate-200 bg-slate-100 px-2 py-2 dark:border-slate-700 dark:bg-slate-900"
+        class="rounded-tr-xl border-y border-slate-200 bg-slate-100 px-2 dark:border-slate-700 dark:bg-slate-900"
+        [attr.aria-sort]="directions().auction"
       >
-        Stato d’asta
+        <button
+          type="button"
+          class="flex min-h-11 items-center gap-2 py-2 focus-visible:outline-2 focus-visible:outline-emerald-600"
+          (click)="changeSort('auction')"
+        >
+          Stato d'asta
+          <span aria-hidden="true">
+            @if (directions().auction === 'ascending') {
+              &uarr;
+            } @else if (directions().auction === 'descending') {
+              &darr;
+            } @else {
+              &varr;
+            }
+          </span>
+        </button>
       </th>
     </tr>
   </thead>
@@ -176,7 +238,7 @@
               <div>
                 <dt class="text-slate-500 dark:text-slate-400">FVM secondario</dt>
                 <dd class="mt-1 font-medium text-slate-800 tabular-nums dark:text-slate-200">
-                  {{ player.fvm.secondaryValue ?? '—' }}
+                  {{ player.fvm.secondaryValue ?? '-' }}
                 </dd>
               </div>
               <div>
@@ -188,7 +250,7 @@
               <div>
                 <dt class="text-slate-500 dark:text-slate-400">Quot. secondaria</dt>
                 <dd class="mt-1 font-medium text-slate-800 tabular-nums dark:text-slate-200">
-                  {{ player.quotation.secondaryValue ?? '—' }}
+                  {{ player.quotation.secondaryValue ?? '-' }}
                 </dd>
               </div>
               <div>

@@ -1,14 +1,21 @@
 import { ParamMap, Params } from '@angular/router';
+import { PlayerAuctionStatus } from './auction-status.model';
 import { PlayerMacroRole } from './player.model';
 
 export type PlayerSort =
   | 'original'
   | 'name-asc'
   | 'name-desc'
+  | 'role-asc'
+  | 'role-desc'
+  | 'team-asc'
+  | 'team-desc'
   | 'fvm-asc'
   | 'fvm-desc'
   | 'quotation-asc'
-  | 'quotation-desc';
+  | 'quotation-desc'
+  | 'auction-asc'
+  | 'auction-desc';
 
 export interface PlayerFilters {
   search: string;
@@ -19,6 +26,7 @@ export interface PlayerFilters {
   maxFvm: number | null;
   minQuotation: number | null;
   maxQuotation: number | null;
+  auctionStatuses: PlayerAuctionStatus[];
   sort: PlayerSort;
 }
 
@@ -36,21 +44,28 @@ export const DEFAULT_FILTERS: PlayerFilters = {
   maxFvm: null,
   minQuotation: null,
   maxQuotation: null,
+  auctionStatuses: [],
   sort: 'original',
 };
 
 export const SORT_OPTIONS: ReadonlyArray<{ value: PlayerSort; label: string }> = [
   { value: 'original', label: 'Ordine del listone' },
-  { value: 'name-asc', label: 'Nome A–Z' },
-  { value: 'name-desc', label: 'Nome Z–A' },
+  { value: 'name-asc', label: 'Nome A-Z' },
+  { value: 'name-desc', label: 'Nome Z-A' },
+  { value: 'role-asc', label: 'Ruolo ASC' },
+  { value: 'role-desc', label: 'Ruolo DESC' },
+  { value: 'team-asc', label: 'Squadra A-Z' },
+  { value: 'team-desc', label: 'Squadra Z-A' },
   { value: 'fvm-desc', label: 'FVM decrescente' },
   { value: 'fvm-asc', label: 'FVM crescente' },
   { value: 'quotation-desc', label: 'Quotazione decrescente' },
   { value: 'quotation-asc', label: 'Quotazione crescente' },
+  { value: 'auction-asc', label: 'Stato asta ASC' },
+  { value: 'auction-desc', label: 'Stato asta DESC' },
 ];
 
 export function emptyFilters(): PlayerFilters {
-  return { ...DEFAULT_FILTERS, roles: [], teams: [] };
+  return { ...DEFAULT_FILTERS, roles: [], teams: [], auctionStatuses: [] };
 }
 
 function readNumber(value: string | null): number | null {
@@ -64,11 +79,18 @@ function readList(params: ParamMap, key: string): string[] {
     ...new Set(
       params
         .getAll(key)
-        .flatMap((value) => value.split(','))
+        .flatMap((value) => (value === null ? [] : value.split(',')))
         .map((value) => value.normalize('NFC').trim())
         .filter(Boolean),
     ),
   ];
+}
+
+function readAuctionStatuses(params: ParamMap): PlayerAuctionStatus[] {
+  return readList(params, 'auctionStatus').filter(
+    (value): value is PlayerAuctionStatus =>
+      value === 'available' || value === 'called' || value === 'purchased',
+  );
 }
 
 export function filtersFromParams(params: ParamMap): PlayerFilters {
@@ -83,6 +105,7 @@ export function filtersFromParams(params: ParamMap): PlayerFilters {
     maxFvm: readNumber(params.get('maxFvm')),
     minQuotation: readNumber(params.get('minQuotation')),
     maxQuotation: readNumber(params.get('maxQuotation')),
+    auctionStatuses: readAuctionStatuses(params),
     sort: SORT_OPTIONS.some((option) => option.value === sort)
       ? (sort as PlayerSort)
       : DEFAULT_FILTERS.sort,
@@ -100,6 +123,7 @@ export function filtersToParams(filters: PlayerFilters): Params {
     maxFvm: filters.maxFvm,
     minQuotation: filters.minQuotation,
     maxQuotation: filters.maxQuotation,
+    auctionStatus: filters.auctionStatuses.length ? filters.auctionStatuses.join(',') : null,
     sort: filters.sort === DEFAULT_FILTERS.sort ? null : filters.sort,
   };
 }

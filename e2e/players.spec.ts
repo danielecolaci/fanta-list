@@ -22,8 +22,32 @@ const uniquePlayer =
         .length === 1
     );
   }) ?? players[0];
+const secondUniquePlayer =
+  players.find((candidate) => {
+    const query = normalize(candidate.name);
+    return (
+      candidate.id !== uniquePlayer.id &&
+      players.filter((player) => normalize(`${player.name} ${player.team}`).includes(query))
+        .length === 1
+    );
+  }) ?? players.find((player) => player.id !== uniquePlayer.id)!;
 const multiRolePlayer = players.find((player) => player.roles.length > 1) ?? uniquePlayer;
 const teams = [...new Set(players.map((player) => player.team))].sort(compareNames);
+const sortValues = [
+  'original',
+  'name-asc',
+  'name-desc',
+  'role-asc',
+  'role-desc',
+  'team-asc',
+  'team-desc',
+  'fvm-desc',
+  'fvm-asc',
+  'quotation-desc',
+  'quotation-asc',
+  'auction-asc',
+  'auction-desc',
+];
 
 test.afterEach(async ({ page }) => {
   // An open modal must not prevent a test context from closing cleanly.
@@ -67,6 +91,14 @@ test('mobile a 320 px: nessun overflow, ricerca immediata e valori originali esp
   await openList(page);
   await expect(cards(page)).toHaveCount(players.length);
   await expect(resultCount(page)).toHaveText(String(players.length));
+  await expect
+    .poll(() =>
+      page
+        .getByRole('combobox', { name: 'Ordinamento' })
+        .locator('option')
+        .evaluateAll((options) => options.map((option) => (option as HTMLOptionElement).value)),
+    )
+    .toEqual(sortValues);
   await expect
     .poll(() => page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth))
     .toBe(true);
@@ -200,6 +232,7 @@ test('una URL completa ripristina tutti i filtri anche al refresh e consente il 
     maxFvm: String(target.fvm.value),
     minQuotation: String(target.quotation.value),
     maxQuotation: String(target.quotation.value),
+    auctionStatus: 'available,purchased',
     sort: 'quotation-desc',
   });
   await openList(page, `?${params}`);
@@ -223,6 +256,8 @@ test('una URL completa ripristina tutti i filtri anche al refresh e consente il 
     );
   }
   await expect(dialog.getByRole('checkbox', { name: target.team, exact: true })).toBeChecked();
+  await expect(dialog.getByRole('checkbox', { name: 'Disponibile', exact: true })).toBeChecked();
+  await expect(dialog.getByRole('checkbox', { name: 'Acquistato', exact: true })).toBeChecked();
   await expect(dialog.getByRole('spinbutton', { name: 'FVM minimo', exact: true })).toHaveValue(
     String(target.fvm.value),
   );
@@ -410,6 +445,29 @@ test('desktop 1280 px: tabella densa, sidebar, ordinamento e intestazione sticky
     alphabetical[alphabetical.length - 1].name,
   );
 
+  const roleHeader = table.locator('thead th').nth(1);
+  await roleHeader.getByRole('button').click();
+  await expect(roleHeader).toHaveAttribute('aria-sort', 'ascending');
+  await expect(table.locator('tbody > tr').first().locator('td').nth(0)).toHaveText('P');
+  await roleHeader.getByRole('button').click();
+  await expect(roleHeader).toHaveAttribute('aria-sort', 'descending');
+  await expect(table.locator('tbody > tr').first().locator('td').nth(0)).toHaveText('A');
+
+  const teamHeader = table.locator('thead th').nth(2);
+  await teamHeader.getByRole('button').click();
+  await expect(teamHeader).toHaveAttribute('aria-sort', 'ascending');
+  await expect(table.locator('tbody > tr').first().locator('td').nth(1)).toHaveText(teams[0]);
+
+  await page
+    .getByRole('combobox', { name: `Stato asta di ${uniquePlayer.name}`, exact: true })
+    .selectOption('purchased');
+  const auctionHeader = table.locator('thead th').nth(6);
+  await auctionHeader.getByRole('button').click();
+  await expect(auctionHeader).toHaveAttribute('aria-sort', 'ascending');
+  await auctionHeader.getByRole('button').click();
+  await expect(auctionHeader).toHaveAttribute('aria-sort', 'descending');
+  await expect(table.locator('tbody th').first()).toContainText(uniquePlayer.name);
+
   await page.evaluate(() => window.scrollTo(0, 700));
   await expect
     .poll(() =>
@@ -535,6 +593,52 @@ test('stato asta reversibile: persistenza, filtri, refresh e passaggio card-tabe
     JSON.parse(localStorage.getItem('fantalist-auction-2026-27') ?? '{}'),
   );
   expect(saved.statuses[uniquePlayer.id]).toBeUndefined();
+});
+
+test('filtro stato asta multi-select: URL, chip, reset e aggiornamento reattivo', async ({
+  page,
+}) => {
+  await openList(page);
+  const purchased = page.getByRole('combobox', {
+    name: `Stato asta di ${uniquePlayer.name}`,
+    exact: true,
+  });
+  const called = page.getByRole('combobox', {
+    name: `Stato asta di ${secondUniquePlayer.name}`,
+    exact: true,
+  });
+  await purchased.selectOption('purchased');
+  await called.selectOption('called');
+
+  await filterTrigger(page).click();
+  const dialog = page.getByRole('dialog', { name: 'Filtri' });
+  await dialog.getByRole('checkbox', { name: 'Acquistato', exact: true }).check();
+  await dialog.getByRole('button', { name: 'Applica', exact: true }).click();
+  await expect(cards(page)).toHaveCount(1);
+  await expect(cards(page).first()).toContainText(uniquePlayer.name);
+  await expectQuery(page, { auctionStatus: 'purchased' });
+  await expect(
+    page.getByRole('button', { name: 'Rimuovi filtro Acquistato', exact: true }),
+  ).toBeVisible();
+
+  await purchased.selectOption('available');
+  await expect(cards(page)).toHaveCount(0);
+  await expect(page.getByRole('heading', { name: 'Nessun calciatore trovato' })).toBeVisible();
+
+  await filterTrigger(page).click();
+  await dialog.getByRole('checkbox', { name: 'Acquistato', exact: true }).uncheck();
+  await dialog.getByRole('checkbox', { name: 'Chiamato', exact: true }).check();
+  await dialog.getByRole('button', { name: 'Applica', exact: true }).click();
+  await expect(cards(page)).toHaveCount(1);
+  await expect(cards(page).first()).toContainText(secondUniquePlayer.name);
+
+  await page
+    .locator('#players-results')
+    .getByRole('button', { name: 'Reset', exact: true })
+    .click();
+  await expect(cards(page)).toHaveCount(players.length);
+  await expect(called).toHaveValue('called');
+  await expectQuery(page, { auctionStatus: null });
 });
 
 test('lo stato asta si aggiorna tra due schede dello stesso browser', async ({ page, context }) => {

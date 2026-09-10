@@ -8,14 +8,25 @@ import {
   filtersFromParams,
   filtersToParams,
 } from '../models/player-filters.model';
+import {
+  AUCTION_STATUS_OPTIONS,
+  AUCTION_STATUS_ORDER,
+  PlayerAuctionStatus,
+} from '../models/auction-status.model';
 import { MACRO_ROLES, PlayerMacroRole, normalizeSearch } from '../models/player.model';
+import { AuctionService } from './auction.service';
 import { PlayersService } from './players.service';
 
 const nameCollator = new Intl.Collator('it', { sensitivity: 'base', numeric: true });
+const roleOrder: Record<PlayerMacroRole, number> = { P: 0, D: 1, C: 2, A: 3 };
+const auctionStatusLabels = new Map(
+  AUCTION_STATUS_OPTIONS.map((status) => [status.value, status.label] as const),
+);
 
 @Injectable()
 export class PlayersStore {
   private readonly source = inject(PlayersService);
+  private readonly auction = inject(AuctionService);
   private readonly route = inject(ActivatedRoute);
   private readonly router = inject(Router);
   private readonly navigationMarker = {};
@@ -50,8 +61,12 @@ export class PlayersStore {
     const search = normalizeSearch(filters.search);
     const roles = new Set(filters.roles);
     const teams = new Set(filters.teams);
+    const auctionStatuses = new Set(filters.auctionStatuses);
+    const savedStatuses = this.auction.statuses();
+    const statusOf = (id: string): PlayerAuctionStatus => savedStatuses[id] ?? 'available';
     const result = this.searchIndex()
       .filter(({ player, text }) => {
+        const auctionStatus = statusOf(player.id);
         return (
           (!search || text.includes(search)) &&
           (filters.macroRole === null || player.macroRole === filters.macroRole) &&
@@ -60,7 +75,8 @@ export class PlayersStore {
           (filters.minFvm === null || player.fvm.value >= filters.minFvm) &&
           (filters.maxFvm === null || player.fvm.value <= filters.maxFvm) &&
           (filters.minQuotation === null || player.quotation.value >= filters.minQuotation) &&
-          (filters.maxQuotation === null || player.quotation.value <= filters.maxQuotation)
+          (filters.maxQuotation === null || player.quotation.value <= filters.maxQuotation) &&
+          (auctionStatuses.size === 0 || auctionStatuses.has(auctionStatus))
         );
       })
       .map(({ player }) => player);
@@ -70,6 +86,24 @@ export class PlayersStore {
         return result.sort((a, b) => nameCollator.compare(a.name, b.name));
       case 'name-desc':
         return result.sort((a, b) => nameCollator.compare(b.name, a.name));
+      case 'role-asc':
+        return result.sort(
+          (a, b) =>
+            roleOrder[a.macroRole] - roleOrder[b.macroRole] || nameCollator.compare(a.name, b.name),
+        );
+      case 'role-desc':
+        return result.sort(
+          (a, b) =>
+            roleOrder[b.macroRole] - roleOrder[a.macroRole] || nameCollator.compare(a.name, b.name),
+        );
+      case 'team-asc':
+        return result.sort(
+          (a, b) => nameCollator.compare(a.team, b.team) || nameCollator.compare(a.name, b.name),
+        );
+      case 'team-desc':
+        return result.sort(
+          (a, b) => nameCollator.compare(b.team, a.team) || nameCollator.compare(a.name, b.name),
+        );
       case 'fvm-asc':
         return result.sort(
           (a, b) => a.fvm.value - b.fvm.value || nameCollator.compare(a.name, b.name),
@@ -85,6 +119,18 @@ export class PlayersStore {
       case 'quotation-desc':
         return result.sort(
           (a, b) => b.quotation.value - a.quotation.value || nameCollator.compare(a.name, b.name),
+        );
+      case 'auction-asc':
+        return result.sort(
+          (a, b) =>
+            AUCTION_STATUS_ORDER[statusOf(a.id)] - AUCTION_STATUS_ORDER[statusOf(b.id)] ||
+            nameCollator.compare(a.name, b.name),
+        );
+      case 'auction-desc':
+        return result.sort(
+          (a, b) =>
+            AUCTION_STATUS_ORDER[statusOf(b.id)] - AUCTION_STATUS_ORDER[statusOf(a.id)] ||
+            nameCollator.compare(a.name, b.name),
         );
       default:
         return result;
@@ -111,6 +157,12 @@ export class PlayersStore {
       chips.push({ id: 'minQuotation', label: `Quot. ≥ ${filters.minQuotation}` });
     if (filters.maxQuotation !== null)
       chips.push({ id: 'maxQuotation', label: `Quot. ≤ ${filters.maxQuotation}` });
+    for (const status of filters.auctionStatuses) {
+      chips.push({
+        id: `auction:${status}`,
+        label: auctionStatusLabels.get(status) ?? status,
+      });
+    }
     return chips;
   });
   readonly activeFiltersCount = computed(() => this.activeFilters().length);
@@ -139,6 +191,7 @@ export class PlayersStore {
     const next = { ...this.state(), ...patch };
     next.roles = [...new Set(next.roles)];
     next.teams = [...new Set(next.teams)];
+    next.auctionStatuses = [...new Set(next.auctionStatuses)];
     this.state.set(next);
     void this.router.navigate([], {
       relativeTo: this.route,
@@ -171,6 +224,10 @@ export class PlayersStore {
       this.patchFilters({ roles: this.state().roles.filter((role) => role !== id.slice(5)) });
     } else if (id.startsWith('team:')) {
       this.patchFilters({ teams: this.state().teams.filter((team) => team !== id.slice(5)) });
+    } else if (id.startsWith('auction:')) {
+      this.patchFilters({
+        auctionStatuses: this.state().auctionStatuses.filter((status) => status !== id.slice(8)),
+      });
     } else if (
       id === 'minFvm' ||
       id === 'maxFvm' ||
@@ -185,7 +242,7 @@ export class PlayersStore {
     this.patchFilters(emptyFilters());
   }
 
-  cycleSort(column: 'name' | 'fvm' | 'quotation'): void {
+  cycleSort(column: 'name' | 'role' | 'team' | 'fvm' | 'quotation' | 'auction'): void {
     const current = this.state().sort;
     if (column === 'name') {
       this.patchFilters({

@@ -29,6 +29,27 @@
     </div>
   </fieldset>
 
+  <fieldset class="border-t border-slate-100 pt-5 dark:border-slate-800">
+    <legend class="text-xs font-bold tracking-wide text-slate-800 dark:text-slate-200">
+      Stato asta
+    </legend>
+    <div class="mt-2 space-y-1">
+      @for (status of auctionStatusOptions; track status.value) {
+        <label
+          class="flex min-h-11 cursor-pointer items-center gap-2.5 rounded-lg px-2 text-sm text-slate-700 transition-colors hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800"
+        >
+          <input
+            type="checkbox"
+            [checked]="filters().auctionStatuses.includes(status.value)"
+            (change)="toggleSelection('auctionStatuses', status.value)"
+            class="size-4 shrink-0 cursor-pointer rounded border-slate-300 accent-emerald-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 dark:accent-emerald-400"
+          />
+          <span>{{ status.label }}</span>
+        </label>
+      }
+    </div>
+  </fieldset>
+
   <fieldset class="min-w-0 border-t border-slate-100 pt-5 dark:border-slate-800">
     <legend
       class="float-left mb-3 flex w-full items-center justify-between gap-2 text-xs font-bold tracking-wide text-slate-800 dark:text-slate-200"

@@ -1,8 +1,10 @@
 import { ChangeDetectionStrategy, Component, computed, input, output, signal } from '@angular/core';
+import { AUCTION_STATUS_OPTIONS } from '../../models/auction-status.model';
 import { PlayerFilters } from '../../models/player-filters.model';
 import { normalizeSearch } from '../../models/player.model';
 
 type NumericFilter = 'minFvm' | 'maxFvm' | 'minQuotation' | 'maxQuotation';
+type SelectionFilter = 'roles' | 'teams' | 'auctionStatuses';
 
 @Component({
   selector: 'app-filter-fields',
@@ -17,6 +19,7 @@ export class FilterFields {
   readonly idPrefix = input.required<string>();
   readonly filtersChange = output<Partial<PlayerFilters>>();
 
+  protected readonly auctionStatusOptions = AUCTION_STATUS_OPTIONS;
   protected readonly teamSearch = signal('');
   private readonly indexedTeams = computed(() =>
     this.teams().map((team) => ({ team, normalized: normalizeSearch(team) })),
@@ -34,8 +37,11 @@ export class FilterFields {
     return minQuotation !== null && maxQuotation !== null && minQuotation > maxQuotation;
   });
 
-  protected toggleSelection(field: 'roles' | 'teams', value: string): void {
-    const current = this.filters()[field];
+  protected toggleSelection<T extends SelectionFilter>(
+    field: T,
+    value: PlayerFilters[T][number],
+  ): void {
+    const current = this.filters()[field] as readonly string[];
     this.filtersChange.emit({
       [field]: current.includes(value)
         ? current.filter((item) => item !== value)

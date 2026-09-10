@@ -2,7 +2,9 @@ import { signal } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { ActivatedRoute, Navigation, Router, convertToParamMap } from '@angular/router';
 import { BehaviorSubject } from 'rxjs';
+import { PlayerAuctionStatus } from '../models/auction-status.model';
 import { Player } from '../models/player.model';
+import { AuctionService } from './auction.service';
 import { PlayersService } from './players.service';
 import { PlayersStore } from './players.store';
 
@@ -53,9 +55,11 @@ describe('PlayersStore', () => {
   let store: PlayersStore;
   let router: jasmine.SpyObj<Router>;
   let query: BehaviorSubject<ReturnType<typeof convertToParamMap>>;
+  let auctionStatuses: ReturnType<typeof signal<Record<string, PlayerAuctionStatus>>>;
 
   beforeEach(() => {
     query = new BehaviorSubject(convertToParamMap({}));
+    auctionStatuses = signal<Record<string, PlayerAuctionStatus>>({});
     router = jasmine.createSpyObj<Router>('Router', ['navigate', 'getCurrentNavigation']);
     router.navigate.and.resolveTo(true);
     router.getCurrentNavigation.and.returnValue(null);
@@ -63,6 +67,7 @@ describe('PlayersStore', () => {
       providers: [
         PlayersStore,
         { provide: PlayersService, useValue: { players: signal(players) } },
+        { provide: AuctionService, useValue: { statuses: auctionStatuses.asReadonly() } },
         {
           provide: ActivatedRoute,
           useValue: {
@@ -110,6 +115,77 @@ describe('PlayersStore', () => {
     expect(store.filteredPlayers().map((player) => player.id)).toEqual(['D-one', 'A-one']);
   });
 
+  it('sorts role, team and auction status with name as secondary criterion', () => {
+    auctionStatuses.set({
+      'P-one': 'purchased',
+      'D-one': 'called',
+      'A-two': 'called',
+    });
+
+    store.patchFilters({ sort: 'role-asc' });
+    expect(store.filteredPlayers().map((player) => player.id)).toEqual([
+      'P-one',
+      'D-one',
+      'A-two',
+      'A-one',
+    ]);
+
+    store.patchFilters({ sort: 'role-desc' });
+    expect(store.filteredPlayers().map((player) => player.id)).toEqual([
+      'A-two',
+      'A-one',
+      'D-one',
+      'P-one',
+    ]);
+
+    store.patchFilters({ sort: 'team-asc' });
+    expect(store.filteredPlayers().map((player) => player.id)).toEqual([
+      'A-one',
+      'P-one',
+      'A-two',
+      'D-one',
+    ]);
+
+    store.patchFilters({ sort: 'auction-asc' });
+    expect(store.filteredPlayers().map((player) => player.id)).toEqual([
+      'A-one',
+      'A-two',
+      'D-one',
+      'P-one',
+    ]);
+
+    store.patchFilters({ sort: 'auction-desc' });
+    expect(store.filteredPlayers().map((player) => player.id)).toEqual([
+      'P-one',
+      'A-two',
+      'D-one',
+      'A-one',
+    ]);
+  });
+
+  it('filters auction statuses reactively without clearing saved auction data on reset', () => {
+    store.patchFilters({ auctionStatuses: ['available'] });
+    expect(store.filteredPlayers().map((player) => player.id)).toEqual([
+      'P-one',
+      'D-one',
+      'A-one',
+      'A-two',
+    ]);
+
+    auctionStatuses.set({ 'A-one': 'purchased', 'D-one': 'called' });
+    expect(store.filteredPlayers().map((player) => player.id)).toEqual(['P-one', 'A-two']);
+
+    store.patchFilters({ auctionStatuses: ['called', 'purchased'] });
+    expect(store.filteredPlayers().map((player) => player.id)).toEqual(['D-one', 'A-one']);
+    expect(store.activeFilters().map((filter) => filter.id)).toContain('auction:called');
+    store.removeFilter('auction:called');
+    expect(store.filters().auctionStatuses).toEqual(['purchased']);
+
+    store.resetFilters();
+    expect(store.filters().auctionStatuses).toEqual([]);
+    expect(auctionStatuses()).toEqual({ 'A-one': 'purchased', 'D-one': 'called' });
+  });
+
   it('derives available roles and clears incompatible subroles on macro change', () => {
     store.patchFilters({ roles: ['Pc', 'Dc'] });
     store.setMacroRole('A');
@@ -119,7 +195,15 @@ describe('PlayersStore', () => {
   });
 
   it('restores URL navigation without causing a navigation loop', () => {
-    query.next(convertToParamMap({ role: 'A', roles: 'Pc', team: 'Inter', sort: 'fvm-desc' }));
+    query.next(
+      convertToParamMap({
+        role: 'A',
+        roles: 'Pc',
+        team: 'Inter',
+        auctionStatus: 'available',
+        sort: 'fvm-desc',
+      }),
+    );
     expect(store.filteredPlayers().map((player) => player.id)).toEqual(['A-one']);
     expect(router.navigate).not.toHaveBeenCalled();
     query.next(convertToParamMap({ q: 'nicolo' }));

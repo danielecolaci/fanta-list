@@ -70,6 +70,36 @@ describe('Players UI components', () => {
     expect(emitted).toEqual(['fvm-desc', 'fvm-asc', 'original']);
   });
 
+  it('cycles role, team and auction table sorting semantically', () => {
+    const fixture = TestBed.createComponent(PlayersTable);
+    fixture.componentRef.setInput('players', [player]);
+    fixture.componentRef.setInput('sort', 'original');
+    const emitted: PlayerSort[] = [];
+    fixture.componentInstance.sortChange.subscribe((sort) => {
+      emitted.push(sort);
+      fixture.componentRef.setInput('sort', sort);
+    });
+    fixture.detectChanges();
+    const host = fixture.nativeElement as HTMLElement;
+    const roleHeader = host.querySelectorAll('thead th')[1];
+    const auctionHeader = host.querySelectorAll('thead th')[6];
+
+    roleHeader.querySelector('button')!.click();
+    fixture.detectChanges();
+    expect(roleHeader.getAttribute('aria-sort')).toBe('ascending');
+    roleHeader.querySelector('button')!.click();
+    fixture.detectChanges();
+    expect(roleHeader.getAttribute('aria-sort')).toBe('descending');
+    roleHeader.querySelector('button')!.click();
+    fixture.detectChanges();
+    expect(roleHeader.getAttribute('aria-sort')).toBe('none');
+
+    auctionHeader.querySelector('button')!.click();
+    fixture.detectChanges();
+    expect(auctionHeader.getAttribute('aria-sort')).toBe('ascending');
+    expect(emitted).toEqual(['role-asc', 'role-desc', 'original', 'auction-asc']);
+  });
+
   it('searches teams without accents and emits independent multi-select changes', () => {
     const fixture = TestBed.createComponent(FilterFields);
     fixture.componentRef.setInput('filters', emptyFilters());
@@ -95,10 +125,30 @@ describe('Players UI components', () => {
     search.dispatchEvent(new Event('input'));
     fixture.detectChanges();
 
-    const checkboxes = host.querySelectorAll<HTMLInputElement>('input[type="checkbox"]');
+    const teamFieldset = search.closest('fieldset')!;
+    const checkboxes = teamFieldset.querySelectorAll<HTMLInputElement>('input[type="checkbox"]');
     expect(checkboxes.length).toBe(1);
     checkboxes[0].click();
     expect(patches).toEqual([{ teams: ['Atalànta'] }]);
+  });
+
+  it('emits auction status multi-select changes from shared filters', () => {
+    const fixture = TestBed.createComponent(FilterFields);
+    fixture.componentRef.setInput('filters', emptyFilters());
+    fixture.componentRef.setInput('teams', []);
+    fixture.componentRef.setInput('roles', []);
+    fixture.componentRef.setInput('idPrefix', 'test');
+    const patches: Partial<PlayerFilters>[] = [];
+    fixture.componentInstance.filtersChange.subscribe((patch) => patches.push(patch));
+    fixture.detectChanges();
+
+    const host = fixture.nativeElement as HTMLElement;
+    const statusFieldset = [...host.querySelectorAll('fieldset')].find((fieldset) =>
+      fieldset.textContent?.includes('Stato asta'),
+    )!;
+    statusFieldset.querySelector<HTMLInputElement>('input[type="checkbox"]')!.click();
+
+    expect(patches).toEqual([{ auctionStatuses: ['available'] }]);
   });
 
   it('explains reversed ranges and prevents a negative bound entering application state', () => {

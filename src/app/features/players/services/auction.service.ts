@@ -7,14 +7,11 @@ import {
   PLATFORM_ID,
   signal,
 } from '@angular/core';
+import { AUCTION_STATUS_OPTIONS, PlayerAuctionStatus } from '../models/auction-status.model';
 
-export type AuctionStatus = 'available' | 'called' | 'purchased';
+export type AuctionStatus = PlayerAuctionStatus;
 export const AUCTION_STORAGE_KEY = 'fantalist-auction-2026-27';
-export const AUCTION_STATUSES: ReadonlyArray<{ value: AuctionStatus; label: string }> = [
-  { value: 'available', label: 'Disponibile' },
-  { value: 'called', label: 'Chiamato' },
-  { value: 'purchased', label: 'Acquistato' },
-];
+export const AUCTION_STATUSES = AUCTION_STATUS_OPTIONS;
 
 export function parseAuctionStorage(raw: string | null): Record<string, AuctionStatus> {
   if (raw === null) return {};

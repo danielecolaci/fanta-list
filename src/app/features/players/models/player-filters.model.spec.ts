@@ -1,9 +1,14 @@
 import { convertToParamMap } from '@angular/router';
-import { emptyFilters, filtersFromParams, filtersToParams } from './player-filters.model';
+import {
+  emptyFilters,
+  filtersFromParams,
+  filtersToParams,
+  PlayerFilters,
+} from './player-filters.model';
 
 describe('Player query parameters', () => {
   it('restores all supported filters, retaining multiple teams and roles', () => {
-    const filters = {
+    const filters: PlayerFilters = {
       ...emptyFilters(),
       search: 'martínez',
       macroRole: 'A' as const,
@@ -13,7 +18,8 @@ describe('Player query parameters', () => {
       maxFvm: 400,
       minQuotation: 5,
       maxQuotation: 50,
-      sort: 'fvm-desc' as const,
+      auctionStatuses: ['available', 'purchased'],
+      sort: 'auction-desc' as const,
     };
     expect(filtersFromParams(convertToParamMap(filtersToParams(filters)))).toEqual(filters);
   });
@@ -27,9 +33,10 @@ describe('Player query parameters', () => {
         maxFvm: '-5',
         minQuotation: 'Infinity',
         maxQuotation: '0',
+        auctionStatus: 'invalid,called',
       }),
     );
-    expect(filters).toEqual({ ...emptyFilters(), maxQuotation: 0 });
+    expect(filters).toEqual({ ...emptyFilters(), maxQuotation: 0, auctionStatuses: ['called'] });
   });
 
   it('normalizes repeated and comma-separated parameters', () => {

@@ -11,7 +11,7 @@ import {
   signal,
   viewChild,
 } from '@angular/core';
-import { ThemeService } from '../../../../core/theme.service';
+import { ThemePreference, ThemeService } from '../../../../core/theme.service';
 import { FilterFields } from '../../components/filter-fields/filter-fields';
 import { PlayerCard } from '../../components/player-card/player-card';
 import { PlayersTable } from '../../components/players-table/players-table';
@@ -79,6 +79,12 @@ export class PlayersPage {
       this.store.patchFilters({ sort: value as PlayerSort });
   }
 
+  changeTheme(value: string): void {
+    if (value === 'light' || value === 'dark' || value === 'system') {
+      this.theme.setPreference(value satisfies ThemePreference);
+    }
+  }
+
   patchDraft(patch: Partial<PlayerFilters>): void {
     this.draft.update((filters) => ({ ...filters, ...patch }));
   }
@@ -88,6 +94,7 @@ export class PlayersPage {
       ...filters,
       roles: [],
       teams: [],
+      auctionStatuses: [],
       minFvm: null,
       maxFvm: null,
       minQuotation: null,
@@ -104,6 +111,7 @@ export class PlayersPage {
       ...this.store.filters(),
       roles: [...this.store.filters().roles],
       teams: [...this.store.filters().teams],
+      auctionStatuses: [...this.store.filters().auctionStatuses],
     });
     const body = this.document.body;
     const scrollY = view.scrollY;
@@ -173,8 +181,17 @@ export class PlayersPage {
 
   applyFilters(): void {
     if (this.invalidDraft()) return;
-    const { roles, teams, minFvm, maxFvm, minQuotation, maxQuotation } = this.draft();
-    this.store.patchFilters({ roles, teams, minFvm, maxFvm, minQuotation, maxQuotation });
+    const { roles, teams, auctionStatuses, minFvm, maxFvm, minQuotation, maxQuotation } =
+      this.draft();
+    this.store.patchFilters({
+      roles,
+      teams,
+      auctionStatuses,
+      minFvm,
+      maxFvm,
+      minQuotation,
+      maxQuotation,
+    });
     this.closeFilters();
   }
 

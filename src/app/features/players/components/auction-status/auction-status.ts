@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
-import { AUCTION_STATUSES, AuctionService } from '../../services/auction.service';
+import { AUCTION_STATUS_OPTIONS } from '../../models/auction-status.model';
+import { AuctionService } from '../../services/auction.service';
 
 @Component({
   selector: 'app-auction-status',
@@ -27,12 +28,12 @@ import { AUCTION_STATUSES, AuctionService } from '../../services/auction.service
         </option>
       }
     </select>
-  `
+  `,
 })
 export class AuctionStatusControl {
   readonly playerId = input.required<string>();
   readonly playerName = input.required<string>();
   readonly auction = inject(AuctionService);
-  readonly options = AUCTION_STATUSES;
+  readonly options = AUCTION_STATUS_OPTIONS;
   readonly status = computed(() => this.auction.statuses()[this.playerId()] ?? 'available');
 }
