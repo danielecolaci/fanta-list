@@ -24,7 +24,7 @@ export const MACRO_ROLES: ReadonlyArray<{
   { value: 'P', label: 'Portieri', singular: 'Portiere' },
   { value: 'D', label: 'Difensori', singular: 'Difensore' },
   { value: 'C', label: 'Centrocampisti', singular: 'Centrocampista' },
-  { value: 'A', label: 'Attaccanti', singular: 'Attaccante' },
+  { value: 'A', label: 'Attaccanti', singular: 'Attaccante' }
 ];
 
 export function normalizeSearch(value: string): string {

@@ -90,22 +90,11 @@
           <dt class="text-slate-500 dark:text-slate-400">FVM</dt>
           <dd class="mt-0.5 font-semibold text-slate-800 tabular-nums dark:text-slate-200">{{ player().fvm.value }}</dd>
         </div>
-        <div>
-          <dt class="text-slate-500 dark:text-slate-400">FVM secondario</dt>
-          <dd class="mt-0.5 font-semibold text-slate-800 tabular-nums dark:text-slate-200">
-            {{ player().fvm.secondaryValue ?? '—' }}
-          </dd>
-        </div>
+
         <div>
           <dt class="text-slate-500 dark:text-slate-400">Quotazione</dt>
           <dd class="mt-0.5 font-semibold text-slate-800 tabular-nums dark:text-slate-200">
             {{ player().quotation.value }}
-          </dd>
-        </div>
-        <div>
-          <dt class="text-slate-500 dark:text-slate-400">Quotazione secondaria</dt>
-          <dd class="mt-0.5 font-semibold text-slate-800 tabular-nums dark:text-slate-200">
-            {{ player().quotation.secondaryValue ?? '—' }}
           </dd>
         </div>
       </dl>
