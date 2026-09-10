@@ -1,0 +1,132 @@
+<article
+  class="overflow-hidden rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900"
+>
+  <button
+    type="button"
+    class="block w-full px-3.5 py-3 text-left transition-colors hover:bg-slate-50 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-emerald-600 dark:hover:bg-slate-800/60"
+    [attr.aria-expanded]="expanded()"
+    [attr.aria-controls]="'player-details-' + player().id"
+    [attr.aria-label]="accessibleLabel()"
+    (click)="expanded.set(!expanded())"
+  >
+    <span class="flex items-start justify-between gap-3">
+      <span class="min-w-0">
+        <span class="block text-[15px] leading-5 font-bold text-slate-950 dark:text-white">{{
+          player().name
+        }}</span>
+        <span class="mt-0.5 block text-xs leading-5 text-slate-500 dark:text-slate-400">{{
+          player().team
+        }}</span>
+      </span>
+      <span
+        class="inline-flex size-7 shrink-0 items-center justify-center rounded-md text-xs font-bold"
+        [class]="roleBadges[player().macroRole]"
+        [attr.aria-label]="roleLabels[player().macroRole]"
+        >{{ player().macroRole }}</span
+      >
+    </span>
+
+    <span class="mt-2 flex items-end justify-between gap-3">
+      <span class="flex min-w-0 flex-wrap items-center gap-1 pb-0.5">
+        @for (role of player().roles; track role) {
+          <span
+            class="rounded bg-slate-100 px-1.5 py-0.5 text-[10px] font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300"
+          >
+            {{ role }}
+          </span>
+        }
+      </span>
+      <span class="flex shrink-0 items-end gap-5">
+        <span class="text-right">
+          <span
+            class="block text-[10px] leading-4 font-semibold tracking-wide text-slate-500 dark:text-slate-400"
+            >FVM</span
+          >
+          <span
+            class="block text-xl leading-6 font-extrabold text-emerald-800 tabular-nums dark:text-emerald-300"
+          >
+            {{ player().fvm.value }}
+          </span>
+        </span>
+        <span class="text-right">
+          <span
+            class="block text-[10px] leading-4 font-semibold tracking-wide text-slate-500 dark:text-slate-400"
+            >Quot.</span
+          >
+          <span
+            class="block text-base leading-6 font-bold text-slate-800 tabular-nums dark:text-slate-100"
+          >
+            {{ player().quotation.value }}
+          </span>
+        </span>
+        <svg
+          class="mb-1 size-3.5 text-slate-400 transition-transform motion-reduce:transition-none"
+          [class.rotate-180]="expanded()"
+          viewBox="0 0 20 20"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          aria-hidden="true"
+        >
+          <path d="m5 7.5 5 5 5-5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
+    </span>
+  </button>
+
+  <div
+    class="flex items-center justify-between gap-3 border-t border-slate-100 px-3.5 py-1 dark:border-slate-800"
+  >
+    <span class="text-[11px] text-slate-500 dark:text-slate-400">Stato d’asta</span>
+    <app-auction-status [playerId]="player().id" [playerName]="player().name" />
+  </div>
+
+  <div
+    class="grid transition-[grid-template-rows] duration-200 motion-reduce:transition-none"
+    [class.grid-rows-[1fr]]="expanded()"
+    [class.grid-rows-[0fr]]="!expanded()"
+    [attr.aria-hidden]="!expanded()"
+    [id]="'player-details-' + player().id"
+  >
+    <div class="overflow-hidden">
+      <dl
+        class="grid grid-cols-2 gap-x-4 gap-y-2 border-t border-slate-100 bg-slate-50 px-3.5 py-3 text-xs dark:border-slate-800 dark:bg-slate-950/40"
+      >
+        <div>
+          <dt class="text-slate-500 dark:text-slate-400">Ruolo completo</dt>
+          <dd class="mt-0.5 font-semibold text-slate-800 dark:text-slate-200">{{ fullRole() }}</dd>
+        </div>
+        <div>
+          <dt class="text-slate-500 dark:text-slate-400">Indice originale</dt>
+          <dd class="mt-0.5 font-semibold text-slate-800 dark:text-slate-200">
+            {{ player().originalIndex }}
+          </dd>
+        </div>
+        <div>
+          <dt class="text-slate-500 dark:text-slate-400">FVM</dt>
+          <dd class="mt-0.5 font-semibold text-slate-800 tabular-nums dark:text-slate-200">
+            {{ player().fvm.value }}
+          </dd>
+        </div>
+        <div>
+          <dt class="text-slate-500 dark:text-slate-400">FVM secondario</dt>
+          <dd class="mt-0.5 font-semibold text-slate-800 tabular-nums dark:text-slate-200">
+            {{ player().fvm.secondaryValue ?? '—' }}
+          </dd>
+        </div>
+        <div>
+          <dt class="text-slate-500 dark:text-slate-400">Quotazione</dt>
+          <dd class="mt-0.5 font-semibold text-slate-800 tabular-nums dark:text-slate-200">
+            {{ player().quotation.value }}
+          </dd>
+        </div>
+        <div>
+          <dt class="text-slate-500 dark:text-slate-400">Quotazione secondaria</dt>
+          <dd class="mt-0.5 font-semibold text-slate-800 tabular-nums dark:text-slate-200">
+            {{ player().quotation.secondaryValue ?? '—' }}
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</article>

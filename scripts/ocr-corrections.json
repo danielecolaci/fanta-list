@@ -1,0 +1,125 @@
+{
+  "sourceSha256": "6d8704ce38608386a6f97f379d3781b771f3be138013c276e69a4cb400d90de4",
+  "expectedCounts": { "P": 64, "D": 189, "C": 193, "A": 86 },
+  "rows": {
+    "p01-r013": {
+      "cells": { "5": "1(1)" },
+      "reason": "Parentesi verificata visivamente nel PDF: Di Gennaro."
+    },
+    "p01-r016": {
+      "cells": { "5": "1(1)" },
+      "reason": "Parentesi verificata visivamente: Gollini."
+    },
+    "p01-r021": { "cells": { "5": "1(1)" }, "reason": "Parentesi verificata visivamente: Lolic." },
+    "p01-r028": { "cells": { "2": "Montipò" }, "reason": "Accento grave nel nome originale." },
+    "p01-r030": { "cells": { "5": "1(1)" }, "reason": "Parentesi verificata visivamente: Mrozek." },
+    "p01-r036": {
+      "cells": { "2": "Penev" },
+      "reason": "OCR ha introdotto spazi interni al cognome."
+    },
+    "p01-r042": { "cells": { "5": "1(1)" }, "reason": "Parentesi verificata visivamente: Pozzi." },
+    "p01-r055": { "cells": { "5": "1(1)" }, "reason": "Parentesi verificata visivamente: Stolz." },
+    "p01-r061": {
+      "cells": { "5": "1(1)" },
+      "reason": "Parentesi verificata visivamente: Torriani."
+    },
+    "p01-r070": { "cells": { "5": "1(1)" }, "reason": "Parentesi verificata visivamente: Antov." },
+    "p02-r006": { "cells": { "2": "Candè" }, "reason": "Accento grave nel nome originale." },
+    "p02-r012": {
+      "cells": { "2": "Chalobah T." },
+      "reason": "Iniziale omessa da Windows OCR, presente nel PDF."
+    },
+    "p02-r024": { "cells": { "2": "Dembelè A." }, "reason": "Accento grave nel nome originale." },
+    "p02-r029": { "cells": { "2": "Dodò" }, "reason": "Accento grave nel nome originale." },
+    "p02-r052": { "cells": { "0": "#77" }, "reason": "Indice #77 di Haps letto come #17." },
+    "p02-r055": { "cells": { "0": "#80" }, "reason": "Indice #80 di Hermoso letto come #380." },
+    "p02-r056": { "cells": { "0": "#81" }, "reason": "Indice #81 di Hien letto come #381." },
+    "p02-r066": {
+      "cells": { "2": "Kaiki" },
+      "reason": "OCR ha perso una lettera e inserito uno spazio."
+    },
+    "p02-r069": {
+      "cells": { "5": "3(4)" },
+      "reason": "Entrambi i valori di Kambwala verificati nel PDF."
+    },
+    "p03-r034": { "cells": { "2": "Smolcic I." }, "reason": "Iniziale I maiuscola nel PDF." },
+    "p03-r064": { "cells": { "2": "Zè Pedro" }, "reason": "Accento grave nel nome originale." },
+    "p03-r065": {
+      "cells": { "5": "1(1)" },
+      "reason": "Parentesi verificata visivamente: Ziolkowski."
+    },
+    "p03-r077": {
+      "cells": { "1": "C(C,T)" },
+      "reason": "OCR ha omesso T nel ruolo di Atta; verificato sul PDF."
+    },
+    "p03-r079": { "cells": { "1": "C(T)" }, "reason": "T letto come M nel ruolo di Baldanzi." },
+    "p03-r085": { "cells": { "2": "Bernabè" }, "reason": "Accento grave nel nome originale." },
+    "p03-r093": { "cells": { "2": "Calò" }, "reason": "Accento grave nel nome originale." },
+    "p03-r096": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso T nel ruolo di Caqueret." },
+    "p04-r001": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso T nel ruolo di Casadei." },
+    "p04-r007": { "cells": { "2": "Cissè A." }, "reason": "Accento grave nel nome originale." },
+    "p04-r021": {
+      "cells": { "1": "C(C,T)" },
+      "reason": "OCR ha omesso T nel ruolo di Dele-Bashiru."
+    },
+    "p04-r028": {
+      "cells": { "1": "C(C,T)" },
+      "reason": "OCR ha omesso C nel ruolo di Ekkelenkamp."
+    },
+    "p04-r034": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso C nel ruolo di Fabbian." },
+    "p04-r037": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso T nel ruolo di Fazzini." },
+    "p04-r044": {
+      "cells": { "5": "1(1)" },
+      "reason": "Parentesi verificata visivamente: Fofana Sa."
+    },
+    "p04-r052": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso T nel ruolo di Gelli F." },
+    "p04-r060": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso C nel ruolo di Hasa." },
+    "p04-r072": {
+      "cells": { "2": "Kessiè", "3": "Atalanta" },
+      "reason": "Accento e squadra verificati nel PDF; spazi OCR spuri."
+    },
+    "p04-r073": { "cells": { "2": "Konè B." }, "reason": "Accento grave nel nome originale." },
+    "p04-r074": {
+      "cells": { "2": "Konè I." },
+      "reason": "Accento grave e iniziale I maiuscola nel PDF."
+    },
+    "p04-r075": { "cells": { "2": "Konè M." }, "reason": "Accento grave nel nome originale." },
+    "p04-r078": { "cells": { "5": "1(1)" }, "reason": "Parentesi verificata visivamente: Laerke." },
+    "p04-r090": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso T nel ruolo di Massolin." },
+    "p04-r094": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso T nel ruolo di Mckennie." },
+    "p04-r095": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso T nel ruolo di Mctominay." },
+    "p05-r008": { "cells": { "5": "1(1)" }, "reason": "Parentesi verificata visivamente: Mout." },
+    "p05-r032": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso C nel ruolo di Rabiot." },
+    "p05-r039": { "cells": { "1": "C(C,T)" }, "reason": "OCR ha omesso T nel ruolo di Samardzic." },
+    "p05-r046": { "cells": { "2": "Sulemana I." }, "reason": "Iniziale I maiuscola nel PDF." },
+    "p05-r048": {
+      "cells": { "1": "C(C,T)" },
+      "reason": "OCR ha omesso T nel ruolo di Thorstvedt."
+    },
+    "p05-r050": {
+      "cells": { "2": "Tourè I." },
+      "reason": "Accento grave e iniziale I maiuscola nel PDF."
+    },
+    "p05-r051": { "cells": { "2": "Traorè Hj." }, "reason": "Accento grave nel nome originale." },
+    "p05-r064": {
+      "cells": { "1": "C(W)" },
+      "reason": "Ruolo di Zhegrova verificato visivamente nel PDF."
+    },
+    "p05-r075": {
+      "cells": { "5": "7(6)" },
+      "reason": "Secondario quotazione Bonny letto 8 invece di 6; verificato nel PDF."
+    },
+    "p05-r083": {
+      "cells": { "2": "De Ketelaere" },
+      "reason": "OCR ha perso una lettera e inserito uno spazio."
+    },
+    "p05-r091": { "cells": { "2": "Esposito F.P." }, "reason": "Iniziali F.P. nel PDF, non F.R." },
+    "p06-r014": { "cells": { "2": "Laurientè" }, "reason": "Accento grave nel nome originale." },
+    "p06-r036": {
+      "cells": { "5": "1(1)" },
+      "reason": "Parentesi verificata visivamente: Robinho Junior."
+    },
+    "p06-r043": { "cells": { "2": "Soulè" }, "reason": "Accento grave nel nome originale." },
+    "p06-r047": { "cells": { "2": "Tourè E." }, "reason": "Accento grave nel nome originale." }
+  }
+}

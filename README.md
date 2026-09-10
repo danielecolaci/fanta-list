@@ -1,59 +1,113 @@
-# FantaList
+# FantaList · 2026/27
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.3.
+Applicazione per consultare il listone durante l’asta: ricerca immediata, FVM e quotazioni visibili,
+filtri combinati e stato dei calciatori salvato nel browser.
 
-## Development server
+## Avvio
 
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Con Node.js 22 (almeno 22.12) e npm:
 
 ```bash
-ng generate component component-name
+npm install
+npm start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Apri `http://localhost:4200`. Puoi usare anche `npx ng serve` oppure `ng serve` con CLI globale.
+Il JSON è già incluso: **non occorrono Python e OCR per usare l’app**.
+
+## Funzionalità
+
+- Angular 21, standalone OnPush, TypeScript strict e stato con Signals.
+- Tailwind CSS 4.3 con temi chiaro, scuro e automatico, senza librerie UI.
+- Ricerca per nome e squadra senza distinzione di maiuscole e accenti.
+- Macro ruoli, sottoruoli e squadre multipli, intervalli FVM/quotazione, ordinamento e chip rimovibili.
+- Card su smartphone e tablet; da 1024px tabella e sidebar. Viene renderizzata solo la vista pertinente.
+- Bottom sheet con bozza, Applica/Reset, Escape, backdrop, focus confinato e blocco dello scroll.
+- Dettagli espandibili con entrambi i valori del documento, ruoli completi e indice originale.
+- Stato **Disponibile / Chiamato / Acquistato**, modificabile da card e tabella e indipendente dai filtri.
+- Tema e stato d’asta persistono in localStorage. Le schede dello stesso browser sincronizzano lo stato
+  d’asta. Il salvataggio è locale: non si trasferisce automaticamente ad altri dispositivi.
+- Skeleton, stato vuoto, gestione errori e pulsante Riprova.
+
+I filtri sono condivisibili e ripristinabili dalla URL:
+
+```text
+/?role=A&roles=Pc&team=Inter&minFvm=50&sort=fvm-desc
+```
+
+Parametri: `role`, `roles`, `team`, `q`, `minFvm`, `maxFvm`, `minQuotation`, `maxQuotation`, `sort`.
+I multiselect usano valori separati da virgola. Reset filtri non cancella lo stato d’asta.
+
+## Dati
+
+Sorgente: `public/data/lista.pdf`, sei pagine immagine. Il frontend carica `/data/players.json`
+e non esegue PDF parsing o OCR. Il dataset contiene **532 calciatori**: 64 portieri, 189 difensori,
+193 centrocampisti e 86 attaccanti, 20 squadre e 12 sottoruoli.
+
+L’indice riparte per categoria; gli ID derivano separatamente da macro ruolo, nome e squadra, gestendo
+le collisioni. I valori tra parentesi restano `secondaryValue`: il documento non ne spiega il significato.
+Filtri e ordinamenti usano `value`. Nomi, accenti e squadre rispecchiano la sorgente senza aggiornamenti esterni.
+
+### Riprodurre l’importazione (solo sviluppo, Windows)
+
+Python 3.12+, OCR Windows con lingua inglese disponibile e Node.js:
 
 ```bash
-ng generate --help
+python -m pip install --target .local-tools/pdf -r scripts/requirements.txt
+npm install --prefix .local-tools/ocr --no-audit --no-fund tesseract.js@7.0.0
+npm run data:import
 ```
 
-## Building
+Il comando renderizza il PDF, esegue OCR Windows e Tesseract locale, riconcilia le righe e applica le
+correzioni verificate in `scripts/ocr-corrections.json`. Al primo utilizzo Tesseract scarica il modello
+inglese nella cache locale. Gli strumenti e gli intermedi restano in `.local-tools`, esclusa da Git
+e dal bundle. Nessun servizio riceve le pagine del PDF.
 
-To build the project run:
+Per riutilizzare l’OCR completato dello stesso PDF:
 
 ```bash
-ng build
+python scripts/import_players.py --reuse-ocr
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Cache e correzioni sono vincolate all’hash SHA-256 del PDF. Un nuovo documento richiede una nuova verifica.
+Righe malformate, indici mancanti o duplicati e conteggi inattesi interrompono l’importazione.
+Il JSON viene sostituito soltanto dopo la validazione completa.
 
-## Running unit tests
+Consulta [l’audit del dataset](scripts/DATASET_AUDIT.md) e il campione riproducibile in
+`scripts/dataset-report.json`.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## Verifiche
 
 ```bash
-ng test
+npm run data:validate
+npm run test:import
+npm run test:unit
+npm run test:e2e
+npm run format:check
+npm run build
 ```
 
-## Running end-to-end tests
+I test unitari usano Karma/Jasmine e Chrome Headless. I test end-to-end usano Chrome installato
+(`channel: chrome`), avviano l’app su `127.0.0.1:4201` e verificano dataset reale, responsive,
+asta, persistenza, URL, filtri, errori e accessibilità con axe.
+Screenshot e tracce sono in `test-results/`, esclusa da Git.
 
-For end-to-end (e2e) testing, run:
+`npm run format` applica `.prettierrc.json`. Il repository non ha ESLint:
+i controlli statici sono TypeScript strict e i template strict Angular.
 
-```bash
-ng e2e
+## Build e struttura
+
+`ng build` genera la SPA in `dist/fanta-list/browser`. Non sono configurati SSR, prerender, backend
+o autenticazione. Sul server statico conserva `data/players.json` e configura il fallback delle rotte
+su `index.html`.
+
+```text
+src/app/core/                         tema
+src/app/features/players/models/      modelli, validazione e URL
+src/app/features/players/services/    caricamento, filtri Signals e asta
+src/app/features/players/components/  card, tabella, filtri e stato
+src/app/features/players/pages/       pagina e bottom sheet
+public/data/                         PDF e dataset statico
+scripts/                             importazione, correzioni e audit
+e2e/                                 verifiche nel browser
 ```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

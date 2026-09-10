@@ -1,0 +1,2 @@
+# Tooling locale per l'importazione: non è una dipendenza dell'app Angular.
+PyMuPDF==1.28.2

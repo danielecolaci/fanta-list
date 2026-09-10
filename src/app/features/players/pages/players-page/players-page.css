@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  --table-top: 7.5rem;
+}
+
+dialog::backdrop {
+  background: rgb(2 6 23 / 60%);
+  backdrop-filter: blur(3px);
+}
+
+dialog[open] {
+  animation: sheet-enter 160ms ease-out;
+}
+
+@keyframes sheet-enter {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 64rem) {
+  :host {
+    --table-top: 4.625rem;
+  }
+}

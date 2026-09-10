@@ -1,0 +1,444 @@
+<a
+  href="#players-results"
+  class="fixed top-2 left-2 z-50 -translate-y-24 rounded-lg bg-emerald-700 px-4 py-3 font-semibold text-white focus:translate-y-0"
+  >Vai ai calciatori</a
+>
+
+<header class="border-b border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950">
+  <div class="mx-auto flex max-w-7xl items-center justify-between gap-2 px-3 py-3 sm:px-6 lg:px-8">
+    <a
+      href="/"
+      aria-label="FantaList, pagina iniziale"
+      class="flex min-h-11 items-center gap-2.5 rounded-lg"
+    >
+      <svg aria-hidden="true" class="size-9 shrink-0" viewBox="0 0 48 48" fill="none">
+        <rect width="48" height="48" rx="12" fill="#047857" />
+        <path d="M15 12h21v6H22v6h11v6H22v10h-7z" fill="white" />
+        <path d="M9 8v30" stroke="#6ee7b7" stroke-width="2" />
+      </svg>
+      <span class="text-lg font-black tracking-tight"
+        >FANTA<span class="font-normal text-slate-500 dark:text-slate-400">LIST</span></span
+      >
+    </a>
+    <div class="flex items-center gap-3">
+      <span
+        class="hidden rounded border border-slate-200 px-2 py-1 text-xs font-semibold tracking-wide text-slate-600 sm:block dark:border-slate-700 dark:text-slate-300"
+        >STAGIONE 2026/27</span
+      >
+      <label for="theme-select" class="sr-only">Tema</label>
+      <select
+        id="theme-select"
+        #themeSelect
+        [value]="theme.preference()"
+        (change)="theme.setPreference(themeSelect.value)"
+        class="min-h-11 max-w-30 rounded-lg border border-slate-200 bg-white px-2 text-xs font-medium sm:text-sm dark:border-slate-700 dark:bg-slate-900"
+      >
+        <option value="system">Automatico</option>
+        <option value="light">Tema chiaro</option>
+        <option value="dark">Tema scuro</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main>
+  @if (auction.persistenceError(); as message) {
+    <p
+      role="status"
+      class="mx-auto max-w-7xl border-b border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:border-amber-900 dark:bg-amber-950 dark:text-amber-200"
+    >
+      {{ message }}
+    </p>
+  }
+  <section
+    aria-labelledby="page-title"
+    class="mx-auto flex max-w-7xl items-end justify-between gap-4 px-3 pt-6 pb-5 sm:px-6 lg:px-8 lg:pt-9 lg:pb-7"
+  >
+    <div>
+      <p
+        class="mb-2 flex items-center gap-2 text-[10px] font-bold tracking-[0.18em] text-emerald-700 sm:text-xs dark:text-emerald-400"
+      >
+        <span class="h-1.5 w-5 rounded-full bg-emerald-600"></span> IL TUO PROSSIMO COLPO · 2026/27
+      </p>
+      <h1 id="page-title" class="text-2xl font-extrabold tracking-tight sm:text-3xl lg:text-4xl">
+        Listone calciatori<span class="text-emerald-600">.</span>
+      </h1>
+      <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">
+        Le quote giuste, al momento giusto.
+      </p>
+    </div>
+    @if (!data.loading() && !data.error()) {
+      <div class="hidden shrink-0 items-center gap-6 pb-1 text-right lg:flex">
+        <div>
+          <p class="text-2xl font-bold tabular-nums">{{ data.players().length }}</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">calciatori nel listone</p>
+        </div>
+        <div class="h-9 w-px bg-slate-200 dark:bg-slate-800"></div>
+        <div>
+          <p class="text-2xl font-bold tabular-nums">{{ store.availableTeams().length }}</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">squadre</p>
+        </div>
+      </div>
+    }
+  </section>
+
+  <div
+    class="sticky top-0 z-20 border-y border-slate-200 bg-white/95 backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/95"
+  >
+    <div
+      class="mx-auto flex max-w-7xl flex-col gap-2 px-3 py-3 sm:px-6 lg:h-18 lg:flex-row lg:items-center lg:gap-6 lg:px-8"
+    >
+      <div class="relative min-w-0 flex-1">
+        <label class="sr-only" for="player-search">Cerca per nome o squadra</label>
+        <svg
+          aria-hidden="true"
+          class="pointer-events-none absolute top-3 left-3.5 size-5 text-slate-400"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+        >
+          <circle cx="10.8" cy="10.8" r="6.8" />
+          <path d="m16 16 4.5 4.5" />
+        </svg>
+        <input
+          id="player-search"
+          #searchInput
+          type="search"
+          autocomplete="off"
+          spellcheck="false"
+          enterkeyhint="search"
+          placeholder="Cerca un calciatore o una squadra…"
+          [value]="store.filters().search"
+          (input)="store.patchFilters({ search: searchInput.value })"
+          class="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 pr-3 pl-11 text-base placeholder:text-slate-500 dark:border-slate-700 dark:bg-slate-900 dark:placeholder:text-slate-400"
+        />
+      </div>
+      <nav
+        aria-label="Filtra per macro ruolo"
+        class="flex shrink-0 gap-1 rounded-xl bg-slate-100 p-1 dark:bg-slate-900"
+      >
+        <button
+          type="button"
+          (click)="store.setMacroRole(null)"
+          [attr.aria-pressed]="store.filters().macroRole === null"
+          class="min-h-11 min-w-12 flex-1 rounded-lg px-3 text-sm font-semibold text-slate-600 transition hover:bg-white aria-pressed:bg-emerald-700 aria-pressed:text-white sm:px-5 lg:flex-none dark:text-slate-300 dark:hover:bg-slate-800 dark:aria-pressed:bg-emerald-700 dark:aria-pressed:text-white"
+        >
+          Tutti
+        </button>
+        @for (role of macroRoles; track role.value) {
+          <button
+            type="button"
+            [attr.aria-label]="role.label"
+            [title]="role.label"
+            (click)="store.setMacroRole(role.value)"
+            [attr.aria-pressed]="store.filters().macroRole === role.value"
+            class="min-h-11 min-w-11 flex-1 rounded-lg px-2 text-sm font-semibold text-slate-600 transition hover:bg-white aria-pressed:bg-emerald-700 aria-pressed:text-white sm:px-4 lg:flex-none dark:text-slate-300 dark:hover:bg-slate-800 dark:aria-pressed:bg-emerald-700 dark:aria-pressed:text-white"
+          >
+            <span class="sm:hidden lg:inline xl:hidden">{{ role.value }}</span
+            ><span class="hidden sm:inline lg:hidden xl:inline">{{ role.label }}</span>
+          </button>
+        }
+      </nav>
+    </div>
+  </div>
+
+  <div
+    class="mx-auto grid max-w-7xl items-start gap-6 px-3 pt-4 pb-10 sm:px-6 lg:grid-cols-[15rem_minmax(0,1fr)] lg:px-8 lg:pt-6"
+  >
+    <aside
+      aria-labelledby="sidebar-title"
+      class="sticky top-[calc(var(--table-top)+1rem)] hidden max-h-[calc(100dvh-var(--table-top)-2rem)] overflow-y-auto rounded-xl border border-slate-200 bg-white p-4 lg:block dark:border-slate-800 dark:bg-slate-900"
+    >
+      <div class="mb-5 flex items-center justify-between">
+        <h2 id="sidebar-title" class="text-sm font-bold">Filtri</h2>
+        @if (store.hasActiveFilters()) {
+          <button
+            type="button"
+            (click)="store.resetFilters()"
+            class="min-h-11 px-2 text-xs font-semibold text-emerald-700 hover:underline dark:text-emerald-400"
+          >
+            Reset
+          </button>
+        }
+      </div>
+      <app-filter-fields
+        idPrefix="desktop"
+        [filters]="store.filters()"
+        [teams]="store.availableTeams()"
+        [roles]="store.availableRoles()"
+        (filtersChange)="store.patchFilters($event)"
+      />
+    </aside>
+
+    <section
+      id="players-results"
+      aria-label="Risultati del listone"
+      class="min-w-0 scroll-mt-36"
+      tabindex="-1"
+    >
+      <div class="mb-3 flex items-center justify-between gap-2">
+        <button
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="filter-dialog"
+          [attr.aria-expanded]="drawerOpen()"
+          (click)="openFilters()"
+          class="flex min-h-11 shrink-0 items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 text-sm font-semibold lg:hidden dark:border-slate-700 dark:bg-slate-900"
+        >
+          <svg
+            aria-hidden="true"
+            class="size-4"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="M4 7h16M4 17h16" />
+            <circle cx="8" cy="7" r="3" class="fill-white dark:fill-slate-900" />
+            <circle cx="16" cy="17" r="3" class="fill-white dark:fill-slate-900" />
+          </svg>
+          Filtri
+          @if (store.activeFiltersCount()) {
+            <span
+              class="flex size-5 items-center justify-center rounded-full bg-emerald-100 text-[10px] text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300"
+              >{{ store.activeFiltersCount() }}</span
+            >
+          }
+        </button>
+        <p
+          class="hidden text-xs font-medium tracking-wide text-slate-500 uppercase lg:block dark:text-slate-400"
+        >
+          Esplora il listone
+        </p>
+        <div class="flex min-w-0 items-center gap-2">
+          <label for="player-sort" class="sr-only">Ordinamento</label>
+          <svg
+            aria-hidden="true"
+            class="hidden size-4 shrink-0 text-slate-500 min-[360px]:block"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="M8 4v16m-4-4 4 4 4-4M16 20V4m-4 4 4-4 4 4" />
+          </svg>
+          <select
+            id="player-sort"
+            #sortSelect
+            [value]="store.filters().sort"
+            (change)="changeSort(sortSelect.value)"
+            class="min-h-11 min-w-0 max-w-full rounded-lg border border-slate-200 bg-white px-2 text-xs font-medium sm:px-3 sm:text-sm dark:border-slate-700 dark:bg-slate-900"
+          >
+            @for (option of sortOptions; track option.value) {
+              <option [value]="option.value" [selected]="option.value === store.filters().sort">
+                {{ option.label }}
+              </option>
+            }
+          </select>
+        </div>
+      </div>
+
+      @if (store.hasActiveFilters()) {
+        <div aria-label="Filtri attivi" class="mb-3 flex flex-wrap items-center gap-1.5">
+          @for (chip of store.activeFilters(); track chip.id) {
+            <button
+              type="button"
+              (click)="store.removeFilter(chip.id)"
+              [attr.aria-label]="'Rimuovi filtro ' + chip.label"
+              class="flex min-h-9 max-w-full items-center gap-2 rounded-lg border border-emerald-200 bg-emerald-50 px-2.5 text-xs font-medium text-emerald-800 hover:bg-emerald-100 dark:border-emerald-900 dark:bg-emerald-950 dark:text-emerald-300 dark:hover:bg-emerald-900"
+            >
+              <span class="truncate">{{ chip.label }}</span
+              ><span aria-hidden="true" class="text-base">×</span>
+            </button>
+          }
+          <button
+            type="button"
+            (click)="store.resetFilters()"
+            class="min-h-9 px-2 text-xs font-semibold text-slate-600 underline underline-offset-2 dark:text-slate-300"
+          >
+            Reset
+          </button>
+        </div>
+      }
+
+      <div class="mb-3 flex min-h-7 items-center justify-between gap-2">
+        <p aria-live="polite" aria-atomic="true" class="text-sm text-slate-500 dark:text-slate-400">
+          @if (data.loading()) {
+            Caricamento listone…
+          } @else {
+            <strong class="font-bold text-slate-900 dark:text-white">{{
+              store.resultsCount()
+            }}</strong>
+            {{ resultsLabel() }}
+          }
+        </p>
+        <span class="text-[10px] text-slate-500 sm:text-xs dark:text-slate-400"
+          >FVM · Quotazione</span
+        >
+      </div>
+
+      @if (data.loading()) {
+        <div
+          aria-label="Caricamento calciatori"
+          aria-busy="true"
+          class="overflow-hidden rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900"
+        >
+          <div
+            class="hidden grid-cols-[3fr_1fr_2fr_1fr_1fr] gap-4 border-b border-slate-200 bg-slate-50 px-4 py-3 text-xs font-semibold text-slate-500 lg:grid dark:border-slate-800 dark:bg-slate-900"
+          >
+            <span>Nome</span><span>Ruolo</span><span>Squadra</span
+            ><span class="text-right">FVM</span><span class="text-right">Quot.</span>
+          </div>
+          @for (row of skeletonRows; track row) {
+            <div
+              aria-hidden="true"
+              class="flex animate-pulse items-center justify-between gap-5 border-b border-slate-100 px-4 py-5 last:border-0 lg:py-3.5 dark:border-slate-800"
+            >
+              <div class="flex-1 space-y-2">
+                <div class="h-4 w-3/5 rounded bg-slate-200 dark:bg-slate-700"></div>
+                <div class="h-3 w-1/3 rounded bg-slate-100 lg:hidden dark:bg-slate-800"></div>
+              </div>
+              <div class="hidden h-5 w-12 rounded bg-slate-100 lg:block dark:bg-slate-800"></div>
+              <div class="hidden h-3 w-24 rounded bg-slate-100 lg:block dark:bg-slate-800"></div>
+              <div class="h-6 w-10 rounded bg-slate-200 dark:bg-slate-700"></div>
+              <div class="h-4 w-7 rounded bg-slate-100 dark:bg-slate-800"></div>
+            </div>
+          }
+        </div>
+      } @else if (data.error()) {
+        <div
+          role="alert"
+          class="rounded-xl border border-slate-200 bg-white px-5 py-14 text-center dark:border-slate-800 dark:bg-slate-900"
+        >
+          <span
+            aria-hidden="true"
+            class="mx-auto mb-4 flex size-12 items-center justify-center rounded-full bg-rose-50 text-xl font-bold text-rose-700 dark:bg-rose-950 dark:text-rose-300"
+            >!</span
+          >
+          <h2 class="font-bold">Impossibile caricare il listone.</h2>
+          <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">
+            Controlla la connessione e riprova.
+          </p>
+          <button
+            type="button"
+            (click)="data.load()"
+            class="mt-5 min-h-11 rounded-lg bg-emerald-700 px-5 text-sm font-semibold text-white hover:bg-emerald-800 dark:bg-emerald-700 dark:hover:bg-emerald-800"
+          >
+            Riprova
+          </button>
+        </div>
+      } @else if (store.resultsCount() === 0) {
+        <div
+          class="rounded-xl border border-slate-200 bg-white px-5 py-14 text-center dark:border-slate-800 dark:bg-slate-900"
+        >
+          <svg
+            aria-hidden="true"
+            class="mx-auto mb-4 size-10 text-slate-400"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.3"
+          >
+            <circle cx="10.8" cy="10.8" r="6.8" />
+            <path d="m16 16 4.5 4.5M8 11h5" />
+          </svg>
+          <h2 class="font-bold">Nessun calciatore trovato</h2>
+          <p class="mx-auto mt-2 max-w-xs text-sm text-slate-500 dark:text-slate-400">
+            Prova a modificare la ricerca oppure rimuovi alcuni filtri.
+          </p>
+          <button
+            type="button"
+            (click)="store.resetFilters()"
+            class="mt-5 min-h-11 rounded-lg bg-emerald-700 px-5 text-sm font-semibold text-white hover:bg-emerald-800 dark:bg-emerald-700 dark:hover:bg-emerald-800"
+          >
+            Reset filtri
+          </button>
+        </div>
+      } @else {
+        @if (isDesktop()) {
+          <app-players-table
+            [players]="store.filteredPlayers()"
+            [sort]="store.filters().sort"
+            (sortChange)="store.patchFilters({ sort: $event })"
+          />
+        } @else {
+          <div class="space-y-2 lg:hidden">
+            @for (player of store.filteredPlayers(); track player.id) {
+              <app-player-card [player]="player" />
+            }
+          </div>
+        }
+      }
+      <p class="mt-5 text-center text-[11px] leading-relaxed text-slate-500 dark:text-slate-400">
+        Valori dal Listone 2026/27. Apri un calciatore per consultare anche i valori tra parentesi.
+      </p>
+    </section>
+  </div>
+</main>
+
+<footer
+  class="border-t border-slate-200 px-3 py-5 text-center text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400"
+>
+  FantaList <span aria-hidden="true">/</span> A portata d’asta.
+</footer>
+
+<dialog
+  #filterDialog
+  id="filter-dialog"
+  aria-labelledby="filter-dialog-title"
+  (keydown)="trapFocus($event)"
+  (cancel)="cancelFilters($event)"
+  (close)="closeFilters()"
+  (click)="closeFromBackdrop($event)"
+  class="fixed inset-x-0 top-auto bottom-0 m-0 mx-auto max-h-[88dvh] w-full max-w-xl overflow-hidden rounded-t-2xl border-0 bg-white p-0 text-slate-900 shadow-2xl open:flex open:flex-col dark:bg-slate-900 dark:text-slate-100"
+>
+  <div
+    aria-hidden="true"
+    class="mx-auto mt-2 h-1 w-9 shrink-0 rounded-full bg-slate-300 dark:bg-slate-600"
+  ></div>
+  <div
+    class="flex shrink-0 items-center justify-between border-b border-slate-200 px-5 py-2 dark:border-slate-800"
+  >
+    <h2 id="filter-dialog-title" class="text-lg font-bold">Filtri</h2>
+    <button
+      type="button"
+      autofocus
+      aria-label="Chiudi filtri"
+      (click)="closeFilters()"
+      class="flex size-11 items-center justify-center rounded-lg text-2xl hover:bg-slate-100 dark:hover:bg-slate-800"
+    >
+      ×
+    </button>
+  </div>
+  <div class="min-h-0 flex-1 overflow-y-auto overscroll-contain px-5 py-5">
+    @if (drawerOpen()) {
+      <app-filter-fields
+        idPrefix="mobile"
+        [filters]="draft()"
+        [teams]="store.availableTeams()"
+        [roles]="store.availableRoles()"
+        (filtersChange)="patchDraft($event)"
+      />
+    }
+  </div>
+  <div
+    class="flex shrink-0 items-center gap-3 border-t border-slate-200 px-5 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))] dark:border-slate-800"
+  >
+    <button
+      type="button"
+      (click)="resetDraft()"
+      class="min-h-11 flex-1 rounded-lg border border-slate-300 px-4 text-sm font-semibold hover:bg-slate-50 dark:border-slate-700 dark:hover:bg-slate-800"
+    >
+      Reset
+    </button>
+    <button
+      type="button"
+      (click)="applyFilters()"
+      [disabled]="invalidDraft()"
+      class="min-h-11 flex-[2] rounded-lg bg-emerald-700 px-5 text-sm font-semibold text-white hover:bg-emerald-800 disabled:opacity-40 dark:bg-emerald-700 dark:hover:bg-emerald-800"
+    >
+      Applica
+    </button>
+  </div>
+</dialog>

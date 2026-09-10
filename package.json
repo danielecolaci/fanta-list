@@ -6,7 +6,14 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "test:unit": "ng test --watch=false --browsers=ChromeHeadless",
+    "test:e2e": "playwright test",
+    "test:import": "python -m unittest discover -s scripts -p test_*.py",
+    "data:import": "python scripts/import_players.py",
+    "data:validate": "python scripts/import_players.py --validate public/data/players.json",
+    "format": "prettier --write src public/theme-init.js package.json angular.json playwright.config.ts e2e README.md",
+    "format:check": "prettier --check src public/theme-init.js package.json angular.json playwright.config.ts e2e README.md"
   },
   "prettier": {
     "printWidth": 100,
@@ -22,12 +29,12 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^20.3.0",
-    "@angular/compiler": "^20.3.0",
-    "@angular/core": "^20.3.0",
-    "@angular/forms": "^20.3.0",
-    "@angular/platform-browser": "^20.3.0",
-    "@angular/router": "^20.3.0",
+    "@angular/common": "^21.2.23",
+    "@angular/compiler": "^21.2.23",
+    "@angular/core": "^21.2.23",
+    "@angular/forms": "^21.2.23",
+    "@angular/platform-browser": "^21.2.23",
+    "@angular/router": "^21.2.23",
     "@tailwindcss/postcss": "^4.3.3",
     "postcss": "^8.5.28",
     "rxjs": "~7.8.0",
@@ -36,9 +43,11 @@
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular/build": "^20.3.3",
-    "@angular/cli": "^20.3.3",
-    "@angular/compiler-cli": "^20.3.0",
+    "@angular/build": "^21.2.23",
+    "@angular/cli": "^21.2.23",
+    "@angular/compiler-cli": "^21.2.23",
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.58.2",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.9.0",
     "karma": "~6.4.0",
@@ -46,6 +55,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "prettier": "^3.8.1",
     "typescript": "~5.9.2"
   }
 }

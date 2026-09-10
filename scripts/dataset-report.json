@@ -1,0 +1,1565 @@
+{
+  "source": "lista.pdf",
+  "sourceSha256": "6d8704ce38608386a6f97f379d3781b771f3be138013c276e69a4cb400d90de4",
+  "method": "Windows.Media.Ocr + Tesseract 7.0.0 + visual corrections",
+  "summary": {
+    "total": 532,
+    "byMacroRole": {
+      "P": 64,
+      "D": 189,
+      "C": 193,
+      "A": 86
+    },
+    "teams": 20,
+    "roles": 12,
+    "errors": 0
+  },
+  "correctedRows": 59,
+  "manualAudit": "See scripts/DATASET_AUDIT.md",
+  "sample": [
+    {
+      "source": {
+        "key": "p01-r001",
+        "page": 1,
+        "y": 406,
+        "section": "P",
+        "cells": [
+          "#1",
+          "P(Por)",
+          "Bijlow",
+          "Genoa",
+          "15(15)",
+          "8(8)"
+        ]
+      },
+      "player": {
+        "id": "P-bijlow-genoa",
+        "originalIndex": 1,
+        "name": "Bijlow",
+        "team": "Genoa",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 15,
+          "secondaryValue": 15
+        },
+        "quotation": {
+          "value": 8,
+          "secondaryValue": 8
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r002",
+        "page": 1,
+        "y": 450,
+        "section": "P",
+        "cells": [
+          "#2",
+          "P(Por)",
+          "Bleve",
+          "Lecce",
+          "1(1)",
+          "1(1)"
+        ]
+      },
+      "player": {
+        "id": "P-bleve-lecce",
+        "originalIndex": 2,
+        "name": "Bleve",
+        "team": "Lecce",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 1,
+          "secondaryValue": 1
+        },
+        "quotation": {
+          "value": 1,
+          "secondaryValue": 1
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r003",
+        "page": 1,
+        "y": 495,
+        "section": "P",
+        "cells": [
+          "#3",
+          "P(Por)",
+          "Butez",
+          "Como",
+          "50(50)",
+          "15(15)"
+        ]
+      },
+      "player": {
+        "id": "P-butez-como",
+        "originalIndex": 3,
+        "name": "Butez",
+        "team": "Como",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 50,
+          "secondaryValue": 50
+        },
+        "quotation": {
+          "value": 15,
+          "secondaryValue": 15
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r032",
+        "page": 1,
+        "y": 1829,
+        "section": "P",
+        "cells": [
+          "#32",
+          "P(Por)",
+          "Okoye",
+          "Udinese",
+          "28(28)",
+          "9(9)"
+        ]
+      },
+      "player": {
+        "id": "P-okoye-udinese",
+        "originalIndex": 32,
+        "name": "Okoye",
+        "team": "Udinese",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 28,
+          "secondaryValue": 28
+        },
+        "quotation": {
+          "value": 9,
+          "secondaryValue": 9
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r033",
+        "page": 1,
+        "y": 1880,
+        "section": "P",
+        "cells": [
+          "#33",
+          "P(Por)",
+          "Padelli",
+          "Udinese",
+          "1(1)",
+          "1(1)"
+        ]
+      },
+      "player": {
+        "id": "P-padelli-udinese",
+        "originalIndex": 33,
+        "name": "Padelli",
+        "team": "Udinese",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 1,
+          "secondaryValue": 1
+        },
+        "quotation": {
+          "value": 1,
+          "secondaryValue": 1
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r034",
+        "page": 1,
+        "y": 1926,
+        "section": "P",
+        "cells": [
+          "#34",
+          "P(Por)",
+          "Paleari",
+          "Torino",
+          "1(1)",
+          "1(1)"
+        ]
+      },
+      "player": {
+        "id": "P-paleari-torino",
+        "originalIndex": 34,
+        "name": "Paleari",
+        "team": "Torino",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 1,
+          "secondaryValue": 1
+        },
+        "quotation": {
+          "value": 1,
+          "secondaryValue": 1
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r045",
+        "page": 1,
+        "y": 2434,
+        "section": "P",
+        "cells": [
+          "#45",
+          "P(Por)",
+          "Renzetti",
+          "Lazio",
+          "1(1)",
+          "1(1)"
+        ]
+      },
+      "player": {
+        "id": "P-renzetti-lazio",
+        "originalIndex": 45,
+        "name": "Renzetti",
+        "team": "Lazio",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 1,
+          "secondaryValue": 1
+        },
+        "quotation": {
+          "value": 1,
+          "secondaryValue": 1
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r062",
+        "page": 1,
+        "y": 3217,
+        "section": "P",
+        "cells": [
+          "#62",
+          "P(Por)",
+          "Turati",
+          "Sassuolo",
+          "1(1)",
+          "1(1)"
+        ]
+      },
+      "player": {
+        "id": "P-turati-sassuolo",
+        "originalIndex": 62,
+        "name": "Turati",
+        "team": "Sassuolo",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 1,
+          "secondaryValue": 1
+        },
+        "quotation": {
+          "value": 1,
+          "secondaryValue": 1
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r063",
+        "page": 1,
+        "y": 3262,
+        "section": "P",
+        "cells": [
+          "#63",
+          "P(Por)",
+          "Vicario",
+          "Juventus",
+          "70(70)",
+          "17(17)"
+        ]
+      },
+      "player": {
+        "id": "P-vicario-juventus",
+        "originalIndex": 63,
+        "name": "Vicario",
+        "team": "Juventus",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 70,
+          "secondaryValue": 70
+        },
+        "quotation": {
+          "value": 17,
+          "secondaryValue": 17
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r064",
+        "page": 1,
+        "y": 3311,
+        "section": "P",
+        "cells": [
+          "#64",
+          "P(Por)",
+          "Vigorito",
+          "Como",
+          "1(1)",
+          "1(1)"
+        ]
+      },
+      "player": {
+        "id": "P-vigorito-como",
+        "originalIndex": 64,
+        "name": "Vigorito",
+        "team": "Como",
+        "macroRole": "P",
+        "roles": [
+          "Por"
+        ],
+        "fvm": {
+          "value": 1,
+          "secondaryValue": 1
+        },
+        "quotation": {
+          "value": 1,
+          "secondaryValue": 1
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r065",
+        "page": 1,
+        "y": 3452,
+        "section": "D",
+        "cells": [
+          "#1",
+          "D(Dd,Dc)",
+          "Abankwah",
+          "Udinese",
+          "10(12)",
+          "2(2)"
+        ]
+      },
+      "player": {
+        "id": "D-abankwah-udinese",
+        "originalIndex": 1,
+        "name": "Abankwah",
+        "team": "Udinese",
+        "macroRole": "D",
+        "roles": [
+          "Dd",
+          "Dc"
+        ],
+        "fvm": {
+          "value": 10,
+          "secondaryValue": 12
+        },
+        "quotation": {
+          "value": 2,
+          "secondaryValue": 2
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r066",
+        "page": 1,
+        "y": 3491,
+        "section": "D",
+        "cells": [
+          "#2",
+          "D(Dc)",
+          "Akanji",
+          "Inter",
+          "47(47)",
+          "15(15)"
+        ]
+      },
+      "player": {
+        "id": "D-akanji-inter",
+        "originalIndex": 2,
+        "name": "Akanji",
+        "team": "Inter",
+        "macroRole": "D",
+        "roles": [
+          "Dc"
+        ],
+        "fvm": {
+          "value": 47,
+          "secondaryValue": 47
+        },
+        "quotation": {
+          "value": 15,
+          "secondaryValue": 15
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p01-r067",
+        "page": 1,
+        "y": 3539,
+        "section": "D",
+        "cells": [
+          "#3",
+          "D(Dc)",
+          "Akpoguma",
+          "Frosinone",
+          "6(6)",
+          "3(3)"
+        ]
+      },
+      "player": {
+        "id": "D-akpoguma-frosinone",
+        "originalIndex": 3,
+        "name": "Akpoguma",
+        "team": "Frosinone",
+        "macroRole": "D",
+        "roles": [
+          "Dc"
+        ],
+        "fvm": {
+          "value": 6,
+          "secondaryValue": 6
+        },
+        "quotation": {
+          "value": 3,
+          "secondaryValue": 3
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p02-r014",
+        "page": 2,
+        "y": 683,
+        "section": "D",
+        "cells": [
+          "#39",
+          "D(Dc)",
+          "Cittadini",
+          "Frosinone",
+          "8(8)",
+          "4(4)"
+        ]
+      },
+      "player": {
+        "id": "D-cittadini-frosinone",
+        "originalIndex": 39,
+        "name": "Cittadini",
+        "team": "Frosinone",
+        "macroRole": "D",
+        "roles": [
+          "Dc"
+        ],
+        "fvm": {
+          "value": 8,
+          "secondaryValue": 8
+        },
+        "quotation": {
+          "value": 4,
+          "secondaryValue": 4
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p02-r069",
+        "page": 2,
+        "y": 3217,
+        "section": "D",
+        "cells": [
+          "#94",
+          "D(Dd,Dc)",
+          "Kambwala",
+          "Como",
+          "8(9)",
+          "34)"
+        ]
+      },
+      "player": {
+        "id": "D-kambwala-como",
+        "originalIndex": 94,
+        "name": "Kambwala",
+        "team": "Como",
+        "macroRole": "D",
+        "roles": [
+          "Dd",
+          "Dc"
+        ],
+        "fvm": {
+          "value": 8,
+          "secondaryValue": 9
+        },
+        "quotation": {
+          "value": 3,
+          "secondaryValue": 4
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p02-r070",
+        "page": 2,
+        "y": 3262,
+        "section": "D",
+        "cells": [
+          "#95",
+          "D(Ds,Dc)",
+          "Kelly L.",
+          "Juventus",
+          "12(14)",
+          "5(6)"
+        ]
+      },
+      "player": {
+        "id": "D-kelly-l-juventus",
+        "originalIndex": 95,
+        "name": "Kelly L.",
+        "team": "Juventus",
+        "macroRole": "D",
+        "roles": [
+          "Ds",
+          "Dc"
+        ],
+        "fvm": {
+          "value": 12,
+          "secondaryValue": 14
+        },
+        "quotation": {
+          "value": 5,
+          "secondaryValue": 6
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p02-r071",
+        "page": 2,
+        "y": 3311,
+        "section": "D",
+        "cells": [
+          "#96",
+          "D(Dc)",
+          "Kempf",
+          "Como",
+          "13(13)",
+          "5(5)"
+        ]
+      },
+      "player": {
+        "id": "D-kempf-como",
+        "originalIndex": 96,
+        "name": "Kempf",
+        "team": "Como",
+        "macroRole": "D",
+        "roles": [
+          "Dc"
+        ],
+        "fvm": {
+          "value": 13,
+          "secondaryValue": 13
+        },
+        "quotation": {
+          "value": 5,
+          "secondaryValue": 5
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p03-r064",
+        "page": 3,
+        "y": 2984,
+        "section": "D",
+        "cells": [
+          "#187",
+          "D(Dd,Dc)",
+          "Zé Pedro",
+          "Cagliari",
+          "13(15)",
+          "5(6)"
+        ]
+      },
+      "player": {
+        "id": "D-ze-pedro-cagliari",
+        "originalIndex": 187,
+        "name": "Zè Pedro",
+        "team": "Cagliari",
+        "macroRole": "D",
+        "roles": [
+          "Dd",
+          "Dc"
+        ],
+        "fvm": {
+          "value": 13,
+          "secondaryValue": 15
+        },
+        "quotation": {
+          "value": 5,
+          "secondaryValue": 6
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p03-r065",
+        "page": 3,
+        "y": 3034,
+        "section": "D",
+        "cells": [
+          "#188",
+          "D(Dc)",
+          "Ziolkowski",
+          "Monza",
+          "8(8)",
+          "101)"
+        ]
+      },
+      "player": {
+        "id": "D-ziolkowski-monza",
+        "originalIndex": 188,
+        "name": "Ziolkowski",
+        "team": "Monza",
+        "macroRole": "D",
+        "roles": [
+          "Dc"
+        ],
+        "fvm": {
+          "value": 8,
+          "secondaryValue": 8
+        },
+        "quotation": {
+          "value": 1,
+          "secondaryValue": 1
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p03-r066",
+        "page": 3,
+        "y": 3080,
+        "section": "D",
+        "cells": [
+          "#189",
+          "D(Dd,E)",
+          "Zortea",
+          "Bologna",
+          "19(19)",
+          "7(7)"
+        ]
+      },
+      "player": {
+        "id": "D-zortea-bologna",
+        "originalIndex": 189,
+        "name": "Zortea",
+        "team": "Bologna",
+        "macroRole": "D",
+        "roles": [
+          "Dd",
+          "E"
+        ],
+        "fvm": {
+          "value": 19,
+          "secondaryValue": 19
+        },
+        "quotation": {
+          "value": 7,
+          "secondaryValue": 7
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p03-r067",
+        "page": 3,
+        "y": 3218,
+        "section": "C",
+        "cells": [
+          "#1",
+          "C(W,A)",
+          "Aboukhlal",
+          "Torino",
+          "5(4)",
+          "3(2)"
+        ]
+      },
+      "player": {
+        "id": "C-aboukhlal-torino",
+        "originalIndex": 1,
+        "name": "Aboukhlal",
+        "team": "Torino",
+        "macroRole": "C",
+        "roles": [
+          "W",
+          "A"
+        ],
+        "fvm": {
+          "value": 5,
+          "secondaryValue": 4
+        },
+        "quotation": {
+          "value": 3,
+          "secondaryValue": 2
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p03-r068",
+        "page": 3,
+        "y": 3260,
+        "section": "C",
+        "cells": [
+          "#2",
+          "C(W,A)",
+          "Addai",
+          "Como",
+          "1 0(8)",
+          "4(4)"
+        ]
+      },
+      "player": {
+        "id": "C-addai-como",
+        "originalIndex": 2,
+        "name": "Addai",
+        "team": "Como",
+        "macroRole": "C",
+        "roles": [
+          "W",
+          "A"
+        ],
+        "fvm": {
+          "value": 10,
+          "secondaryValue": 8
+        },
+        "quotation": {
+          "value": 4,
+          "secondaryValue": 4
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p03-r069",
+        "page": 3,
+        "y": 3310,
+        "section": "C",
+        "cells": [
+          "#3",
+          "C(M,C)",
+          "Adopo",
+          "Cagliari",
+          "13(16)",
+          "7(8)"
+        ]
+      },
+      "player": {
+        "id": "C-adopo-cagliari",
+        "originalIndex": 3,
+        "name": "Adopo",
+        "team": "Cagliari",
+        "macroRole": "C",
+        "roles": [
+          "M",
+          "C"
+        ],
+        "fvm": {
+          "value": 13,
+          "secondaryValue": 16
+        },
+        "quotation": {
+          "value": 7,
+          "secondaryValue": 8
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p04-r051",
+        "page": 4,
+        "y": 2392,
+        "section": "C",
+        "cells": [
+          "#81",
+          "C(C,T)",
+          "Gandelman",
+          "Lecce",
+          "10(10)",
+          "4(4)"
+        ]
+      },
+      "player": {
+        "id": "C-gandelman-lecce",
+        "originalIndex": 81,
+        "name": "Gandelman",
+        "team": "Lecce",
+        "macroRole": "C",
+        "roles": [
+          "C",
+          "T"
+        ],
+        "fvm": {
+          "value": 10,
+          "secondaryValue": 10
+        },
+        "quotation": {
+          "value": 4,
+          "secondaryValue": 4
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p04-r055",
+        "page": 4,
+        "y": 2576,
+        "section": "C",
+        "cells": [
+          "#85",
+          "C(W,T)",
+          "Goncalves P.",
+          "Fiorentina",
+          "50(50)",
+          "12(12)"
+        ]
+      },
+      "player": {
+        "id": "C-goncalves-p-fiorentina",
+        "originalIndex": 85,
+        "name": "Goncalves P.",
+        "team": "Fiorentina",
+        "macroRole": "C",
+        "roles": [
+          "W",
+          "T"
+        ],
+        "fvm": {
+          "value": 50,
+          "secondaryValue": 50
+        },
+        "quotation": {
+          "value": 12,
+          "secondaryValue": 12
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p04-r064",
+        "page": 4,
+        "y": 2991,
+        "section": "C",
+        "cells": [
+          "#94",
+          "C(M,C)",
+          "Ilkhan",
+          "Torino",
+          "8(10)",
+          "4(5)"
+        ]
+      },
+      "player": {
+        "id": "C-ilkhan-torino",
+        "originalIndex": 94,
+        "name": "Ilkhan",
+        "team": "Torino",
+        "macroRole": "C",
+        "roles": [
+          "M",
+          "C"
+        ],
+        "fvm": {
+          "value": 8,
+          "secondaryValue": 10
+        },
+        "quotation": {
+          "value": 4,
+          "secondaryValue": 5
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p04-r066",
+        "page": 4,
+        "y": 3077,
+        "section": "C",
+        "cells": [
+          "#96",
+          "C(M,C)",
+          "Jashari",
+          "Milan",
+          "13(13)",
+          "5(5)"
+        ]
+      },
+      "player": {
+        "id": "C-jashari-milan",
+        "originalIndex": 96,
+        "name": "Jashari",
+        "team": "Milan",
+        "macroRole": "C",
+        "roles": [
+          "M",
+          "C"
+        ],
+        "fvm": {
+          "value": 13,
+          "secondaryValue": 13
+        },
+        "quotation": {
+          "value": 5,
+          "secondaryValue": 5
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p04-r067",
+        "page": 4,
+        "y": 3130,
+        "section": "C",
+        "cells": [
+          "#97",
+          "C(C)",
+          "Jones C.",
+          "Inter",
+          "47(47)",
+          "12(12)"
+        ]
+      },
+      "player": {
+        "id": "C-jones-c-inter",
+        "originalIndex": 97,
+        "name": "Jones C.",
+        "team": "Inter",
+        "macroRole": "C",
+        "roles": [
+          "C"
+        ],
+        "fvm": {
+          "value": 47,
+          "secondaryValue": 47
+        },
+        "quotation": {
+          "value": 12,
+          "secondaryValue": 12
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p04-r068",
+        "page": 4,
+        "y": 3170,
+        "section": "C",
+        "cells": [
+          "#98",
+          "C(W,T)",
+          "Jovanovic",
+          "Udinese",
+          "5(5)",
+          "2(2)"
+        ]
+      },
+      "player": {
+        "id": "C-jovanovic-udinese",
+        "originalIndex": 98,
+        "name": "Jovanovic",
+        "team": "Udinese",
+        "macroRole": "C",
+        "roles": [
+          "W",
+          "T"
+        ],
+        "fvm": {
+          "value": 5,
+          "secondaryValue": 5
+        },
+        "quotation": {
+          "value": 2,
+          "secondaryValue": 2
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p05-r022",
+        "page": 5,
+        "y": 1055,
+        "section": "C",
+        "cells": [
+          "#150",
+          "C(C,T)",
+          "Perez K.",
+          "Venezia",
+          "15(15)",
+          "5(5)"
+        ]
+      },
+      "player": {
+        "id": "C-perez-k-venezia",
+        "originalIndex": 150,
+        "name": "Perez K.",
+        "team": "Venezia",
+        "macroRole": "C",
+        "roles": [
+          "C",
+          "T"
+        ],
+        "fvm": {
+          "value": 15,
+          "secondaryValue": 15
+        },
+        "quotation": {
+          "value": 5,
+          "secondaryValue": 5
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p05-r063",
+        "page": 5,
+        "y": 2946,
+        "section": "C",
+        "cells": [
+          "#191",
+          "C(W)",
+          "Zerbin",
+          "Frosinone",
+          "12(10)",
+          "6(5)"
+        ]
+      },
+      "player": {
+        "id": "C-zerbin-frosinone",
+        "originalIndex": 191,
+        "name": "Zerbin",
+        "team": "Frosinone",
+        "macroRole": "C",
+        "roles": [
+          "W"
+        ],
+        "fvm": {
+          "value": 12,
+          "secondaryValue": 10
+        },
+        "quotation": {
+          "value": 6,
+          "secondaryValue": 5
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p05-r064",
+        "page": 5,
+        "y": 2991,
+        "section": "C",
+        "cells": [
+          "#192",
+          "Cw)",
+          "Zhegrova",
+          "Juventus",
+          "17(17)",
+          "6(5)"
+        ]
+      },
+      "player": {
+        "id": "C-zhegrova-juventus",
+        "originalIndex": 192,
+        "name": "Zhegrova",
+        "team": "Juventus",
+        "macroRole": "C",
+        "roles": [
+          "W"
+        ],
+        "fvm": {
+          "value": 17,
+          "secondaryValue": 17
+        },
+        "quotation": {
+          "value": 6,
+          "secondaryValue": 5
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p05-r065",
+        "page": 5,
+        "y": 3034,
+        "section": "C",
+        "cells": [
+          "#193",
+          "C(C)",
+          "Zielinski",
+          "Inter",
+          "45(45)",
+          "12(12)"
+        ]
+      },
+      "player": {
+        "id": "C-zielinski-inter",
+        "originalIndex": 193,
+        "name": "Zielinski",
+        "team": "Inter",
+        "macroRole": "C",
+        "roles": [
+          "C"
+        ],
+        "fvm": {
+          "value": 45,
+          "secondaryValue": 45
+        },
+        "quotation": {
+          "value": 12,
+          "secondaryValue": 12
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p05-r066",
+        "page": 5,
+        "y": 3176,
+        "section": "A",
+        "cells": [
+          "#1",
+          "A(Pc)",
+          "Adams A.",
+          "Venezia",
+          "35(35)",
+          "11(10)"
+        ]
+      },
+      "player": {
+        "id": "A-adams-a-venezia",
+        "originalIndex": 1,
+        "name": "Adams A.",
+        "team": "Venezia",
+        "macroRole": "A",
+        "roles": [
+          "Pc"
+        ],
+        "fvm": {
+          "value": 35,
+          "secondaryValue": 35
+        },
+        "quotation": {
+          "value": 11,
+          "secondaryValue": 10
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p05-r067",
+        "page": 5,
+        "y": 3222,
+        "section": "A",
+        "cells": [
+          "#2",
+          "A(A)",
+          "Adams C.",
+          "Torino",
+          "33(33)",
+          "10(11)"
+        ]
+      },
+      "player": {
+        "id": "A-adams-c-torino",
+        "originalIndex": 2,
+        "name": "Adams C.",
+        "team": "Torino",
+        "macroRole": "A",
+        "roles": [
+          "A"
+        ],
+        "fvm": {
+          "value": 33,
+          "secondaryValue": 33
+        },
+        "quotation": {
+          "value": 10,
+          "secondaryValue": 11
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p05-r068",
+        "page": 5,
+        "y": 3268,
+        "section": "A",
+        "cells": [
+          "#3",
+          "A(Pc)",
+          "Adorante",
+          "Venezia",
+          "8(8)",
+          "4(4)"
+        ]
+      },
+      "player": {
+        "id": "A-adorante-venezia",
+        "originalIndex": 3,
+        "name": "Adorante",
+        "team": "Venezia",
+        "macroRole": "A",
+        "roles": [
+          "Pc"
+        ],
+        "fvm": {
+          "value": 8,
+          "secondaryValue": 8
+        },
+        "quotation": {
+          "value": 4,
+          "secondaryValue": 4
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r009",
+        "page": 6,
+        "y": 451,
+        "section": "A",
+        "cells": [
+          "#40",
+          "A(Pc)",
+          "Krstovic",
+          "Atalanta",
+          "98(98)",
+          "18(17)"
+        ]
+      },
+      "player": {
+        "id": "A-krstovic-atalanta",
+        "originalIndex": 40,
+        "name": "Krstovic",
+        "team": "Atalanta",
+        "macroRole": "A",
+        "roles": [
+          "Pc"
+        ],
+        "fvm": {
+          "value": 98,
+          "secondaryValue": 98
+        },
+        "quotation": {
+          "value": 18,
+          "secondaryValue": 17
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r012",
+        "page": 6,
+        "y": 586,
+        "section": "A",
+        "cells": [
+          "#43",
+          "A(A)",
+          "Lang",
+          "Napoli",
+          "14(14)",
+          "4(4)"
+        ]
+      },
+      "player": {
+        "id": "A-lang-napoli",
+        "originalIndex": 43,
+        "name": "Lang",
+        "team": "Napoli",
+        "macroRole": "A",
+        "roles": [
+          "A"
+        ],
+        "fvm": {
+          "value": 14,
+          "secondaryValue": 14
+        },
+        "quotation": {
+          "value": 4,
+          "secondaryValue": 4
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r013",
+        "page": 6,
+        "y": 630,
+        "section": "A",
+        "cells": [
+          "#44",
+          "A(Pc)",
+          "Lauberbach",
+          "Venezia",
+          "1(1)",
+          "1(1)"
+        ]
+      },
+      "player": {
+        "id": "A-lauberbach-venezia",
+        "originalIndex": 44,
+        "name": "Lauberbach",
+        "team": "Venezia",
+        "macroRole": "A",
+        "roles": [
+          "Pc"
+        ],
+        "fvm": {
+          "value": 1,
+          "secondaryValue": 1
+        },
+        "quotation": {
+          "value": 1,
+          "secondaryValue": 1
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r014",
+        "page": 6,
+        "y": 681,
+        "section": "A",
+        "cells": [
+          "#45",
+          "A(A)",
+          "Laurienté",
+          "Sassuolo",
+          "83(83)",
+          "15(16)"
+        ]
+      },
+      "player": {
+        "id": "A-lauriente-sassuolo",
+        "originalIndex": 45,
+        "name": "Laurientè",
+        "team": "Sassuolo",
+        "macroRole": "A",
+        "roles": [
+          "A"
+        ],
+        "fvm": {
+          "value": 83,
+          "secondaryValue": 83
+        },
+        "quotation": {
+          "value": 15,
+          "secondaryValue": 16
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r035",
+        "page": 6,
+        "y": 1651,
+        "section": "A",
+        "cells": [
+          "#66",
+          "A(A)",
+          "Raspadori",
+          "Atalanta",
+          "73(70)",
+          "14(15)"
+        ]
+      },
+      "player": {
+        "id": "A-raspadori-atalanta",
+        "originalIndex": 66,
+        "name": "Raspadori",
+        "team": "Atalanta",
+        "macroRole": "A",
+        "roles": [
+          "A"
+        ],
+        "fvm": {
+          "value": 73,
+          "secondaryValue": 70
+        },
+        "quotation": {
+          "value": 14,
+          "secondaryValue": 15
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r046",
+        "page": 6,
+        "y": 2156,
+        "section": "A",
+        "cells": [
+          "#77",
+          "A(Pc)",
+          "Thuram",
+          "Inter",
+          "249(249)",
+          "28(28)"
+        ]
+      },
+      "player": {
+        "id": "A-thuram-inter",
+        "originalIndex": 77,
+        "name": "Thuram",
+        "team": "Inter",
+        "macroRole": "A",
+        "roles": [
+          "Pc"
+        ],
+        "fvm": {
+          "value": 249,
+          "secondaryValue": 249
+        },
+        "quotation": {
+          "value": 28,
+          "secondaryValue": 28
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r053",
+        "page": 6,
+        "y": 2485,
+        "section": "A",
+        "cells": [
+          "#84",
+          "A(A)",
+          "Yildiz",
+          "Juventus",
+          "100(100)",
+          "22(23)"
+        ]
+      },
+      "player": {
+        "id": "A-yildiz-juventus",
+        "originalIndex": 84,
+        "name": "Yildiz",
+        "team": "Juventus",
+        "macroRole": "A",
+        "roles": [
+          "A"
+        ],
+        "fvm": {
+          "value": 100,
+          "secondaryValue": 100
+        },
+        "quotation": {
+          "value": 22,
+          "secondaryValue": 23
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r054",
+        "page": 6,
+        "y": 2524,
+        "section": "A",
+        "cells": [
+          "#85",
+          "A(Pc)",
+          "Zapata D.",
+          "Torino",
+          "12(10)",
+          "6(6)"
+        ]
+      },
+      "player": {
+        "id": "A-zapata-d-torino",
+        "originalIndex": 85,
+        "name": "Zapata D.",
+        "team": "Torino",
+        "macroRole": "A",
+        "roles": [
+          "Pc"
+        ],
+        "fvm": {
+          "value": 12,
+          "secondaryValue": 10
+        },
+        "quotation": {
+          "value": 6,
+          "secondaryValue": 6
+        }
+      }
+    },
+    {
+      "source": {
+        "key": "p06-r055",
+        "page": 6,
+        "y": 2573,
+        "section": "A",
+        "cells": [
+          "#86",
+          "A(A)",
+          "Zeballos",
+          "Monza",
+          "18(18)",
+          "6(6)"
+        ]
+      },
+      "player": {
+        "id": "A-zeballos-monza",
+        "originalIndex": 86,
+        "name": "Zeballos",
+        "team": "Monza",
+        "macroRole": "A",
+        "roles": [
+          "A"
+        ],
+        "fvm": {
+          "value": 18,
+          "secondaryValue": 18
+        },
+        "quotation": {
+          "value": 6,
+          "secondaryValue": 6
+        }
+      }
+    }
+  ]
+}

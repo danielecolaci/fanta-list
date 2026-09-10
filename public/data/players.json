@@ -1,0 +1,9870 @@
+[
+  {
+    "id": "P-bijlow-genoa",
+    "originalIndex": 1,
+    "name": "Bijlow",
+    "team": "Genoa",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "P-bleve-lecce",
+    "originalIndex": 2,
+    "name": "Bleve",
+    "team": "Lecce",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-butez-como",
+    "originalIndex": 3,
+    "name": "Butez",
+    "team": "Como",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 50,
+      "secondaryValue": 50
+    },
+    "quotation": {
+      "value": 15,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "P-caprile-cagliari",
+    "originalIndex": 4,
+    "name": "Caprile",
+    "team": "Cagliari",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "P-carnesecchi-atalanta",
+    "originalIndex": 5,
+    "name": "Carnesecchi",
+    "team": "Atalanta",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 55,
+      "secondaryValue": 55
+    },
+    "quotation": {
+      "value": 17,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "P-christensen-o-fiorentina",
+    "originalIndex": 6,
+    "name": "Christensen O.",
+    "team": "Fiorentina",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-contini-napoli",
+    "originalIndex": 7,
+    "name": "Contini",
+    "team": "Napoli",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-corvi-parma",
+    "originalIndex": 8,
+    "name": "Corvi",
+    "team": "Parma",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "P-daffara-parma",
+    "originalIndex": 9,
+    "name": "Daffara",
+    "team": "Parma",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "P-de-gea-fiorentina",
+    "originalIndex": 10,
+    "name": "De Gea",
+    "team": "Fiorentina",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 30,
+      "secondaryValue": 30
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "P-de-marzi-roma",
+    "originalIndex": 11,
+    "name": "De Marzi",
+    "team": "Roma",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-desplanches-frosinone",
+    "originalIndex": 12,
+    "name": "Desplanches",
+    "team": "Frosinone",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "P-di-gennaro-inter",
+    "originalIndex": 13,
+    "name": "Di Gennaro",
+    "team": "Inter",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-falcone-lecce",
+    "originalIndex": 14,
+    "name": "Falcone",
+    "team": "Lecce",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 26,
+      "secondaryValue": 26
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "P-ghidotti-parma",
+    "originalIndex": 15,
+    "name": "Ghidotti",
+    "team": "Parma",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-gollini-roma",
+    "originalIndex": 16,
+    "name": "Gollini",
+    "team": "Roma",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-grabara-juventus",
+    "originalIndex": 17,
+    "name": "Grabara",
+    "team": "Juventus",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-grandi-venezia",
+    "originalIndex": 18,
+    "name": "Grandi",
+    "team": "Venezia",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-happonen-bologna",
+    "originalIndex": 19,
+    "name": "Happonen",
+    "team": "Bologna",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-lezzerini-fiorentina",
+    "originalIndex": 20,
+    "name": "Lezzerini",
+    "team": "Fiorentina",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-lolic-frosinone",
+    "originalIndex": 21,
+    "name": "Lolic",
+    "team": "Frosinone",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-maignan-milan",
+    "originalIndex": 22,
+    "name": "Maignan",
+    "team": "Milan",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 52,
+      "secondaryValue": 52
+    },
+    "quotation": {
+      "value": 15,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "P-mandas-lazio",
+    "originalIndex": 23,
+    "name": "Mandas",
+    "team": "Lazio",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 36,
+      "secondaryValue": 36
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "P-martinez-jo-inter",
+    "originalIndex": 24,
+    "name": "Martinez Jo.",
+    "team": "Inter",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 68,
+      "secondaryValue": 68
+    },
+    "quotation": {
+      "value": 17,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "P-mascardi-torino",
+    "originalIndex": 25,
+    "name": "Mascardi",
+    "team": "Torino",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-meret-napoli",
+    "originalIndex": 26,
+    "name": "Meret",
+    "team": "Napoli",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 48,
+      "secondaryValue": 48
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "P-milinkovic-savic-v-napoli",
+    "originalIndex": 27,
+    "name": "Milinkovic-Savic V.",
+    "team": "Napoli",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "P-montipo-venezia",
+    "originalIndex": 28,
+    "name": "Montipò",
+    "team": "Venezia",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-motta-lazio",
+    "originalIndex": 29,
+    "name": "Motta",
+    "team": "Lazio",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-mrozek-udinese",
+    "originalIndex": 30,
+    "name": "Mrozek",
+    "team": "Udinese",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-muric-sassuolo",
+    "originalIndex": 31,
+    "name": "Muric",
+    "team": "Sassuolo",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "P-okoye-udinese",
+    "originalIndex": 32,
+    "name": "Okoye",
+    "team": "Udinese",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 28,
+      "secondaryValue": 28
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "P-padelli-udinese",
+    "originalIndex": 33,
+    "name": "Padelli",
+    "team": "Udinese",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-paleari-torino",
+    "originalIndex": 34,
+    "name": "Paleari",
+    "team": "Torino",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-palmisani-frosinone",
+    "originalIndex": 35,
+    "name": "Palmisani",
+    "team": "Frosinone",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "P-penev-lecce",
+    "originalIndex": 36,
+    "name": "Penev",
+    "team": "Lecce",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-perri-torino",
+    "originalIndex": 37,
+    "name": "Perri",
+    "team": "Torino",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 26,
+      "secondaryValue": 26
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "P-pessina-mas-bologna",
+    "originalIndex": 38,
+    "name": "Pessina Mas.",
+    "team": "Bologna",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-piana-udinese",
+    "originalIndex": 39,
+    "name": "Piana",
+    "team": "Udinese",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-pinsoglio-juventus",
+    "originalIndex": 40,
+    "name": "Pinsoglio",
+    "team": "Juventus",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-pisseri-frosinone",
+    "originalIndex": 41,
+    "name": "Pisseri",
+    "team": "Frosinone",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-pozzi-venezia",
+    "originalIndex": 42,
+    "name": "Pozzi",
+    "team": "Venezia",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-provedel-inter",
+    "originalIndex": 43,
+    "name": "Provedel",
+    "team": "Inter",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "P-radunovic-cagliari",
+    "originalIndex": 44,
+    "name": "Radunovic",
+    "team": "Cagliari",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-renzetti-lazio",
+    "originalIndex": 45,
+    "name": "Renzetti",
+    "team": "Lazio",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-russo-a-sassuolo",
+    "originalIndex": 46,
+    "name": "Russo A.",
+    "team": "Sassuolo",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-sanchez-ro-como",
+    "originalIndex": 47,
+    "name": "Sanchez Ro.",
+    "team": "Como",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "P-satalino-sassuolo",
+    "originalIndex": 48,
+    "name": "Satalino",
+    "team": "Sassuolo",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-sherri-cagliari",
+    "originalIndex": 49,
+    "name": "Sherri",
+    "team": "Cagliari",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-siviero-torino",
+    "originalIndex": 50,
+    "name": "Siviero",
+    "team": "Torino",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-skorupski-bologna",
+    "originalIndex": 51,
+    "name": "Skorupski",
+    "team": "Bologna",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 32,
+      "secondaryValue": 32
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "P-sommariva-genoa",
+    "originalIndex": 52,
+    "name": "Sommariva",
+    "team": "Genoa",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-sportiello-atalanta",
+    "originalIndex": 53,
+    "name": "Sportiello",
+    "team": "Atalanta",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-stankovic-f-venezia",
+    "originalIndex": 54,
+    "name": "Stankovic F.",
+    "team": "Venezia",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "P-stolz-genoa",
+    "originalIndex": 55,
+    "name": "Stolz",
+    "team": "Genoa",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-strajnar-monza",
+    "originalIndex": 56,
+    "name": "Strajnar",
+    "team": "Monza",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-svilar-roma",
+    "originalIndex": 57,
+    "name": "Svilar",
+    "team": "Roma",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 85,
+      "secondaryValue": 85
+    },
+    "quotation": {
+      "value": 19,
+      "secondaryValue": 19
+    }
+  },
+  {
+    "id": "P-terracciano-milan",
+    "originalIndex": 58,
+    "name": "Terracciano",
+    "team": "Milan",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-thiam-monza",
+    "originalIndex": 59,
+    "name": "Thiam",
+    "team": "Monza",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "P-tornqvist-monza",
+    "originalIndex": 60,
+    "name": "Tornqvist",
+    "team": "Monza",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-torriani-milan",
+    "originalIndex": 61,
+    "name": "Torriani",
+    "team": "Milan",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-turati-sassuolo",
+    "originalIndex": 62,
+    "name": "Turati",
+    "team": "Sassuolo",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "P-vicario-juventus",
+    "originalIndex": 63,
+    "name": "Vicario",
+    "team": "Juventus",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 70,
+      "secondaryValue": 70
+    },
+    "quotation": {
+      "value": 17,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "P-vigorito-como",
+    "originalIndex": 64,
+    "name": "Vigorito",
+    "team": "Como",
+    "macroRole": "P",
+    "roles": [
+      "Por"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-abankwah-udinese",
+    "originalIndex": 1,
+    "name": "Abankwah",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-akanji-inter",
+    "originalIndex": 2,
+    "name": "Akanji",
+    "team": "Inter",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 47,
+      "secondaryValue": 47
+    },
+    "quotation": {
+      "value": 15,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "D-akpoguma-frosinone",
+    "originalIndex": 3,
+    "name": "Akpoguma",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 6,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-alhassane-bologna",
+    "originalIndex": 4,
+    "name": "Alhassane",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 6,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-amey-frosinone",
+    "originalIndex": 5,
+    "name": "Amey",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-antov-monza",
+    "originalIndex": 6,
+    "name": "Antov",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 2,
+      "secondaryValue": 2
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-arizala-udinese",
+    "originalIndex": 7,
+    "name": "Arizala",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-aurelio-cagliari",
+    "originalIndex": 8,
+    "name": "Aurelio",
+    "team": "Cagliari",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-badiashile-napoli",
+    "originalIndex": 9,
+    "name": "Badiashile",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 18,
+      "secondaryValue": 18
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-bakoune-monza",
+    "originalIndex": 10,
+    "name": "Bakoune",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-balerdi-roma",
+    "originalIndex": 11,
+    "name": "Balerdi",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-bartesaghi-milan",
+    "originalIndex": 12,
+    "name": "Bartesaghi",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 22,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-bastoni-inter",
+    "originalIndex": 13,
+    "name": "Bastoni",
+    "team": "Inter",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 43,
+      "secondaryValue": 43
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 14
+    }
+  },
+  {
+    "id": "D-belghali-torino",
+    "originalIndex": 14,
+    "name": "Belghali",
+    "team": "Torino",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-bella-kotchap-venezia",
+    "originalIndex": 15,
+    "name": "Bella-Kotchap",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-bellanova-atalanta",
+    "originalIndex": 16,
+    "name": "Bellanova",
+    "team": "Atalanta",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 17,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-bernasconi-atalanta",
+    "originalIndex": 17,
+    "name": "Bernasconi",
+    "team": "Atalanta",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 18,
+      "secondaryValue": 18
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-bertola-udinese",
+    "originalIndex": 18,
+    "name": "Bertola",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-beukema-napoli",
+    "originalIndex": 19,
+    "name": "Beukema",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-biraghi-torino",
+    "originalIndex": 20,
+    "name": "Biraghi",
+    "team": "Torino",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-birindelli-monza",
+    "originalIndex": 21,
+    "name": "Birindelli",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-bisseck-inter",
+    "originalIndex": 22,
+    "name": "Bisseck",
+    "team": "Inter",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 36,
+      "secondaryValue": 36
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "D-bracaglia-frosinone",
+    "originalIndex": 23,
+    "name": "Bracaglia",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-bremer-juventus",
+    "originalIndex": 24,
+    "name": "Bremer",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 60,
+      "secondaryValue": 60
+    },
+    "quotation": {
+      "value": 16,
+      "secondaryValue": 16
+    }
+  },
+  {
+    "id": "D-britschgi-parma",
+    "originalIndex": 25,
+    "name": "Britschgi",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-buongiorno-napoli",
+    "originalIndex": 26,
+    "name": "Buongiorno",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-cabal-juventus",
+    "originalIndex": 27,
+    "name": "Cabal",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-caleta-car-sassuolo",
+    "originalIndex": 28,
+    "name": "Caleta-Car",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-calvani-frosinone",
+    "originalIndex": 29,
+    "name": "Calvani",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-cambiaso-juventus",
+    "originalIndex": 30,
+    "name": "Cambiaso",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 18,
+      "secondaryValue": 21
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "D-cande-sassuolo",
+    "originalIndex": 31,
+    "name": "Candè",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-carboni-a-monza",
+    "originalIndex": 32,
+    "name": "Carboni A.",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 9,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-carboni-f-parma",
+    "originalIndex": 33,
+    "name": "Carboni F.",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-carlos-augusto-inter",
+    "originalIndex": 34,
+    "name": "Carlos Augusto",
+    "team": "Inter",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-casale-bologna",
+    "originalIndex": 35,
+    "name": "Casale",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-celik-juventus",
+    "originalIndex": 36,
+    "name": "Celik",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 18
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "D-chalobah-t-como",
+    "originalIndex": 37,
+    "name": "Chalobah T.",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 32,
+      "secondaryValue": 34
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "D-cinquegrano-sassuolo",
+    "originalIndex": 38,
+    "name": "Cinquegrano",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-cittadini-frosinone",
+    "originalIndex": 39,
+    "name": "Cittadini",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-coco-torino",
+    "originalIndex": 40,
+    "name": "Coco",
+    "team": "Torino",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-comert-torino",
+    "originalIndex": 41,
+    "name": "Comert",
+    "team": "Torino",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-comuzzo-torino",
+    "originalIndex": 42,
+    "name": "Comuzzo",
+    "team": "Torino",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-corrado-frosinone",
+    "originalIndex": 43,
+    "name": "Corrado",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-correia-t-venezia",
+    "originalIndex": 44,
+    "name": "Correia T.",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-couto-como",
+    "originalIndex": 45,
+    "name": "Couto",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-de-silvestri-bologna",
+    "originalIndex": 46,
+    "name": "De Silvestri",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-de-winter-milan",
+    "originalIndex": 47,
+    "name": "De Winter",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-delprato-parma",
+    "originalIndex": 48,
+    "name": "Delprato",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 21,
+      "secondaryValue": 24
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-dembele-a-lecce",
+    "originalIndex": 49,
+    "name": "Dembelè A.",
+    "team": "Lecce",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 2,
+      "secondaryValue": 2
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-di-lorenzo-napoli",
+    "originalIndex": 50,
+    "name": "Di Lorenzo",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 39,
+      "secondaryValue": 39
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "D-diawara-s-milan",
+    "originalIndex": 51,
+    "name": "Diawara S.",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-diego-carlos-parma",
+    "originalIndex": 52,
+    "name": "Diego Carlos",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 26,
+      "secondaryValue": 26
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-dimarco-inter",
+    "originalIndex": 53,
+    "name": "Dimarco",
+    "team": "Inter",
+    "macroRole": "D",
+    "roles": [
+      "E",
+      "W"
+    ],
+    "fvm": {
+      "value": 240,
+      "secondaryValue": 240
+    },
+    "quotation": {
+      "value": 31,
+      "secondaryValue": 29
+    }
+  },
+  {
+    "id": "D-dodo-fiorentina",
+    "originalIndex": 54,
+    "name": "Dodò",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "D-doekhi-lazio",
+    "originalIndex": 55,
+    "name": "Doekhi",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 16
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-doig-sassuolo",
+    "originalIndex": 56,
+    "name": "Doig",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-dragusin-fiorentina",
+    "originalIndex": 57,
+    "name": "Dragusin",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-drameh-genoa",
+    "originalIndex": 58,
+    "name": "Drameh",
+    "team": "Genoa",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-drobnic-parma",
+    "originalIndex": 59,
+    "name": "Drobnic",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-ebosse-udinese",
+    "originalIndex": 60,
+    "name": "Ebosse",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-estupinan-milan",
+    "originalIndex": 61,
+    "name": "Estupinan",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-favasuli-napoli",
+    "originalIndex": 62,
+    "name": "Favasuli",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-floriani-mussolini-lazio",
+    "originalIndex": 63,
+    "name": "Floriani Mussolini",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-fortini-torino",
+    "originalIndex": 64,
+    "name": "Fortini",
+    "team": "Torino",
+    "macroRole": "D",
+    "roles": [
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-franjic-venezia",
+    "originalIndex": 65,
+    "name": "Franjic",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-gabbia-milan",
+    "originalIndex": 66,
+    "name": "Gabbia",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-gallo-lecce",
+    "originalIndex": 67,
+    "name": "Gallo",
+    "team": "Lecce",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-gaspar-k-lecce",
+    "originalIndex": 68,
+    "name": "Gaspar K.",
+    "team": "Lecce",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-gatti-juventus",
+    "originalIndex": 69,
+    "name": "Gatti",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-ghilardi-roma",
+    "originalIndex": 70,
+    "name": "Ghilardi",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-gila-milan",
+    "originalIndex": 71,
+    "name": "Gila",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 31,
+      "secondaryValue": 31
+    },
+    "quotation": {
+      "value": 13,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "D-goglichidze-monza",
+    "originalIndex": 72,
+    "name": "Goglichidze",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-goldaniga-como",
+    "originalIndex": 73,
+    "name": "Goldaniga",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-gomes-venezia",
+    "originalIndex": 74,
+    "name": "Gomes",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-hainaut-venezia",
+    "originalIndex": 75,
+    "name": "Hainaut",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-halhal-venezia",
+    "originalIndex": 76,
+    "name": "Halhal",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-haps-venezia",
+    "originalIndex": 77,
+    "name": "Haps",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-heggem-bologna",
+    "originalIndex": 78,
+    "name": "Heggem",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-helland-bologna",
+    "originalIndex": 79,
+    "name": "Helland",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-hermoso-roma",
+    "originalIndex": 80,
+    "name": "Hermoso",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 26,
+      "secondaryValue": 26
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "D-hien-atalanta",
+    "originalIndex": 81,
+    "name": "Hien",
+    "team": "Atalanta",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-holm-bologna",
+    "originalIndex": 82,
+    "name": "Holm",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-idrissi-r-cagliari",
+    "originalIndex": 83,
+    "name": "Idrissi R.",
+    "team": "Cagliari",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-idzes-sassuolo",
+    "originalIndex": 84,
+    "name": "Idzes",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 19
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-ismajli-torino",
+    "originalIndex": 85,
+    "name": "Ismajli",
+    "team": "Torino",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-jean-lecce",
+    "originalIndex": 86,
+    "name": "Jean",
+    "team": "Lecce",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-jimenez-a-fiorentina",
+    "originalIndex": 87,
+    "name": "Jimenez A.",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 18,
+      "secondaryValue": 21
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-joao-mario-fiorentina",
+    "originalIndex": 88,
+    "name": "Joao Mario",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-juan-jesus-venezia",
+    "originalIndex": 89,
+    "name": "Juan Jesus",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-kabasele-udinese",
+    "originalIndex": 90,
+    "name": "Kabasele",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-kaiki-como",
+    "originalIndex": 91,
+    "name": "Kaiki",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-kalulu-juventus",
+    "originalIndex": 92,
+    "name": "Kalulu",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 47,
+      "secondaryValue": 49
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 14
+    }
+  },
+  {
+    "id": "D-kamara-h-udinese",
+    "originalIndex": 93,
+    "name": "Kamara H.",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "D-kambwala-como",
+    "originalIndex": 94,
+    "name": "Kambwala",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 9
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-kelly-l-juventus",
+    "originalIndex": 95,
+    "name": "Kelly L.",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-kempf-como",
+    "originalIndex": 96,
+    "name": "Kempf",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-kofler-cagliari",
+    "originalIndex": 97,
+    "name": "Kofler",
+    "team": "Cagliari",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-kolasinac-atalanta",
+    "originalIndex": 98,
+    "name": "Kolasinac",
+    "team": "Atalanta",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-kossounou-atalanta",
+    "originalIndex": 99,
+    "name": "Kossounou",
+    "team": "Atalanta",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-kouadio-monza",
+    "originalIndex": 100,
+    "name": "Kouadio",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-koulierakis-roma",
+    "originalIndex": 101,
+    "name": "Koulierakis",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-kristensen-t-atalanta",
+    "originalIndex": 102,
+    "name": "Kristensen T.",
+    "team": "Atalanta",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-lazzari-lazio",
+    "originalIndex": 103,
+    "name": "Lazzari",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-leysen-f-sassuolo",
+    "originalIndex": 104,
+    "name": "Leysen F.",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-lucchesi-monza",
+    "originalIndex": 105,
+    "name": "Lucchesi",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-lucumi-juventus",
+    "originalIndex": 106,
+    "name": "Lucumi",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 17,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-lulli-roma",
+    "originalIndex": 107,
+    "name": "Lulli",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-mancini-roma",
+    "originalIndex": 108,
+    "name": "Mancini",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 50,
+      "secondaryValue": 50
+    },
+    "quotation": {
+      "value": 16,
+      "secondaryValue": 16
+    }
+  },
+  {
+    "id": "D-mangas-monza",
+    "originalIndex": 109,
+    "name": "Mangas",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-marcandalli-genoa",
+    "originalIndex": 110,
+    "name": "Marcandalli",
+    "team": "Genoa",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-marianucci-napoli",
+    "originalIndex": 111,
+    "name": "Marianucci",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-marin-r-napoli",
+    "originalIndex": 112,
+    "name": "Marin R.",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-marusic-lazio",
+    "originalIndex": 113,
+    "name": "Marusic",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-maye-monza",
+    "originalIndex": 114,
+    "name": "Maye",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-mazzocchi-venezia",
+    "originalIndex": 115,
+    "name": "Mazzocchi",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-mina-cagliari",
+    "originalIndex": 116,
+    "name": "Mina",
+    "team": "Cagliari",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-miranda-j-bologna",
+    "originalIndex": 117,
+    "name": "Miranda J.",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-mitaj-genoa",
+    "originalIndex": 118,
+    "name": "Mitaj",
+    "team": "Genoa",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-molina-n-roma",
+    "originalIndex": 119,
+    "name": "Molina N.",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "E"
+    ],
+    "fvm": {
+      "value": 78,
+      "secondaryValue": 78
+    },
+    "quotation": {
+      "value": 18,
+      "secondaryValue": 18
+    }
+  },
+  {
+    "id": "D-monterisi-frosinone",
+    "originalIndex": 120,
+    "name": "Monterisi",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-moreno-m-venezia",
+    "originalIndex": 121,
+    "name": "Moreno M.",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 6,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-n-dicka-roma",
+    "originalIndex": 122,
+    "name": "N'Dicka",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 42,
+      "secondaryValue": 42
+    },
+    "quotation": {
+      "value": 13,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "D-ndaba-lecce",
+    "originalIndex": 123,
+    "name": "Ndaba",
+    "team": "Lecce",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-ndiaye-parma",
+    "originalIndex": 124,
+    "name": "Ndiaye",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-obert-cagliari",
+    "originalIndex": 125,
+    "name": "Obert",
+    "team": "Cagliari",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-obrador-sassuolo",
+    "originalIndex": 126,
+    "name": "Obrador",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-odenthal-sassuolo",
+    "originalIndex": 127,
+    "name": "Odenthal",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-olivera-napoli",
+    "originalIndex": 128,
+    "name": "Olivera",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-omar-fayed-frosinone",
+    "originalIndex": 129,
+    "name": "Omar Fayed",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-ostigard-genoa",
+    "originalIndex": 130,
+    "name": "Ostigard",
+    "team": "Genoa",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 41,
+      "secondaryValue": 41
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "D-otoa-genoa",
+    "originalIndex": 131,
+    "name": "Otoa",
+    "team": "Genoa",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-oyono-a-frosinone",
+    "originalIndex": 132,
+    "name": "Oyono A.",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-palma-udinese",
+    "originalIndex": 133,
+    "name": "Palma",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-parisi-fiorentina",
+    "originalIndex": 134,
+    "name": "Parisi",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-patric-lazio",
+    "originalIndex": 135,
+    "name": "Patric",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-patterson-torino",
+    "originalIndex": 136,
+    "name": "Patterson",
+    "team": "Torino",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-pavard-inter",
+    "originalIndex": 137,
+    "name": "Pavard",
+    "team": "Inter",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 16
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-pavlovic-milan",
+    "originalIndex": 138,
+    "name": "Pavlovic",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 49,
+      "secondaryValue": 49
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 14
+    }
+  },
+  {
+    "id": "D-pedraza-lazio",
+    "originalIndex": 139,
+    "name": "Pedraza",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-pellegrini-lu-lazio",
+    "originalIndex": 140,
+    "name": "Pellegrini Lu.",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-pieragnolo-sassuolo",
+    "originalIndex": 141,
+    "name": "Pieragnolo",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-pongracic-fiorentina",
+    "originalIndex": 142,
+    "name": "Pongracic",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-provstgaard-lazio",
+    "originalIndex": 143,
+    "name": "Provstgaard",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-puczka-genoa",
+    "originalIndex": 144,
+    "name": "Puczka",
+    "team": "Genoa",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-ramon-como",
+    "originalIndex": 145,
+    "name": "Ramon",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 31,
+      "secondaryValue": 31
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "D-ranieri-l-fiorentina",
+    "originalIndex": 146,
+    "name": "Ranieri L.",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-rensch-roma",
+    "originalIndex": 147,
+    "name": "Rensch",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 16
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-rodriguez-ju-cagliari",
+    "originalIndex": 148,
+    "name": "Rodriguez Ju.",
+    "team": "Cagliari",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "D-romagnoli-lazio",
+    "originalIndex": 149,
+    "name": "Romagnoli",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-rrahmani-napoli",
+    "originalIndex": 150,
+    "name": "Rrahmani",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 51,
+      "secondaryValue": 51
+    },
+    "quotation": {
+      "value": 15,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "D-rugani-juventus",
+    "originalIndex": 151,
+    "name": "Rugani",
+    "team": "Juventus",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-sabelli-genoa",
+    "originalIndex": 152,
+    "name": "Sabelli",
+    "team": "Genoa",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-sagrado-venezia",
+    "originalIndex": 153,
+    "name": "Sagrado",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-scalvini-atalanta",
+    "originalIndex": 154,
+    "name": "Scalvini",
+    "team": "Atalanta",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 28,
+      "secondaryValue": 28
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "D-schingtienne-venezia",
+    "originalIndex": 155,
+    "name": "Schingtienne",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-siebert-lecce",
+    "originalIndex": 156,
+    "name": "Siebert",
+    "team": "Lecce",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-smolcic-i-como",
+    "originalIndex": 157,
+    "name": "Smolcic I.",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-solet-udinese",
+    "originalIndex": 158,
+    "name": "Solet",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 46,
+      "secondaryValue": 46
+    },
+    "quotation": {
+      "value": 13,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "D-spence-inter",
+    "originalIndex": 159,
+    "name": "Spence",
+    "team": "Inter",
+    "macroRole": "D",
+    "roles": [
+      "E"
+    ],
+    "fvm": {
+      "value": 37,
+      "secondaryValue": 35
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "D-spinazzola-napoli",
+    "originalIndex": 160,
+    "name": "Spinazzola",
+    "team": "Napoli",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-stones-inter",
+    "originalIndex": 161,
+    "name": "Stones",
+    "team": "Inter",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "D-sugawara-cagliari",
+    "originalIndex": 162,
+    "name": "Sugawara",
+    "team": "Cagliari",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-sutalo-j-lazio",
+    "originalIndex": 163,
+    "name": "Sutalo J.",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 19
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-sverko-venezia",
+    "originalIndex": 164,
+    "name": "Sverko",
+    "team": "Venezia",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-tavares-n-lazio",
+    "originalIndex": 165,
+    "name": "Tavares N.",
+    "team": "Lazio",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-tchato-frosinone",
+    "originalIndex": 166,
+    "name": "Tchato",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-terracciano-f-milan",
+    "originalIndex": 167,
+    "name": "Terracciano F.",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "B",
+      "Dd",
+      "Ds"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-terzic-frosinone",
+    "originalIndex": 168,
+    "name": "Terzic",
+    "team": "Frosinone",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-theate-bologna",
+    "originalIndex": 169,
+    "name": "Theate",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "D-tiago-gabriel-lecce",
+    "originalIndex": 170,
+    "name": "Tiago Gabriel",
+    "team": "Lecce",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-tomori-milan",
+    "originalIndex": 171,
+    "name": "Tomori",
+    "team": "Milan",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-troilo-parma",
+    "originalIndex": 172,
+    "name": "Troilo",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "D-valdepenas-fiorentina",
+    "originalIndex": 173,
+    "name": "Valdepenas",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 18
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-valenti-parma",
+    "originalIndex": 174,
+    "name": "Valenti",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-valeri-parma",
+    "originalIndex": 175,
+    "name": "Valeri",
+    "team": "Parma",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 22,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-valle-como",
+    "originalIndex": 176,
+    "name": "Valle",
+    "team": "Como",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "E"
+    ],
+    "fvm": {
+      "value": 21,
+      "secondaryValue": 21
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-van-der-brempt-sassuolo",
+    "originalIndex": 177,
+    "name": "Van Der Brempt",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "D-vasquez-genoa",
+    "originalIndex": 178,
+    "name": "Vasquez",
+    "team": "Genoa",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 30,
+      "secondaryValue": 33
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "D-veiga-d-lecce",
+    "originalIndex": 179,
+    "name": "Veiga D.",
+    "team": "Lecce",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-viery-fiorentina",
+    "originalIndex": 180,
+    "name": "Viery",
+    "team": "Fiorentina",
+    "macroRole": "D",
+    "roles": [
+      "Ds",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "D-vitik-bologna",
+    "originalIndex": 181,
+    "name": "Vitik",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-vojvoda-udinese",
+    "originalIndex": 182,
+    "name": "Vojvoda",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 19
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "D-walukiewicz-sassuolo",
+    "originalIndex": 183,
+    "name": "Walukiewicz",
+    "team": "Sassuolo",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-wesley-roma",
+    "originalIndex": 184,
+    "name": "Wesley",
+    "team": "Roma",
+    "macroRole": "D",
+    "roles": [
+      "E"
+    ],
+    "fvm": {
+      "value": 87,
+      "secondaryValue": 87
+    },
+    "quotation": {
+      "value": 18,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "D-zanoli-udinese",
+    "originalIndex": 185,
+    "name": "Zanoli",
+    "team": "Udinese",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "D-zappacosta-atalanta",
+    "originalIndex": 186,
+    "name": "Zappacosta",
+    "team": "Atalanta",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 19
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "D-ze-pedro-cagliari",
+    "originalIndex": 187,
+    "name": "Zè Pedro",
+    "team": "Cagliari",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "Dc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "D-ziolkowski-monza",
+    "originalIndex": 188,
+    "name": "Ziolkowski",
+    "team": "Monza",
+    "macroRole": "D",
+    "roles": [
+      "Dc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "D-zortea-bologna",
+    "originalIndex": 189,
+    "name": "Zortea",
+    "team": "Bologna",
+    "macroRole": "D",
+    "roles": [
+      "Dd",
+      "E"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 19
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-aboukhlal-torino",
+    "originalIndex": 1,
+    "name": "Aboukhlal",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-addai-como",
+    "originalIndex": 2,
+    "name": "Addai",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-adopo-cagliari",
+    "originalIndex": 3,
+    "name": "Adopo",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 16
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-adzic-sassuolo",
+    "originalIndex": 4,
+    "name": "Adzic",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 16
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-akinsanmiro-monza",
+    "originalIndex": 5,
+    "name": "Akinsanmiro",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-alajbegovic-juventus",
+    "originalIndex": 6,
+    "name": "Alajbegovic",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 42,
+      "secondaryValue": 42
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "C-almqvist-parma",
+    "originalIndex": 7,
+    "name": "Almqvist",
+    "team": "Parma",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-amondarain-bologna",
+    "originalIndex": 8,
+    "name": "Amondarain",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-amorim-genoa",
+    "originalIndex": 9,
+    "name": "Amorim",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-anjorin-torino",
+    "originalIndex": 10,
+    "name": "Anjorin",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-atta-fiorentina",
+    "originalIndex": 11,
+    "name": "Atta",
+    "team": "Fiorentina",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 78,
+      "secondaryValue": 78
+    },
+    "quotation": {
+      "value": 15,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "C-bakola-sassuolo",
+    "originalIndex": 12,
+    "name": "Bakola",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-baldanzi-genoa",
+    "originalIndex": 13,
+    "name": "Baldanzi",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 28,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-barella-inter",
+    "originalIndex": 14,
+    "name": "Barella",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 81,
+      "secondaryValue": 81
+    },
+    "quotation": {
+      "value": 18,
+      "secondaryValue": 18
+    }
+  },
+  {
+    "id": "C-basic-venezia",
+    "originalIndex": 15,
+    "name": "Basic",
+    "team": "Venezia",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-baturina-como",
+    "originalIndex": 16,
+    "name": "Baturina",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 105,
+      "secondaryValue": 104
+    },
+    "quotation": {
+      "value": 20,
+      "secondaryValue": 19
+    }
+  },
+  {
+    "id": "C-belahyane-lazio",
+    "originalIndex": 17,
+    "name": "Belahyane",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-berisha-m-lecce",
+    "originalIndex": 18,
+    "name": "Berisha M.",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-bernabe-parma",
+    "originalIndex": 19,
+    "name": "Bernabè",
+    "team": "Parma",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 34,
+      "secondaryValue": 34
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-bernardeschi-bologna",
+    "originalIndex": 20,
+    "name": "Bernardeschi",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 27,
+      "secondaryValue": 27
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-boloca-sassuolo",
+    "originalIndex": 21,
+    "name": "Boloca",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-braganca-torino",
+    "originalIndex": 22,
+    "name": "Braganca",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-brescianini-fiorentina",
+    "originalIndex": 23,
+    "name": "Brescianini",
+    "team": "Fiorentina",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-busio-venezia",
+    "originalIndex": 24,
+    "name": "Busio",
+    "team": "Venezia",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-cacciamani-torino",
+    "originalIndex": 25,
+    "name": "Cacciamani",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "W"
+    ],
+    "fvm": {
+      "value": 24,
+      "secondaryValue": 24
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-calhanoglu-inter",
+    "originalIndex": 26,
+    "name": "Calhanoglu",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 243,
+      "secondaryValue": 273
+    },
+    "quotation": {
+      "value": 28,
+      "secondaryValue": 29
+    }
+  },
+  {
+    "id": "C-calo-frosinone",
+    "originalIndex": 27,
+    "name": "Calò",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 27,
+      "secondaryValue": 32
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "C-cambiaghi-bologna",
+    "originalIndex": 28,
+    "name": "Cambiaghi",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-cancellieri-lazio",
+    "originalIndex": 29,
+    "name": "Cancellieri",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-caqueret-como",
+    "originalIndex": 30,
+    "name": "Caqueret",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 17,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-casadei-torino",
+    "originalIndex": 31,
+    "name": "Casadei",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 27,
+      "secondaryValue": 27
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "C-cataldi-lazio",
+    "originalIndex": 32,
+    "name": "Cataldi",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-chakvetadze-udinese",
+    "originalIndex": 33,
+    "name": "Chakvetadze",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 6,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-chukwueze-milan",
+    "originalIndex": 34,
+    "name": "Chukwueze",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "W"
+    ],
+    "fvm": {
+      "value": 22,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-cichella-frosinone",
+    "originalIndex": 35,
+    "name": "Cichella",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-ciervo-cagliari",
+    "originalIndex": 36,
+    "name": "Ciervo",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-cisse-a-milan",
+    "originalIndex": 37,
+    "name": "Cissè A.",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 24,
+      "secondaryValue": 24
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-ciurria-monza",
+    "originalIndex": 38,
+    "name": "Ciurria",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "W"
+    ],
+    "fvm": {
+      "value": 6,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-colombo-l-monza",
+    "originalIndex": 39,
+    "name": "Colombo L.",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-colpani-monza",
+    "originalIndex": 40,
+    "name": "Colpani",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-comotto-milan",
+    "originalIndex": 41,
+    "name": "Comotto",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-conceicao-juventus",
+    "originalIndex": 42,
+    "name": "Conceicao",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 68,
+      "secondaryValue": 68
+    },
+    "quotation": {
+      "value": 13,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "C-coulibaly-l-lecce",
+    "originalIndex": 43,
+    "name": "Coulibaly L.",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 17,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-cremaschi-parma",
+    "originalIndex": 44,
+    "name": "Cremaschi",
+    "team": "Parma",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "C"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-cristante-roma",
+    "originalIndex": 45,
+    "name": "Cristante",
+    "team": "Roma",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 29,
+      "secondaryValue": 32
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-da-cunha-como",
+    "originalIndex": 46,
+    "name": "Da Cunha",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 87,
+      "secondaryValue": 87
+    },
+    "quotation": {
+      "value": 18,
+      "secondaryValue": 18
+    }
+  },
+  {
+    "id": "C-dagasso-venezia",
+    "originalIndex": 47,
+    "name": "Dagasso",
+    "team": "Venezia",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-de-bruyne-napoli",
+    "originalIndex": 48,
+    "name": "De Bruyne",
+    "team": "Napoli",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 108,
+      "secondaryValue": 108
+    },
+    "quotation": {
+      "value": 17,
+      "secondaryValue": 16
+    }
+  },
+  {
+    "id": "C-de-roon-roma",
+    "originalIndex": 49,
+    "name": "De Roon",
+    "team": "Roma",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-deiola-cagliari",
+    "originalIndex": 50,
+    "name": "Deiola",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-dele-bashiru-lazio",
+    "originalIndex": 51,
+    "name": "Dele-Bashiru",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-diallo-o-parma",
+    "originalIndex": 52,
+    "name": "Diallo O.",
+    "team": "Parma",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-diouf-inter",
+    "originalIndex": 53,
+    "name": "Diouf",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "C"
+    ],
+    "fvm": {
+      "value": 43,
+      "secondaryValue": 45
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-dominguez-b-sassuolo",
+    "originalIndex": 54,
+    "name": "Dominguez B.",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-douglas-luiz-juventus",
+    "originalIndex": 55,
+    "name": "Douglas Luiz",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-duncan-venezia",
+    "originalIndex": 56,
+    "name": "Duncan",
+    "team": "Venezia",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-ederson-d-s-atalanta",
+    "originalIndex": 57,
+    "name": "Ederson D.S.",
+    "team": "Atalanta",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 46,
+      "secondaryValue": 51
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "C-ekkelenkamp-udinese",
+    "originalIndex": 58,
+    "name": "Ekkelenkamp",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 57,
+      "secondaryValue": 57
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "C-el-azzouzi-a-frosinone",
+    "originalIndex": 59,
+    "name": "El Azzouzi A.",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-el-azzouzi-o-bologna",
+    "originalIndex": 60,
+    "name": "El Azzouzi O.",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-el-shaarawy-genoa",
+    "originalIndex": 61,
+    "name": "El Shaarawy",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-ellertsson-genoa",
+    "originalIndex": 62,
+    "name": "Ellertsson",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "C"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 19
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-elmas-atalanta",
+    "originalIndex": 63,
+    "name": "Elmas",
+    "team": "Atalanta",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 22,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-fabbian-parma",
+    "originalIndex": 64,
+    "name": "Fabbian",
+    "team": "Parma",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-fadera-cagliari",
+    "originalIndex": 65,
+    "name": "Fadera",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-fagioli-fiorentina",
+    "originalIndex": 66,
+    "name": "Fagioli",
+    "team": "Fiorentina",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-fazzini-cagliari",
+    "originalIndex": 67,
+    "name": "Fazzini",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-felici-cagliari",
+    "originalIndex": 68,
+    "name": "Felici",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-ferguson-bologna",
+    "originalIndex": 69,
+    "name": "Ferguson",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 27
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-fernandez-t-venezia",
+    "originalIndex": 70,
+    "name": "Fernandez T.",
+    "team": "Venezia",
+    "macroRole": "C",
+    "roles": [
+      "T",
+      "A"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-fini-frosinone",
+    "originalIndex": 71,
+    "name": "Fini",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-fitz-jim-torino",
+    "originalIndex": 72,
+    "name": "Fitz-Jim",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 18,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-foe-ondoa-monza",
+    "originalIndex": 73,
+    "name": "Foe Ondoa",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 2,
+      "secondaryValue": 2
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-fofana-sa-lecce",
+    "originalIndex": 74,
+    "name": "Fofana Sa.",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-folorunsho-monza",
+    "originalIndex": 75,
+    "name": "Folorunsho",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 17,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-forson-o-monza",
+    "originalIndex": 76,
+    "name": "Forson O.",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-frattesi-lazio",
+    "originalIndex": 77,
+    "name": "Frattesi",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 75,
+      "secondaryValue": 75
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-frendrup-genoa",
+    "originalIndex": 78,
+    "name": "Frendrup",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 24
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-gaetano-atalanta",
+    "originalIndex": 79,
+    "name": "Gaetano",
+    "team": "Atalanta",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 30,
+      "secondaryValue": 35
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-gagliardini-cagliari",
+    "originalIndex": 80,
+    "name": "Gagliardini",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 9
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-gandelman-lecce",
+    "originalIndex": 81,
+    "name": "Gandelman",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-gelli-f-frosinone",
+    "originalIndex": 82,
+    "name": "Gelli F.",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 6,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-gilmour-napoli",
+    "originalIndex": 83,
+    "name": "Gilmour",
+    "team": "Napoli",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-gineitis-torino",
+    "originalIndex": 84,
+    "name": "Gineitis",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-goncalves-p-fiorentina",
+    "originalIndex": 85,
+    "name": "Goncalves P.",
+    "team": "Fiorentina",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 50,
+      "secondaryValue": 50
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "C-gonzalez-n-juventus",
+    "originalIndex": 86,
+    "name": "Gonzalez N.",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 45,
+      "secondaryValue": 45
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "C-gorter-lecce",
+    "originalIndex": 87,
+    "name": "Gorter",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-grillitsch-frosinone",
+    "originalIndex": 88,
+    "name": "Grillitsch",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-gudmundsson-a-lazio",
+    "originalIndex": 89,
+    "name": "Gudmundsson A.",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "T",
+      "A"
+    ],
+    "fvm": {
+      "value": 40,
+      "secondaryValue": 40
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "C-hasa-frosinone",
+    "originalIndex": 90,
+    "name": "Hasa",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-helgason-venezia",
+    "originalIndex": 91,
+    "name": "Helgason",
+    "team": "Venezia",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-hutchinson-milan",
+    "originalIndex": 92,
+    "name": "Hutchinson",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-ilic-lecce",
+    "originalIndex": 93,
+    "name": "Ilic",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-ilkhan-torino",
+    "originalIndex": 94,
+    "name": "Ilkhan",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-isaksen-lazio",
+    "originalIndex": 95,
+    "name": "Isaksen",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 22,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-jashari-milan",
+    "originalIndex": 96,
+    "name": "Jashari",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-jones-c-inter",
+    "originalIndex": 97,
+    "name": "Jones C.",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 47,
+      "secondaryValue": 47
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "C-jovanovic-udinese",
+    "originalIndex": 98,
+    "name": "Jovanovic",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-kaba-lecce",
+    "originalIndex": 99,
+    "name": "Kaba",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 2,
+      "secondaryValue": 2
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-karlstrom-udinese",
+    "originalIndex": 100,
+    "name": "Karlstrom",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-keita-m-parma",
+    "originalIndex": 101,
+    "name": "Keita M.",
+    "team": "Parma",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-kessie-atalanta",
+    "originalIndex": 102,
+    "name": "Kessiè",
+    "team": "Atalanta",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 47,
+      "secondaryValue": 47
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "C-kone-b-frosinone",
+    "originalIndex": 103,
+    "name": "Konè B.",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-kone-i-sassuolo",
+    "originalIndex": 104,
+    "name": "Konè I.",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-kone-m-roma",
+    "originalIndex": 105,
+    "name": "Konè M.",
+    "team": "Roma",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 42,
+      "secondaryValue": 45
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "C-koopmeiners-juventus",
+    "originalIndex": 106,
+    "name": "Koopmeiners",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-koutsoupias-frosinone",
+    "originalIndex": 107,
+    "name": "Koutsoupias",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-laerke-lecce",
+    "originalIndex": 108,
+    "name": "Laerke",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-lahdo-como",
+    "originalIndex": 109,
+    "name": "Lahdo",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-liberali-como",
+    "originalIndex": 110,
+    "name": "Liberali",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 21,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-lipani-sassuolo",
+    "originalIndex": 111,
+    "name": "Lipani",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-liteta-cagliari",
+    "originalIndex": 112,
+    "name": "Liteta",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-lobotka-napoli",
+    "originalIndex": 113,
+    "name": "Lobotka",
+    "team": "Napoli",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 28
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "C-locatelli-juventus",
+    "originalIndex": 114,
+    "name": "Locatelli",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 33,
+      "secondaryValue": 38
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-loftus-cheek-milan",
+    "originalIndex": 115,
+    "name": "Loftus-Cheek",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 16
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-luis-henrique-inter",
+    "originalIndex": 116,
+    "name": "Luis Henrique",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "W"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-maleh-lecce",
+    "originalIndex": 117,
+    "name": "Maleh",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 9
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-mandragora-torino",
+    "originalIndex": 118,
+    "name": "Mandragora",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-masini-frosinone",
+    "originalIndex": 119,
+    "name": "Masini",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-massolin-cagliari",
+    "originalIndex": 120,
+    "name": "Massolin",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-mastantuono-fiorentina",
+    "originalIndex": 121,
+    "name": "Mastantuono",
+    "team": "Fiorentina",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 50,
+      "secondaryValue": 50
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "C-matic-sassuolo",
+    "originalIndex": 122,
+    "name": "Matic",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-mbangula-bologna",
+    "originalIndex": 123,
+    "name": "Mbangula",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 28,
+      "secondaryValue": 28
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-mckennie-juventus",
+    "originalIndex": 124,
+    "name": "Mckennie",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 70,
+      "secondaryValue": 70
+    },
+    "quotation": {
+      "value": 17,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "C-mctominay-napoli",
+    "originalIndex": 125,
+    "name": "Mctominay",
+    "team": "Napoli",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 220,
+      "secondaryValue": 220
+    },
+    "quotation": {
+      "value": 27,
+      "secondaryValue": 27
+    }
+  },
+  {
+    "id": "C-meichtry-genoa",
+    "originalIndex": 126,
+    "name": "Meichtry",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-messias-genoa",
+    "originalIndex": 127,
+    "name": "Messias",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-milla-como",
+    "originalIndex": 128,
+    "name": "Milla",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 30,
+      "secondaryValue": 35
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-miller-l-udinese",
+    "originalIndex": 129,
+    "name": "Miller L.",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-mkhitaryan-inter",
+    "originalIndex": 130,
+    "name": "Mkhitaryan",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 9,
+      "secondaryValue": 9
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-modric-milan",
+    "originalIndex": 131,
+    "name": "Modric",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 45,
+      "secondaryValue": 50
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "C-monteiro-j-lecce",
+    "originalIndex": 132,
+    "name": "Monteiro J.",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-mora-roma",
+    "originalIndex": 133,
+    "name": "Mora",
+    "team": "Roma",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 100,
+      "secondaryValue": 100
+    },
+    "quotation": {
+      "value": 20,
+      "secondaryValue": 19
+    }
+  },
+  {
+    "id": "C-moreira-milan",
+    "originalIndex": 134,
+    "name": "Moreira",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "W"
+    ],
+    "fvm": {
+      "value": 45,
+      "secondaryValue": 45
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "C-moro-n-bologna",
+    "originalIndex": 135,
+    "name": "Moro N.",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-mout-monza",
+    "originalIndex": 136,
+    "name": "Mout",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-musah-milan",
+    "originalIndex": 137,
+    "name": "Musah",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "W"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-ndour-fiorentina",
+    "originalIndex": 138,
+    "name": "Ndour",
+    "team": "Fiorentina",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 22,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-ngom-lecce",
+    "originalIndex": 139,
+    "name": "Ngom",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-nicolussi-caviglia-parma",
+    "originalIndex": 140,
+    "name": "Nicolussi Caviglia",
+    "team": "Parma",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 21
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-njie-fiorentina",
+    "originalIndex": 141,
+    "name": "Njie",
+    "team": "Fiorentina",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 28,
+      "secondaryValue": 28
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-odgaard-bologna",
+    "originalIndex": 142,
+    "name": "Odgaard",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 17,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-ordonez-c-parma",
+    "originalIndex": 143,
+    "name": "Ordonez C.",
+    "team": "Parma",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-oristanio-torino",
+    "originalIndex": 144,
+    "name": "Oristanio",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-orsolini-bologna",
+    "originalIndex": 145,
+    "name": "Orsolini",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 177,
+      "secondaryValue": 177
+    },
+    "quotation": {
+      "value": 25,
+      "secondaryValue": 24
+    }
+  },
+  {
+    "id": "C-oulai-fiorentina",
+    "originalIndex": 146,
+    "name": "Oulai",
+    "team": "Fiorentina",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 18,
+      "secondaryValue": 23
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-pasalic-atalanta",
+    "originalIndex": 147,
+    "name": "Pasalic",
+    "team": "Atalanta",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 22,
+      "secondaryValue": 22
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-paz-n-como",
+    "originalIndex": 148,
+    "name": "Paz N.",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "T",
+      "A"
+    ],
+    "fvm": {
+      "value": 245,
+      "secondaryValue": 245
+    },
+    "quotation": {
+      "value": 29,
+      "secondaryValue": 27
+    }
+  },
+  {
+    "id": "C-pellegrini-lo-roma",
+    "originalIndex": 149,
+    "name": "Pellegrini Lo.",
+    "team": "Roma",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "C-perez-k-venezia",
+    "originalIndex": 150,
+    "name": "Perez K.",
+    "team": "Venezia",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-perrone-como",
+    "originalIndex": 151,
+    "name": "Perrone",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 34,
+      "secondaryValue": 39
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "C-pessina-monza",
+    "originalIndex": 152,
+    "name": "Pessina",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-pierotti-lecce",
+    "originalIndex": 153,
+    "name": "Pierotti",
+    "team": "Lecce",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-piotrowski-udinese",
+    "originalIndex": 154,
+    "name": "Piotrowski",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-pisilli-roma",
+    "originalIndex": 155,
+    "name": "Pisilli",
+    "team": "Roma",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 19,
+      "secondaryValue": 19
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-pobega-bologna",
+    "originalIndex": 156,
+    "name": "Pobega",
+    "team": "Bologna",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-politano-napoli",
+    "originalIndex": 157,
+    "name": "Politano",
+    "team": "Napoli",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 37,
+      "secondaryValue": 37
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-przyborek-lazio",
+    "originalIndex": 158,
+    "name": "Przyborek",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "C-pulisic-milan",
+    "originalIndex": 159,
+    "name": "Pulisic",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "T",
+      "A"
+    ],
+    "fvm": {
+      "value": 150,
+      "secondaryValue": 150
+    },
+    "quotation": {
+      "value": 24,
+      "secondaryValue": 22
+    }
+  },
+  {
+    "id": "C-rabiot-milan",
+    "originalIndex": 160,
+    "name": "Rabiot",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 145,
+      "secondaryValue": 145
+    },
+    "quotation": {
+      "value": 23,
+      "secondaryValue": 23
+    }
+  },
+  {
+    "id": "C-ricci-s-como",
+    "originalIndex": 161,
+    "name": "Ricci S.",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-rodriguez-je-como",
+    "originalIndex": 162,
+    "name": "Rodriguez Je.",
+    "team": "Como",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 31,
+      "secondaryValue": 31
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-romano-cagliari",
+    "originalIndex": 163,
+    "name": "Romano",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 21,
+      "secondaryValue": 26
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-rovella-lazio",
+    "originalIndex": 164,
+    "name": "Rovella",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 19
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-rowe-atalanta",
+    "originalIndex": 165,
+    "name": "Rowe",
+    "team": "Atalanta",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 40,
+      "secondaryValue": 42
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-saelemaekers-milan",
+    "originalIndex": 166,
+    "name": "Saelemaekers",
+    "team": "Milan",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "W"
+    ],
+    "fvm": {
+      "value": 35,
+      "secondaryValue": 35
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "C-samardzic-atalanta",
+    "originalIndex": 167,
+    "name": "Samardzic",
+    "team": "Atalanta",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 44,
+      "secondaryValue": 44
+    },
+    "quotation": {
+      "value": 13,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "C-sarr-p-juventus",
+    "originalIndex": 168,
+    "name": "Sarr P.",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 27
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-schmid-frosinone",
+    "originalIndex": 169,
+    "name": "Schmid",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-sohm-venezia",
+    "originalIndex": 170,
+    "name": "Sohm",
+    "team": "Venezia",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-sow-genoa",
+    "originalIndex": 171,
+    "name": "Sow",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "C-stankovic-a-inter",
+    "originalIndex": 172,
+    "name": "Stankovic A.",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 9
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-sucic-p-inter",
+    "originalIndex": 173,
+    "name": "Sucic P.",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 21,
+      "secondaryValue": 21
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "C-sulemana-i-sassuolo",
+    "originalIndex": 174,
+    "name": "Sulemana I.",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "C-taylor-k-lazio",
+    "originalIndex": 175,
+    "name": "Taylor K.",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 53,
+      "secondaryValue": 53
+    },
+    "quotation": {
+      "value": 13,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "C-thorstvedt-sassuolo",
+    "originalIndex": 176,
+    "name": "Thorstvedt",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "C",
+      "T"
+    ],
+    "fvm": {
+      "value": 39,
+      "secondaryValue": 39
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-thuram-k-juventus",
+    "originalIndex": 177,
+    "name": "Thuram K.",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "C-toure-i-monza",
+    "originalIndex": 178,
+    "name": "Tourè I.",
+    "team": "Monza",
+    "macroRole": "C",
+    "roles": [
+      "E",
+      "M"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-traore-hj-genoa",
+    "originalIndex": 179,
+    "name": "Traorè Hj.",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "C-unai-gomez-udinese",
+    "originalIndex": 180,
+    "name": "Unai Gomez",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 16,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-venturino-genoa",
+    "originalIndex": 181,
+    "name": "Venturino",
+    "team": "Genoa",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-vergara-napoli",
+    "originalIndex": 182,
+    "name": "Vergara",
+    "team": "Napoli",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 35,
+      "secondaryValue": 35
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-vlasic-torino",
+    "originalIndex": 183,
+    "name": "Vlasic",
+    "team": "Torino",
+    "macroRole": "C",
+    "roles": [
+      "T"
+    ],
+    "fvm": {
+      "value": 73,
+      "secondaryValue": 73
+    },
+    "quotation": {
+      "value": 13,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "C-volpato-sassuolo",
+    "originalIndex": 184,
+    "name": "Volpato",
+    "team": "Sassuolo",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "T"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "C-winks-cagliari",
+    "originalIndex": 185,
+    "name": "Winks",
+    "team": "Cagliari",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "C-zaccagni-lazio",
+    "originalIndex": 186,
+    "name": "Zaccagni",
+    "team": "Lazio",
+    "macroRole": "C",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 87,
+      "secondaryValue": 84
+    },
+    "quotation": {
+      "value": 16,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "C-zalewski-atalanta",
+    "originalIndex": 187,
+    "name": "Zalewski",
+    "team": "Atalanta",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 18,
+      "secondaryValue": 15
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "C-zambo-anguissa-napoli",
+    "originalIndex": 188,
+    "name": "Zambo Anguissa",
+    "team": "Napoli",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 41,
+      "secondaryValue": 41
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "C-zaniolo-udinese",
+    "originalIndex": 189,
+    "name": "Zaniolo",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "T",
+      "A"
+    ],
+    "fvm": {
+      "value": 80,
+      "secondaryValue": 80
+    },
+    "quotation": {
+      "value": 18,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "C-zarraga-udinese",
+    "originalIndex": 190,
+    "name": "Zarraga",
+    "team": "Udinese",
+    "macroRole": "C",
+    "roles": [
+      "M",
+      "C"
+    ],
+    "fvm": {
+      "value": 4,
+      "secondaryValue": 4
+    },
+    "quotation": {
+      "value": 2,
+      "secondaryValue": 2
+    }
+  },
+  {
+    "id": "C-zerbin-frosinone",
+    "originalIndex": 191,
+    "name": "Zerbin",
+    "team": "Frosinone",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-zhegrova-juventus",
+    "originalIndex": 192,
+    "name": "Zhegrova",
+    "team": "Juventus",
+    "macroRole": "C",
+    "roles": [
+      "W"
+    ],
+    "fvm": {
+      "value": 17,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "C-zielinski-inter",
+    "originalIndex": 193,
+    "name": "Zielinski",
+    "team": "Inter",
+    "macroRole": "C",
+    "roles": [
+      "C"
+    ],
+    "fvm": {
+      "value": 45,
+      "secondaryValue": 45
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 12
+    }
+  },
+  {
+    "id": "A-adams-a-venezia",
+    "originalIndex": 1,
+    "name": "Adams A.",
+    "team": "Venezia",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 35,
+      "secondaryValue": 35
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "A-adams-c-torino",
+    "originalIndex": 2,
+    "name": "Adams C.",
+    "team": "Torino",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 33,
+      "secondaryValue": 33
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "A-adorante-venezia",
+    "originalIndex": 3,
+    "name": "Adorante",
+    "team": "Venezia",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-bayo-v-udinese",
+    "originalIndex": 4,
+    "name": "Bayo V.",
+    "team": "Udinese",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "A-berardi-sassuolo",
+    "originalIndex": 5,
+    "name": "Berardi",
+    "team": "Sassuolo",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 106,
+      "secondaryValue": 106
+    },
+    "quotation": {
+      "value": 19,
+      "secondaryValue": 20
+    }
+  },
+  {
+    "id": "A-beto-fiorentina",
+    "originalIndex": 6,
+    "name": "Beto",
+    "team": "Fiorentina",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 50,
+      "secondaryValue": 50
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 14
+    }
+  },
+  {
+    "id": "A-birligea-frosinone",
+    "originalIndex": 7,
+    "name": "Birligea",
+    "team": "Frosinone",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "A-bobcek-frosinone",
+    "originalIndex": 8,
+    "name": "Bobcek",
+    "team": "Frosinone",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 31,
+      "secondaryValue": 28
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "A-boga-juventus",
+    "originalIndex": 9,
+    "name": "Boga",
+    "team": "Juventus",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 27,
+      "secondaryValue": 30
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "A-bonny-inter",
+    "originalIndex": 10,
+    "name": "Bonny",
+    "team": "Inter",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 15,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "A-borrelli-cagliari",
+    "originalIndex": 11,
+    "name": "Borrelli",
+    "team": "Cagliari",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 9,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "A-bowie-sassuolo",
+    "originalIndex": 12,
+    "name": "Bowie",
+    "team": "Sassuolo",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 32,
+      "secondaryValue": 32
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "A-camarda-milan",
+    "originalIndex": 13,
+    "name": "Camarda",
+    "team": "Milan",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 17
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-castro-s-roma",
+    "originalIndex": 14,
+    "name": "Castro S.",
+    "team": "Roma",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 70,
+      "secondaryValue": 70
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "A-colombo-genoa",
+    "originalIndex": 15,
+    "name": "Colombo",
+    "team": "Genoa",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 52,
+      "secondaryValue": 49
+    },
+    "quotation": {
+      "value": 11,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "A-cutrone-monza",
+    "originalIndex": 16,
+    "name": "Cutrone",
+    "team": "Monza",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "A-davis-k-udinese",
+    "originalIndex": 17,
+    "name": "Davis K.",
+    "team": "Udinese",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 108,
+      "secondaryValue": 108
+    },
+    "quotation": {
+      "value": 19,
+      "secondaryValue": 19
+    }
+  },
+  {
+    "id": "A-de-ketelaere-atalanta",
+    "originalIndex": 18,
+    "name": "De Ketelaere",
+    "team": "Atalanta",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 95,
+      "secondaryValue": 95
+    },
+    "quotation": {
+      "value": 17,
+      "secondaryValue": 18
+    }
+  },
+  {
+    "id": "A-de-martis-parma",
+    "originalIndex": 19,
+    "name": "De Martis",
+    "team": "Parma",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "A-diao-como",
+    "originalIndex": 20,
+    "name": "Diao",
+    "team": "Como",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 50,
+      "secondaryValue": 50
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "A-douvikas-como",
+    "originalIndex": 21,
+    "name": "Douvikas",
+    "team": "Como",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 185,
+      "secondaryValue": 185
+    },
+    "quotation": {
+      "value": 22,
+      "secondaryValue": 22
+    }
+  },
+  {
+    "id": "A-dovbyk-bologna",
+    "originalIndex": 22,
+    "name": "Dovbyk",
+    "team": "Bologna",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 51,
+      "secondaryValue": 48
+    },
+    "quotation": {
+      "value": 15,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "A-dybala-roma",
+    "originalIndex": 23,
+    "name": "Dybala",
+    "team": "Roma",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 100,
+      "secondaryValue": 100
+    },
+    "quotation": {
+      "value": 16,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "A-ekhator-juventus",
+    "originalIndex": 24,
+    "name": "Ekhator",
+    "team": "Juventus",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "A-elphege-parma",
+    "originalIndex": 25,
+    "name": "Elphege",
+    "team": "Parma",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "A-esposito-f-p-inter",
+    "originalIndex": 26,
+    "name": "Esposito F.P.",
+    "team": "Inter",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 105,
+      "secondaryValue": 105
+    },
+    "quotation": {
+      "value": 17,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "A-esposito-se-sassuolo",
+    "originalIndex": 27,
+    "name": "Esposito Se.",
+    "team": "Sassuolo",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 40,
+      "secondaryValue": 40
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 13
+    }
+  },
+  {
+    "id": "A-fatah-lecce",
+    "originalIndex": 28,
+    "name": "Fatah",
+    "team": "Lecce",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "A-frigan-parma",
+    "originalIndex": 29,
+    "name": "Frigan",
+    "team": "Parma",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 6,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-geubbels-lecce",
+    "originalIndex": 30,
+    "name": "Geubbels",
+    "team": "Lecce",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "A-ghedjemis-frosinone",
+    "originalIndex": 31,
+    "name": "Ghedjemis",
+    "team": "Frosinone",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 23,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "A-giovane-napoli",
+    "originalIndex": 32,
+    "name": "Giovane",
+    "team": "Napoli",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-gnonto-fiorentina",
+    "originalIndex": 33,
+    "name": "Gnonto",
+    "team": "Fiorentina",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 25,
+      "secondaryValue": 27
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "A-gueye-udinese",
+    "originalIndex": 34,
+    "name": "Gueye",
+    "team": "Udinese",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 7,
+      "secondaryValue": 6
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-havel-genoa",
+    "originalIndex": 35,
+    "name": "Havel",
+    "team": "Genoa",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "A-hojlund-napoli",
+    "originalIndex": 36,
+    "name": "Hojlund",
+    "team": "Napoli",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 260,
+      "secondaryValue": 260
+    },
+    "quotation": {
+      "value": 28,
+      "secondaryValue": 28
+    }
+  },
+  {
+    "id": "A-kean-como",
+    "originalIndex": 37,
+    "name": "Kean",
+    "team": "Como",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 183,
+      "secondaryValue": 183
+    },
+    "quotation": {
+      "value": 24,
+      "secondaryValue": 24
+    }
+  },
+  {
+    "id": "A-kevin-carlos-cagliari",
+    "originalIndex": 38,
+    "name": "Kevin Carlos",
+    "team": "Cagliari",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 36,
+      "secondaryValue": 33
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "A-kolo-muani-juventus",
+    "originalIndex": 39,
+    "name": "Kolo Muani",
+    "team": "Juventus",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 165,
+      "secondaryValue": 165
+    },
+    "quotation": {
+      "value": 25,
+      "secondaryValue": 25
+    }
+  },
+  {
+    "id": "A-krstovic-atalanta",
+    "originalIndex": 40,
+    "name": "Krstovic",
+    "team": "Atalanta",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 98,
+      "secondaryValue": 98
+    },
+    "quotation": {
+      "value": 18,
+      "secondaryValue": 17
+    }
+  },
+  {
+    "id": "A-kulenovic-torino",
+    "originalIndex": 41,
+    "name": "Kulenovic",
+    "team": "Torino",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 9,
+      "secondaryValue": 7
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "A-kvernadze-frosinone",
+    "originalIndex": 42,
+    "name": "Kvernadze",
+    "team": "Frosinone",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 24,
+      "secondaryValue": 24
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "A-lang-napoli",
+    "originalIndex": 43,
+    "name": "Lang",
+    "team": "Napoli",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 14,
+      "secondaryValue": 14
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-lauberbach-venezia",
+    "originalIndex": 44,
+    "name": "Lauberbach",
+    "team": "Venezia",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "A-lauriente-sassuolo",
+    "originalIndex": 45,
+    "name": "Laurientè",
+    "team": "Sassuolo",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 83,
+      "secondaryValue": 83
+    },
+    "quotation": {
+      "value": 15,
+      "secondaryValue": 16
+    }
+  },
+  {
+    "id": "A-lisman-venezia",
+    "originalIndex": 46,
+    "name": "Lisman",
+    "team": "Venezia",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 1,
+      "secondaryValue": 1
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "A-lontani-parma",
+    "originalIndex": 47,
+    "name": "Lontani",
+    "team": "Parma",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 11
+    },
+    "quotation": {
+      "value": 3,
+      "secondaryValue": 3
+    }
+  },
+  {
+    "id": "A-lucca-napoli",
+    "originalIndex": 48,
+    "name": "Lucca",
+    "team": "Napoli",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-maldini-cagliari",
+    "originalIndex": 49,
+    "name": "Maldini",
+    "team": "Cagliari",
+    "macroRole": "A",
+    "roles": [
+      "T",
+      "A"
+    ],
+    "fvm": {
+      "value": 21,
+      "secondaryValue": 21
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "A-malen-roma",
+    "originalIndex": 50,
+    "name": "Malen",
+    "team": "Roma",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 450,
+      "secondaryValue": 450
+    },
+    "quotation": {
+      "value": 38,
+      "secondaryValue": 38
+    }
+  },
+  {
+    "id": "A-martinez-l-inter",
+    "originalIndex": 51,
+    "name": "Martinez L.",
+    "team": "Inter",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 361,
+      "secondaryValue": 361
+    },
+    "quotation": {
+      "value": 33,
+      "secondaryValue": 33
+    }
+  },
+  {
+    "id": "A-mendy-p-cagliari",
+    "originalIndex": 52,
+    "name": "Mendy P.",
+    "team": "Cagliari",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-milik-juventus",
+    "originalIndex": 53,
+    "name": "Milik",
+    "team": "Juventus",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-mota-monza",
+    "originalIndex": 54,
+    "name": "Mota",
+    "team": "Monza",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-n-dri-lecce",
+    "originalIndex": 55,
+    "name": "N'Dri",
+    "team": "Lecce",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 12
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-neres-napoli",
+    "originalIndex": 56,
+    "name": "Neres",
+    "team": "Napoli",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 20,
+      "secondaryValue": 20
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "A-ngonge-monza",
+    "originalIndex": 57,
+    "name": "Ngonge",
+    "team": "Monza",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 5,
+      "secondaryValue": 5
+    }
+  },
+  {
+    "id": "A-noslin-lazio",
+    "originalIndex": 58,
+    "name": "Noslin",
+    "team": "Lazio",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "A-nzola-cagliari",
+    "originalIndex": 59,
+    "name": "Nzola",
+    "team": "Cagliari",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 10,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-osmajic-genoa",
+    "originalIndex": 60,
+    "name": "Osmajic",
+    "team": "Genoa",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 28,
+      "secondaryValue": 25
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "A-pellegrino-m-fiorentina",
+    "originalIndex": 61,
+    "name": "Pellegrino M.",
+    "team": "Fiorentina",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 40,
+      "secondaryValue": 37
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 14
+    }
+  },
+  {
+    "id": "A-piccoli-bologna",
+    "originalIndex": 62,
+    "name": "Piccoli",
+    "team": "Bologna",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 29,
+      "secondaryValue": 26
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "A-pinamonti-lazio",
+    "originalIndex": 63,
+    "name": "Pinamonti",
+    "team": "Lazio",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 53,
+      "secondaryValue": 50
+    },
+    "quotation": {
+      "value": 12,
+      "secondaryValue": 11
+    }
+  },
+  {
+    "id": "A-raimondo-frosinone",
+    "originalIndex": 64,
+    "name": "Raimondo",
+    "team": "Frosinone",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 27,
+      "secondaryValue": 24
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "A-ramos-g-milan",
+    "originalIndex": 65,
+    "name": "Ramos G.",
+    "team": "Milan",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 237,
+      "secondaryValue": 237
+    },
+    "quotation": {
+      "value": 27,
+      "secondaryValue": 27
+    }
+  },
+  {
+    "id": "A-raspadori-atalanta",
+    "originalIndex": 66,
+    "name": "Raspadori",
+    "team": "Atalanta",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 73,
+      "secondaryValue": 70
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "A-robinho-junior-genoa",
+    "originalIndex": 67,
+    "name": "Robinho Junior",
+    "team": "Genoa",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 3,
+      "secondaryValue": 3
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "A-robinson-j-monza",
+    "originalIndex": 68,
+    "name": "Robinson J.",
+    "team": "Monza",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 5,
+      "secondaryValue": 5
+    },
+    "quotation": {
+      "value": 4,
+      "secondaryValue": 4
+    }
+  },
+  {
+    "id": "A-romero-d-parma",
+    "originalIndex": 69,
+    "name": "Romero D.",
+    "team": "Parma",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 37,
+      "secondaryValue": 34
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "A-rrahmani-al-venezia",
+    "originalIndex": 70,
+    "name": "Rrahmani Al.",
+    "team": "Venezia",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "A-santos-a-napoli",
+    "originalIndex": 71,
+    "name": "Santos A.",
+    "team": "Napoli",
+    "macroRole": "A",
+    "roles": [
+      "W",
+      "A"
+    ],
+    "fvm": {
+      "value": 61,
+      "secondaryValue": 61
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 15
+    }
+  },
+  {
+    "id": "A-scamacca-atalanta",
+    "originalIndex": 72,
+    "name": "Scamacca",
+    "team": "Atalanta",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 110,
+      "secondaryValue": 110
+    },
+    "quotation": {
+      "value": 19,
+      "secondaryValue": 18
+    }
+  },
+  {
+    "id": "A-simeone-torino",
+    "originalIndex": 73,
+    "name": "Simeone",
+    "team": "Torino",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 80,
+      "secondaryValue": 77
+    },
+    "quotation": {
+      "value": 14,
+      "secondaryValue": 14
+    }
+  },
+  {
+    "id": "A-soule-roma",
+    "originalIndex": 74,
+    "name": "Soulè",
+    "team": "Roma",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 48,
+      "secondaryValue": 48
+    },
+    "quotation": {
+      "value": 13,
+      "secondaryValue": 14
+    }
+  },
+  {
+    "id": "A-stulic-lecce",
+    "originalIndex": 75,
+    "name": "Stulic",
+    "team": "Lecce",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 11,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "A-sulemana-k-atalanta",
+    "originalIndex": 76,
+    "name": "Sulemana K.",
+    "team": "Atalanta",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 8,
+      "secondaryValue": 8
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "A-thuram-inter",
+    "originalIndex": 77,
+    "name": "Thuram",
+    "team": "Inter",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 249,
+      "secondaryValue": 249
+    },
+    "quotation": {
+      "value": 28,
+      "secondaryValue": 28
+    }
+  },
+  {
+    "id": "A-toure-e-parma",
+    "originalIndex": 78,
+    "name": "Tourè E.",
+    "team": "Parma",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 37,
+      "secondaryValue": 34
+    },
+    "quotation": {
+      "value": 10,
+      "secondaryValue": 10
+    }
+  },
+  {
+    "id": "A-trepy-cagliari",
+    "originalIndex": 79,
+    "name": "Trepy",
+    "team": "Cagliari",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 2,
+      "secondaryValue": 2
+    },
+    "quotation": {
+      "value": 1,
+      "secondaryValue": 1
+    }
+  },
+  {
+    "id": "A-varela-g-monza",
+    "originalIndex": 80,
+    "name": "Varela G.",
+    "team": "Monza",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 40,
+      "secondaryValue": 37
+    },
+    "quotation": {
+      "value": 7,
+      "secondaryValue": 7
+    }
+  },
+  {
+    "id": "A-vitinha-o-genoa",
+    "originalIndex": 81,
+    "name": "Vitinha O.",
+    "team": "Genoa",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 13,
+      "secondaryValue": 13
+    },
+    "quotation": {
+      "value": 8,
+      "secondaryValue": 8
+    }
+  },
+  {
+    "id": "A-woltemade-juventus",
+    "originalIndex": 82,
+    "name": "Woltemade",
+    "team": "Juventus",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 160,
+      "secondaryValue": 160
+    },
+    "quotation": {
+      "value": 23,
+      "secondaryValue": 23
+    }
+  },
+  {
+    "id": "A-yeboah-j-venezia",
+    "originalIndex": 83,
+    "name": "Yeboah J.",
+    "team": "Venezia",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 27,
+      "secondaryValue": 27
+    },
+    "quotation": {
+      "value": 9,
+      "secondaryValue": 9
+    }
+  },
+  {
+    "id": "A-yildiz-juventus",
+    "originalIndex": 84,
+    "name": "Yildiz",
+    "team": "Juventus",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 100,
+      "secondaryValue": 100
+    },
+    "quotation": {
+      "value": 22,
+      "secondaryValue": 23
+    }
+  },
+  {
+    "id": "A-zapata-d-torino",
+    "originalIndex": 85,
+    "name": "Zapata D.",
+    "team": "Torino",
+    "macroRole": "A",
+    "roles": [
+      "Pc"
+    ],
+    "fvm": {
+      "value": 12,
+      "secondaryValue": 10
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  },
+  {
+    "id": "A-zeballos-monza",
+    "originalIndex": 86,
+    "name": "Zeballos",
+    "team": "Monza",
+    "macroRole": "A",
+    "roles": [
+      "A"
+    ],
+    "fvm": {
+      "value": 18,
+      "secondaryValue": 18
+    },
+    "quotation": {
+      "value": 6,
+      "secondaryValue": 6
+    }
+  }
+]

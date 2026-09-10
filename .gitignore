@@ -8,6 +8,10 @@
 
 # Node
 /node_modules
+/.local-tools
+/test-results
+/playwright-report
+__pycache__/
 npm-debug.log
 yarn-error.log
 
