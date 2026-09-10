@@ -1,12 +1,5 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
-import {
-  afterNextRender,
-  DestroyRef,
-  inject,
-  Injectable,
-  PLATFORM_ID,
-  signal,
-} from '@angular/core';
+import { afterNextRender, DestroyRef, effect, inject, Injectable, PLATFORM_ID, signal } from '@angular/core';
 
 export type ThemePreference = 'light' | 'dark' | 'system';
 
@@ -15,47 +8,59 @@ export class ThemeService {
   private readonly document = inject(DOCUMENT);
   private readonly browser = isPlatformBrowser(inject(PLATFORM_ID));
   private readonly destroyRef = inject(DestroyRef);
-  private readonly current = signal<ThemePreference>('system');
+  private readonly current = signal<ThemePreference>('dark');
   readonly preference = this.current.asReadonly();
 
   constructor() {
+    // Usiamo un effect per applicare il tema ogni volta che il signal 'current' cambia
+    effect(() => {
+      const theme = this.current();
+      if (this.browser) {
+        this.applyTheme(theme);
+      }
+    });
+
     afterNextRender(() => {
       if (!this.browser) return;
       const view = this.document.defaultView;
       if (!view) return;
-      try {
-        const saved = view.localStorage.getItem('fantalist-theme');
-        if (saved === 'light' || saved === 'dark' || saved === 'system') this.current.set(saved);
-      } catch {
-        // The theme still works when storage is unavailable.
-      }
+
+      // Ascolta i cambiamenti del sistema operativo
       const media = view.matchMedia('(prefers-color-scheme: dark)');
-      const update = () => this.apply();
-      media.addEventListener('change', update);
-      this.destroyRef.onDestroy(() => media.removeEventListener('change', update));
-      this.apply();
+      const updateSystemTheme = () => {
+        // Se siamo in modalità system, forziamo la rivalutazione aggiornando il signal con se stesso o richiamando la logica
+        if (this.current() === 'system') {
+          this.applyTheme('system');
+        }
+      };
+
+      media.addEventListener('change', updateSystemTheme);
+      this.destroyRef.onDestroy(() => media.removeEventListener('change', updateSystemTheme));
+
+      // Applicazione iniziale
+      this.applyTheme(this.current());
     });
   }
 
-  setPreference(value: string): void {
-    if (value !== 'light' && value !== 'dark' && value !== 'system') return;
+  setPreference(value: ThemePreference): void {
     this.current.set(value);
     if (this.browser) {
       try {
         this.document.defaultView?.localStorage.setItem('fantalist-theme', value);
       } catch {
-        // Do not prevent theme changes when localStorage is blocked.
+        // Ignora errori di localStorage
       }
-      this.apply();
     }
   }
 
-  private apply(): void {
+  private applyTheme(preference: ThemePreference): void {
     if (!this.browser) return;
-    const dark =
-      this.current() === 'dark' ||
-      (this.current() === 'system' &&
-        !!this.document.defaultView?.matchMedia('(prefers-color-scheme: dark)').matches);
-    this.document.documentElement.classList.toggle('dark', dark);
+    const view = this.document.defaultView;
+    if (!view) return;
+
+    const prefersDark = view.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = preference === 'dark' || (preference === 'system' && prefersDark);
+
+    this.document.documentElement.classList.toggle('dark', isDark);
   }
 }

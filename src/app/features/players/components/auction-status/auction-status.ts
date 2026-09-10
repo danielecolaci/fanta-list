@@ -10,6 +10,7 @@ import { AUCTION_STATUSES, AuctionService } from '../../services/auction.service
       #statusSelect
       [attr.aria-label]="'Stato asta di ' + playerName()"
       [value]="status()"
+      (click)="$event.stopPropagation()"
       (change)="auction.setStatus(playerId(), statusSelect.value)"
       class="min-h-11 w-full min-w-0 rounded-lg border px-2 text-xs font-semibold"
       [class]="
@@ -26,7 +27,7 @@ import { AUCTION_STATUSES, AuctionService } from '../../services/auction.service
         </option>
       }
     </select>
-  `,
+  `
 })
 export class AuctionStatusControl {
   readonly playerId = input.required<string>();
